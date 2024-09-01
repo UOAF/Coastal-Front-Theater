@@ -193,4 +193,12 @@ network {
   }
 }
 all_flights {
+  flights {
+    flight_number: 4333
+    stn_number: 7574
+    f2f_channel: 86
+    mission_channel: 26
+    ew_channel: 86
+    team: 2
+  }
 }

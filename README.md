@@ -5,3 +5,4 @@ Baseline: Baltic Theater
 Version 1: Changed GUI  
 Version 2: Changed GUI and added Music 
 Version 3: Added custom SAM sites 
+Version 4: Updated te_new.tac with the SAM sites in DDR & PRL
