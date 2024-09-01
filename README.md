@@ -4,3 +4,4 @@ Mod of the official Baltic theater geared towards a 1980s experience with realis
 Baseline: Baltic Theater  
 Version 1: Changed GUI  
 Version 2: Changed GUI and added Music 
+Version 3: Added custom SAM sites 
