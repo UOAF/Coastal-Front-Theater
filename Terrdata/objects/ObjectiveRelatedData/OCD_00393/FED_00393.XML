@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FEDRecords>
+    <FED Num="0">
+        <FeatureCtIdx>1296</FeatureCtIdx>
+        <Value>50</Value>
+        <OffsetX>-567.000</OffsetX>
+        <OffsetY>128.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.0</Heading>
+    </FED>
+    <FED Num="1">
+        <FeatureCtIdx>624</FeatureCtIdx>
+        <Value>50</Value>
+        <OffsetX>-1170.000</OffsetX>
+        <OffsetY>235.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>15.0</Heading>
+    </FED>
+    <FED Num="2">
+        <FeatureCtIdx>1300</FeatureCtIdx>
+        <Value>10</Value>
+        <OffsetX>-1073.000</OffsetX>
+        <OffsetY>-555.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.0</Heading>
+    </FED>
+    <FED Num="3">
+        <FeatureCtIdx>1138</FeatureCtIdx>
+        <Value>5</Value>
+        <OffsetX>-1534.000</OffsetX>
+        <OffsetY>57.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.0</Heading>
+    </FED>
+    <FED Num="4">
+        <FeatureCtIdx>1138</FeatureCtIdx>
+        <Value>5</Value>
+        <OffsetX>-1552.000</OffsetX>
+        <OffsetY>-41.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.0</Heading>
+    </FED>
+    <FED Num="5">
+        <FeatureCtIdx>1299</FeatureCtIdx>
+        <OffsetX>-719.000</OffsetX>
+        <OffsetY>568.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.0</Heading>
+    </FED>
+    <FED Num="6">
+        <FeatureCtIdx>1367</FeatureCtIdx>
+        <OffsetX>-1339.000</OffsetX>
+        <OffsetY>-333.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>285.0</Heading>
+    </FED>
+    <FED Num="7">
+        <FeatureCtIdx>1015</FeatureCtIdx>
+        <OffsetX>-895.000</OffsetX>
+        <OffsetY>-209.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>8.0</Heading>
+    </FED>
+    <FED Num="8">
+        <FeatureCtIdx>1297</FeatureCtIdx>
+        <OffsetX>-894.000</OffsetX>
+        <OffsetY>855.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>225.0</Heading>
+    </FED>
+</FEDRecords>

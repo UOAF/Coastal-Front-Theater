@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PHDRecords>
+    <PHD Num="0">
+        <ObjIdx>642</ObjIdx>
+        <Type>8</Type>
+        <PointCount>4</PointCount>
+        <Data>277.000</Data>
+        <FirstPtIdx>0</FirstPtIdx>
+        <RunwayTexture>0</RunwayTexture>
+        <RunwayNumber>0</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="1">
+        <ObjIdx>642</ObjIdx>
+        <Type>1</Type>
+        <PointCount>176</PointCount>
+        <FeatureDependencyIdx_0>1</FeatureDependencyIdx_0>
+        <FeatureDependencyIdx_1>2</FeatureDependencyIdx_1>
+        <FeatureDependencyIdx_2>3</FeatureDependencyIdx_2>
+        <FeatureDependencyIdx_3>4</FeatureDependencyIdx_3>
+        <Data>97.000</Data>
+        <FirstPtIdx>4</FirstPtIdx>
+        <RunwayTexture>0</RunwayTexture>
+        <RunwayNumber>0</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="2">
+        <ObjIdx>642</ObjIdx>
+        <Type>1</Type>
+        <PointCount>181</PointCount>
+        <FeatureDependencyIdx_0>4</FeatureDependencyIdx_0>
+        <FeatureDependencyIdx_1>3</FeatureDependencyIdx_1>
+        <FeatureDependencyIdx_2>2</FeatureDependencyIdx_2>
+        <FeatureDependencyIdx_3>1</FeatureDependencyIdx_3>
+        <Data>277.000</Data>
+        <FirstPtIdx>180</FirstPtIdx>
+        <RunwayTexture>0</RunwayTexture>
+        <RunwayNumber>0</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="3">
+        <ObjIdx>642</ObjIdx>
+        <Type>14</Type>
+        <PointCount>8</PointCount>
+        <Data>0.000</Data>
+        <FirstPtIdx>361</FirstPtIdx>
+        <RunwayTexture>0</RunwayTexture>
+        <RunwayNumber>0</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="4">
+        <ObjIdx>642</ObjIdx>
+        <Type>6</Type>
+        <PointCount>40</PointCount>
+        <Data>260.000</Data>
+        <FirstPtIdx>369</FirstPtIdx>
+        <RunwayTexture>-1</RunwayTexture>
+        <RunwayNumber>-1</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="5">
+        <ObjIdx>642</ObjIdx>
+        <Type>4</Type>
+        <PointCount>28</PointCount>
+        <Data>260.000</Data>
+        <FirstPtIdx>409</FirstPtIdx>
+        <RunwayTexture>-1</RunwayTexture>
+        <RunwayNumber>-1</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+    <PHD Num="6">
+        <ObjIdx>642</ObjIdx>
+        <Type>18</Type>
+        <PointCount>19</PointCount>
+        <Data>0.000</Data>
+        <FirstPtIdx>437</FirstPtIdx>
+        <RunwayTexture>0</RunwayTexture>
+        <RunwayNumber>0</RunwayNumber>
+        <LandingPattern>0</LandingPattern>
+    </PHD>
+</PHDRecords>

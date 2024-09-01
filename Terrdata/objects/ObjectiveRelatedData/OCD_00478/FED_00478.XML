@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FEDRecords>
+    <FED Num="0">
+        <FeatureCtIdx>1880</FeatureCtIdx>
+        <Value>100</Value>
+        <OffsetX>194.750</OffsetX>
+        <OffsetY>-16.750</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>270.0</Heading>
+    </FED>
+    <FED Num="1">
+        <FeatureCtIdx>1880</FeatureCtIdx>
+        <Value>100</Value>
+        <OffsetX>-141.250</OffsetX>
+        <OffsetY>-16.750</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>270.0</Heading>
+    </FED>
+</FEDRecords>

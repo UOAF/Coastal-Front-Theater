@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDRecords>
+    <PD Num="0">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>1100.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>1</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="1">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>182.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>2</Type>
+    </PD>
+    <PD Num="2">
+        <OffsetX>-25.000</OffsetX>
+        <OffsetY>182.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>2</Type>
+    </PD>
+    <PD Num="3">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>114.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>15</Type>
+    </PD>
+    <PD Num="4">
+        <OffsetX>-25.000</OffsetX>
+        <OffsetY>114.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>15</Type>
+    </PD>
+    <PD Num="5">
+        <OffsetX>0.000</OffsetX>
+        <OffsetY>47.393</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="6">
+        <OffsetX>-1.000</OffsetX>
+        <OffsetY>-21.705</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="7">
+        <OffsetX>-4.000</OffsetX>
+        <OffsetY>-226.803</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="8">
+        <OffsetX>0.000</OffsetX>
+        <OffsetY>-395.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="9">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="10">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="11">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-365.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="12">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-365.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="13">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-330.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="14">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-330.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="15">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-295.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="16">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-295.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="17">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-260.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="18">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-260.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="19">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>-225.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="20">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>-225.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="21">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>-155.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>1</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="22">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>-25.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>2</Type>
+    </PD>
+    <PD Num="23">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>33.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>15</Type>
+    </PD>
+    <PD Num="24">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>133.947</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="25">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>150.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="26">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>150.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+    </PD>
+    <PD Num="27">
+        <OffsetX>30.000</OffsetX>
+        <OffsetY>115.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>3</Type>
+    </PD>
+    <PD Num="28">
+        <OffsetX>65.000</OffsetX>
+        <OffsetY>115.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>11</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="29">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>2902.713</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="30">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>2902.713</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="31">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>98.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="32">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>98.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="33">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="34">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="35">
+        <OffsetX>10.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="36">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="37">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>380.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>1</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="38">
+        <OffsetX>-16.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>2</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="39">
+        <OffsetX>-22.000</OffsetX>
+        <OffsetY>-420.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="40">
+        <OffsetX>-40.000</OffsetX>
+        <OffsetY>-402.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="41">
+        <OffsetX>-40.000</OffsetX>
+        <OffsetY>-194.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="42">
+        <OffsetX>-83.000</OffsetX>
+        <OffsetY>-194.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="43">
+        <OffsetX>-83.000</OffsetX>
+        <OffsetY>-148.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="44">
+        <OffsetX>-40.000</OffsetX>
+        <OffsetY>-148.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="45">
+        <OffsetX>-40.000</OffsetX>
+        <OffsetY>400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="46">
+        <OffsetX>75.000</OffsetX>
+        <OffsetY>400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="47">
+        <OffsetX>75.000</OffsetX>
+        <OffsetY>-310.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="48">
+        <OffsetX>115.000</OffsetX>
+        <OffsetY>-310.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="49">
+        <OffsetX>115.000</OffsetX>
+        <OffsetY>-357.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="50">
+        <OffsetX>75.000</OffsetX>
+        <OffsetY>-357.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="51">
+        <OffsetX>75.000</OffsetX>
+        <OffsetY>-402.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="52">
+        <OffsetX>58.000</OffsetX>
+        <OffsetY>-420.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="53">
+        <OffsetX>0.000</OffsetX>
+        <OffsetY>-450.000</OffsetY>
+        <OffsetZ>-70.700</OffsetZ>
+        <Type>8</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="54">
+        <OffsetX>0.000</OffsetX>
+        <OffsetY>420.000</OffsetY>
+        <OffsetZ>-70.700</OffsetZ>
+        <Type>8</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="55">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="56">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-400.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="57">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-363.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="58">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-363.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="59">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-325.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="60">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-325.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="61">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-287.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="62">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-287.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="63">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-249.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="64">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-249.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="65">
+        <OffsetX>16.000</OffsetX>
+        <OffsetY>-225.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+    </PD>
+    <PD Num="66">
+        <OffsetX>-35.000</OffsetX>
+        <OffsetY>-225.000</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>8</Type>
+        <Flags>2</Flags>
+    </PD>
+    <PD Num="67">
+        <OffsetX>60.000</OffsetX>
+        <OffsetY>350.000</OffsetY>
+        <OffsetZ>-70.700</OffsetZ>
+        <Type>16</Type>
+        <Flags>1</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="68">
+        <OffsetX>60.000</OffsetX>
+        <OffsetY>200.000</OffsetY>
+        <OffsetZ>-70.700</OffsetZ>
+        <Type>16</Type>
+        <Flags>2</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+</PDRecords>

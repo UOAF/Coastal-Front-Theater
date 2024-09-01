@@ -1,0 +1,148 @@
+// Kuwait Theater - Desert Storm scenario
+//
+//
+// Base event file
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 22
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// This sets the initial tempo
+#SET_TEMPO 150
+#ENDINIT
+//
+//
+// Starts with a couple news reports about Iraq invading Kuwait, and then Iraq capturing Kuwait City
+// #PLAY_MOVIE does this intentionally
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// Now come the individual triggers
+//
+// Event #1
+// NATO convince Sweden to help after 7 days
+#IF_EVENT_PLAYED 1
+#ELSE
+#IF_CAMPAIGN_DAY G 7
+#CHANGE_RELATIONS 2 4 2
+#CHANGE_RELATIONS 4 2 1
+#CHANGE_RELATIONS 4 6 5
+#CHANGE_RELATIONS 6 4 5
+#SHIFT_INITIATIVE 6 2 30
+#SET_TEMPO 150
+#DO_EVENT 1
+#ENDIF
+#ENDIF
+//
+// Event #2
+// Russia captures Szczecin
+#IF_EVENT_PLAYED 2
+#ELSE
+#IF_CAMPAIGN_DAY G 3
+#IF_CONTROLLED 6 A 58
+// Sweden comes to the rescue
+#CHANGE_RELATIONS 2 4 2
+#CHANGE_RELATIONS 4 2 1
+#CHANGE_RELATIONS 4 6 5
+#CHANGE_RELATIONS 6 4 5
+#SHIFT_INITIATIVE 6 2 30
+// Priorities for NATO (Recapture Szczecin)
+#SET_PAK_PRIORITY 2 56 70
+#SET_PAK_PRIORITY 2 98 70
+#SET_PAK_PRIORITY 2 58 100
+// Priorities for Russia (Capture Berlin)
+#SET_PAK_PRIORITY 6 58 70
+#SET_PAK_PRIORITY 2 98 70
+#SET_PAK_PRIORITY 6 59 100
+#SET_TEMPO 150
+#DO_EVENT 2
+#ENDIF
+#ENDIF
+#ENDIF
+//
+//
+// Event #3
+// NATO is progressing
+#IF_EVENT_PLAYED 3
+#ELSE
+#IF_CONTROLLED 2 O 84 57 98
+#SHIFT_INITIATIVE 2 6 20
+#SET_PAK_PRIORITY 2 56 100
+#SET_PAK_PRIORITY 6 56 100
+#SET_PAK_PRIORITY 2 84 70
+#SET_PAK_PRIORITY 6 84 70
+#SET_PAK_PRIORITY 6 59 70
+#SET_PAK_PRIORITY 2 59 70
+#SET_PAK_PRIORITY 6 58 70
+#SET_PAK_PRIORITY 2 58 70
+#SET_PAK_PRIORITY 2 98 70
+#SET_PAK_PRIORITY 6 98 70
+#SET_TEMPO 150
+#DO_EVENT 3
+#ENDIF
+#ENDIF
+//
+//
+#IF_EVENT_PLAYED 4
+#ELSE
+#SET_PAK_PRIORITY 2 84 80
+#SET_PAK_PRIORITY 2 98 100
+#SET_PAK_PRIORITY 2 57 80
+#SET_PAK_PRIORITY 6 58 100
+#SET_PAK_PRIORITY 6 98 80
+#SET_PAK_PRIORITY 6 59 80
+#DO_EVENT 4
+#ENDIF
+//
+//
+#IF_EVENT_PLAYED 5
+#ELSE
+#IF_CAMPAIGN_DAY G 4
+#SHIFT_INITIATIVE 2 6 20
+#DO_EVENT 5
+#ENDIF
+//
+//
+// Event #14
+// Bad guys win
+// Basically - 
+//
+//
+#IF_CONTROLLED 6 A 59
+#DO_EVENT 14
+#END_GAME 14
+#ENDIF
+// 
+// Event #15
+// Stalemate
+// 
+#IF_BORDOM_HOURS 480
+#DO_EVENT 15
+#END_GAME 15
+#ENDIF
+// 
+// Event #16
+// Timeout - You have 30 days to win (or lose) the war
+// 
+#IF_CAMPAIGN_DAY G 30
+#DO_EVENT 16
+#END_GAME 16
+#ENDIF
+// 
+// Event #17
+// Good guys win
+// Basically - NATO captures Bydgoszcz
+//
+#IF_CONTROLLED 2 A 56
+#DO_EVENT 17
+#END_GAME 17
+#ENDIF
+// End
+#ENDSCRIPT
