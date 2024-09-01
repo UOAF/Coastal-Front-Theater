@@ -1,0 +1,32 @@
+name: On Demand and Tag Zip
+
+on:
+  workflow_dispatch:  # Allows the workflow to be run on demand
+  push:
+    tags:
+      - 'v4.3.*'  # Triggers the workflow only on tags that start with 'v4.3.'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Install 7-Zip
+      run: sudo apt-get install -y p7zip-full
+
+    - name: Create a new folder and copy source files
+      run: |
+        mkdir -p "Add-On Coastal Front"
+        cp -R ./* "Add-On Coastal Front/"
+
+    - name: 7zip the folder
+      run: 7z a "Add-On_Coastal_Front.7z" "Add-On Coastal Front"
+        
+    - name: Upload 7zip as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Add-On_Coastal_Front.7z
+        path: Add-On_Coastal_Front.7z
