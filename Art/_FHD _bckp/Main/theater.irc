@@ -1,0 +1,60 @@
+// 4.34 update, January 2018, by Kolbe
+//
+// This file contains the theater specific country and team names and also
+// the scenario strings, such as  scenario name, description.
+// This file offers some newly added features:
+// - You can specify 4 lines in the description field in the campaign
+//   select window which gives you the opprortunity for more detailed
+//   descriptions. 
+// - In the bottom line of the description field you can enter the
+//   campaign duration (Max. Campaign days:) and the stalemate conditions
+//   (Stalemate (days of no activity):) like they are set in the trigger files. 
+//   Bordom hours have to be converted to days.
+// - A campaign designer can now specify an overall difficulty rating, such as 
+//   Easy, Medium, Hard. 
+
+///////////////////////////////////////////////////////////////
+// START CONTENT 
+///////////////////////////////////////////////////////////////
+
+// -----Country names-----
+[ADDTEXT] TXT_COUNTRY_0 "DDR"
+[ADDTEXT] TXT_COUNTRY_1 "DENMARK"
+[ADDTEXT] TXT_COUNTRY_2 "NATO"
+[ADDTEXT] TXT_COUNTRY_3 "NORWAY"
+[ADDTEXT] TXT_COUNTRY_4 "SWEDEN"
+[ADDTEXT] TXT_COUNTRY_5 "GERMANY"
+[ADDTEXT] TXT_COUNTRY_6 "CCCP"
+[ADDTEXT] TXT_COUNTRY_7 "PRL"
+
+// -----Team names-----
+[ADDTEXT] TXT_COUNTRY_0 "DDR"
+[ADDTEXT] TXT_COUNTRY_1 "DENMARK"
+[ADDTEXT] TXT_COUNTRY_2 "NATO"
+[ADDTEXT] TXT_COUNTRY_3 "NORWAY"
+[ADDTEXT] TXT_COUNTRY_4 "SWEDEN"
+[ADDTEXT] TXT_COUNTRY_5 "GERMANY"
+[ADDTEXT] TXT_COUNTRY_6 "CCCP"
+[ADDTEXT] TXT_COUNTRY_7 "PRL"
+
+// -----Scenario 1-----
+[ADDTEXT] TXT_SCENARIO_1 "Red Alert! (SP)"																																			 
+[ADDTEXT] TXT_SC_1_LINE_1 "Weakened by a corrupt government, Poland has been invaded by Russia in a couple days."
+[ADDTEXT] TXT_SC_1_LINE_2 "Russia is now pushing towards German border."
+[ADDTEXT] TXT_SC_1_LINE_3 "NATO needs to regain control of Poland while negotiating with Sweden to enter conflict."
+[ADDTEXT] TXT_SC_1_LINE_4 "Good Luck!"
+[ADDTEXT] TXT_SC_1_CAMP_END "20"
+[ADDTEXT] TXT_SC_1_CAMP_STALE "30"
+[ADDTEXT] TXT_SC_1_CAMP_DIFF "Hard"
+[ADDTEXT] NOT_USED "Keep this line!"
+
+// -----Scenario 2-----
+[ADDTEXT] TXT_SCENARIO_2 "Red Alert! (SP)"																																			 
+[ADDTEXT] TXT_SC_2_LINE_1 "Weakened by a corrupt government, Poland has been invaded by Russia in a couple days."
+[ADDTEXT] TXT_SC_2_LINE_2 "Russia is now pushing towards German border."
+[ADDTEXT] TXT_SC_2_LINE_3 "NATO needs to regain control of Poland while negotiating with Sweden to enter conflict."
+[ADDTEXT] TXT_SC_2_LINE_4 "Good Luck!"
+[ADDTEXT] TXT_SC_2_CAMP_END "20"
+[ADDTEXT] TXT_SC_2_CAMP_STALE "30"
+[ADDTEXT] TXT_SC_2_CAMP_DIFF "Hard"
+[ADDTEXT] NOT_USED "Keep this line!"

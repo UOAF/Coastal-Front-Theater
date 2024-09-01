@@ -81,7 +81,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="11">
-        <CampName>EPOK oksywie</CampName>
+        <CampName>EPOK Oksywie</CampName>
         <OcdIndex>359</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>936434.284</PositionX>
@@ -193,7 +193,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="25">
-        <CampName>EPSN svidwin</CampName>
+        <CampName>EPSN Świdwin</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>644516.066</PositionX>
@@ -257,7 +257,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="33">
-        <CampName>Gdansk radar</CampName>
+        <CampName>Gdańsksk radar</CampName>
         <OcdIndex>529</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>906914.465</PositionX>
@@ -361,7 +361,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="46">
-        <CampName>EPMI miroslawic</CampName>
+        <CampName>EPMI Mirosławiec</CampName>
         <OcdIndex>359</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>487077.027</PositionX>
@@ -369,7 +369,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="47">
-        <CampName>EPCE cewice</CampName>
+        <CampName>EPCE Siemierowice</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>874114.665</PositionX>
@@ -433,7 +433,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="55">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>854434.785</PositionX>
@@ -449,7 +449,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="57">
-        <CampName>Poznan</CampName>
+        <CampName>Poznań</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>129559.209</PositionX>
@@ -641,7 +641,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="81">
-        <CampName>Lebork</CampName>
+        <CampName>Lębork</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>906914.465</PositionX>
@@ -689,7 +689,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="87">
-        <CampName>Swidwin</CampName>
+        <CampName>Świdwin</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>628116.166</PositionX>
@@ -697,7 +697,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="88">
-        <CampName>Cewice</CampName>
+        <CampName>Siemierowice</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>883954.605</PositionX>
@@ -705,7 +705,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="89">
-        <CampName>Bytow</CampName>
+        <CampName>Bytów</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>775715.265</PositionX>
@@ -777,7 +777,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="98">
-        <CampName>Pila</CampName>
+        <CampName>Piła</CampName>
         <OcdIndex>249</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>405077.528</PositionX>
@@ -785,7 +785,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="99">
-        <CampName>Miroslawiec</CampName>
+        <CampName>Mirosławiec</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>477237.087</PositionX>
@@ -793,7 +793,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="100">
-        <CampName>Starogard Gdanski</CampName>
+        <CampName>Starogard Gdańskski</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>696995.746</PositionX>
@@ -961,7 +961,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="121">
-        <CampName>Miedzywodzie</CampName>
+        <CampName>Międzywodzie</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>677315.866</PositionX>
@@ -1217,7 +1217,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="153">
-        <CampName>Elblag</CampName>
+        <CampName>Elbląg</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>778995.245</PositionX>
@@ -1265,7 +1265,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="159">
-        <CampName>Naklo nad Notecia</CampName>
+        <CampName>Naklo nad Notecią nad Notecia</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>408357.508</PositionX>
@@ -2641,7 +2641,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="331">
-        <CampName>Naklo nad Notecia</CampName>
+        <CampName>Naklo nad Notecią nad Notecia</CampName>
         <OcdIndex>55</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>421477.427</PositionX>
@@ -2929,7 +2929,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="367">
-        <CampName>Elblag</CampName>
+        <CampName>Elbląg</CampName>
         <OcdIndex>55</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>805235.085</PositionX>
@@ -2969,7 +2969,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="372">
-        <CampName>Cewice</CampName>
+        <CampName>Siemierowice</CampName>
         <OcdIndex>55</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>893794.545</PositionX>
@@ -4609,7 +4609,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="577">
-        <CampName>Naklo nad Notecia</CampName>
+        <CampName>Naklo nad Notecią nad Notecia</CampName>
         <OcdIndex>56</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>408357.508</PositionX>
@@ -4665,7 +4665,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="584">
-        <CampName>Miroslawiec</CampName>
+        <CampName>Mirosławiec</CampName>
         <OcdIndex>56</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>460837.187</PositionX>
@@ -4993,7 +4993,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="625">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>56</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>815075.025</PositionX>
@@ -5057,7 +5057,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="633">
-        <CampName>Lebork</CampName>
+        <CampName>Lębork</CampName>
         <OcdIndex>56</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>900354.505</PositionX>
@@ -35441,7 +35441,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4434">
-        <CampName>EPKS Poznan</CampName>
+        <CampName>EPKS Poznań</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>106599.349</PositionX>
@@ -35681,7 +35681,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4464">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>21</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>851154.805</PositionX>
@@ -36201,7 +36201,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4529">
-        <CampName>Poznan</CampName>
+        <CampName>Poznań</CampName>
         <OcdIndex>380</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>122999.249</PositionX>
@@ -36209,7 +36209,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4530">
-        <CampName>Poznan</CampName>
+        <CampName>Poznań</CampName>
         <OcdIndex>175</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>139399.149</PositionX>
@@ -36265,7 +36265,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4537">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>371</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>831474.925</PositionX>
@@ -36273,7 +36273,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4538">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>383</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>864274.725</PositionX>
@@ -36313,7 +36313,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4543">
-        <CampName>Bytow</CampName>
+        <CampName>Bytów</CampName>
         <OcdIndex>167</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>785555.205</PositionX>
@@ -37065,7 +37065,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4637">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>320</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>887234.585</PositionX>
@@ -37641,7 +37641,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4707">
-        <CampName>Poznan</CampName>
+        <CampName>Poznań</CampName>
         <OcdIndex>310</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>113159.309</PositionX>
@@ -37745,7 +37745,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4720">
-        <CampName>Poznan</CampName>
+        <CampName>Poznań</CampName>
         <OcdIndex>526</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>145959.109</PositionX>
@@ -37753,7 +37753,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4721">
-        <CampName>Gdansk</CampName>
+        <CampName>Gdańsksk</CampName>
         <OcdIndex>527</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>841314.865</PositionX>
@@ -37769,7 +37769,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="5022">
-        <CampName>Naklo Army Base</CampName>
+        <CampName>Naklo nad Notecią Army Base</CampName>
         <OcdIndex>312</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>405077.528</PositionX>
@@ -37777,11 +37777,19 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="1824">
-        <CampName>Bytow Army Base</CampName>
+        <CampName>Bytów Army Base</CampName>
         <OcdIndex>311</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>752755.406</PositionX>
         <PositionY>2822422.773</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4722">
+        <CampName>New Objective</CampName>
+        <OcdIndex>362</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>162359.009</PositionX>
+        <PositionY>1979467.918</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>

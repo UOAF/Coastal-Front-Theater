@@ -1,0 +1,58 @@
+#----------------------------------
+# Add-On Coastal Front 4.37  TDF file
+#----------------------------------
+
+# shown in the pick list
+name Coastal Front
+
+# title shown on theater page
+desc Coastal Front - WARNING: Restart BMS after any theatre change.
+
+# bitmap to display on theater page
+bitmap Add-On Coastal Front\Terrdata\theaterdefinition\Coastal Front.tga
+
+# in general, you can miss out most of these, and it
+# will use the default, unless another theater changes it
+# so probably best to put in explicitly.
+
+# Where the campaign directory is
+campaigndir Add-On Coastal Front\Campaign
+
+# where the terrain data is
+terraindir Add-On Coastal Front\Terrdata\Coastal Front
+
+# which tileset to use - overrides the global setting in the cfg file
+# tileset POLAK
+
+# where art is loaded from
+artdir Add-On Coastal Front
+
+# movies
+# moviedir Add-On Coastal Front
+
+# uisounds
+# uisounddir Add-On Coastal Front\Sounds\ui
+
+# default objects
+objectdir Add-On Coastal Front\Terrdata\objects
+
+# misc textures
+# misctexdir Add-On Coastal Front\Terrdata\misctex
+
+# 3d object files
+3ddatadir Terrdata\objects
+
+# sounds dir
+# sounddir Add-On Coastal Front\Sounds
+
+# simdata dir
+# simdatadir Add-On Coastal Front\Sim
+
+# minimum tacan channel
+mintacan 1
+
+# use double resolution 2D UI map
+doubleres2dmap 1
+
+# magnetic declination
+magneticdeclination 0
