@@ -51,6 +51,9 @@ objectdir Add-On Coastal Front\Terrdata\objects
 # minimum tacan channel
 mintacan 1
 
+# splash screens
+splashdir Add-On Coastal Front\art\splash
+
 # use double resolution 2D UI map
 doubleres2dmap 1
 

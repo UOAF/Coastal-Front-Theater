@@ -41,9 +41,9 @@
 42	NATO
 43	NORWAY
 44	SWEDEN
-45	GERMANY
-46	RUSSIA
-47	POLAND
+45	DDR
+46	CCCP
+47	PRL
 50	#0:#1:#2
 51	#0 km #1 of #2
 52	#0 nm #1 of #2
@@ -78,8 +78,8 @@
 82	NATO Forces
 83	Norwegean Forces
 84	Swedish Forces
-85	German Forces
-86	Russian Forces
+85	East German Forces
+86	Soviet Forces
 90	Functional
 91	Repaired
 92	Damaged
@@ -700,7 +700,7 @@
 1166	Allies start a major offensive
 1167	Allies forced onto the defensive 
 1168	China declares war on South Korea
-1169	Russia declares war on South Korea
+1169	CCCP declares war on South Korea
 1170	save0 intro movie -> Do not use in trigger files!
 1171	save1 intro movie -> Do not use in trigger files!
 1172	save2 intro movie -> Do not use in trigger files!
@@ -2066,16 +2066,16 @@
 3703	NORWAY
 3704	SWEDEN
 3705	GERMANY
-3706	RUSSIA
-3707	POLAND
+3706	CCCP
+3707	PRL
 3710	XX
 3711	DENMARK
 3712	NATO
 3713	NORWAY
 3714	SWEDEN
 3715	GERMANY
-3716	RUSSIA
-3717	POLAND
+3716	CCCP
+3717	PRL
 3800	the
 3803	the
 3806	the
@@ -2112,18 +2112,18 @@
 3909	Swedish
 3912	Swedish
 3915	Swedish
-3920	German
-3923	German
-3926	German
-3929	German
-3932	German
-3935	German
-3940	Russian
-3943	Russian
-3946	Russian
-3949	Russian
-3952	Russian
-3955	Russian
+3920	East German
+3923	East German
+3926	East German
+3929	East German
+3932	East German
+3935	East German
+3940	Soviet
+3943	Soviet
+3946	Soviet
+3949	Soviet
+3952	Soviet
+3955	Soviet
 3960	Polish
 3961	Polish
 3962	Polish

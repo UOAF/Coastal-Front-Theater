@@ -18,43 +18,33 @@
 ///////////////////////////////////////////////////////////////
 
 // -----Country names-----
-[ADDTEXT] TXT_COUNTRY_0 "DDR"
+[ADDTEXT] TXT_COUNTRY_0 "XX"
 [ADDTEXT] TXT_COUNTRY_1 "DENMARK"
 [ADDTEXT] TXT_COUNTRY_2 "NATO"
 [ADDTEXT] TXT_COUNTRY_3 "NORWAY"
 [ADDTEXT] TXT_COUNTRY_4 "SWEDEN"
-[ADDTEXT] TXT_COUNTRY_5 "GERMANY"
+[ADDTEXT] TXT_COUNTRY_5 "DDR"
 [ADDTEXT] TXT_COUNTRY_6 "CCCP"
 [ADDTEXT] TXT_COUNTRY_7 "PRL"
 
 // -----Team names-----
-[ADDTEXT] TXT_COUNTRY_0 "DDR"
+[ADDTEXT] TXT_COUNTRY_0 "XX"
 [ADDTEXT] TXT_COUNTRY_1 "DENMARK"
 [ADDTEXT] TXT_COUNTRY_2 "NATO"
 [ADDTEXT] TXT_COUNTRY_3 "NORWAY"
 [ADDTEXT] TXT_COUNTRY_4 "SWEDEN"
-[ADDTEXT] TXT_COUNTRY_5 "GERMANY"
+[ADDTEXT] TXT_COUNTRY_5 "DDR"
 [ADDTEXT] TXT_COUNTRY_6 "CCCP"
 [ADDTEXT] TXT_COUNTRY_7 "PRL"
 
 // -----Scenario 1-----
-[ADDTEXT] TXT_SCENARIO_1 "Zapad 81"																																			 
-[ADDTEXT] TXT_SC_1_LINE_1 "..."
-[ADDTEXT] TXT_SC_1_LINE_2 "..."
-[ADDTEXT] TXT_SC_1_LINE_3 "..."
-[ADDTEXT] TXT_SC_1_LINE_4 "..."
+[ADDTEXT] TXT_SCENARIO_1 "ZAPAD '81"																																			 
+[ADDTEXT] TXT_SC_1_LINE_1 "The peaceful and defensive Warsaw Pact did what it was designed to do, it attacked the West."
+[ADDTEXT] TXT_SC_1_LINE_2 "After holding the largest military exercises in history, the troops did not return to their garrisons."
+[ADDTEXT] TXT_SC_1_LINE_3 "Instead, a full out invansion into the Westrn Europe began."
+[ADDTEXT] TXT_SC_1_LINE_4 "WWW III has just started, it's not jsut another war, it is a fight for survival of your civilsation"
 [ADDTEXT] TXT_SC_1_CAMP_END "20"
 [ADDTEXT] TXT_SC_1_CAMP_STALE "30"
 [ADDTEXT] TXT_SC_1_CAMP_DIFF "Hard"
 [ADDTEXT] NOT_USED "Keep this line!"
 
-// -----Scenario 2-----
-[ADDTEXT] TXT_SCENARIO_2 "Red Alert! (SP)"																																			 
-[ADDTEXT] TXT_SC_2_LINE_1 "Weakened by a corrupt government, Poland has been invaded by Russia in a couple days."
-[ADDTEXT] TXT_SC_2_LINE_2 "Russia is now pushing towards German border."
-[ADDTEXT] TXT_SC_2_LINE_3 "NATO needs to regain control of Poland while negotiating with Sweden to enter conflict."
-[ADDTEXT] TXT_SC_2_LINE_4 "Good Luck!"
-[ADDTEXT] TXT_SC_2_CAMP_END "20"
-[ADDTEXT] TXT_SC_2_CAMP_STALE "30"
-[ADDTEXT] TXT_SC_2_CAMP_DIFF "Hard"
-[ADDTEXT] NOT_USED "Keep this line!"
