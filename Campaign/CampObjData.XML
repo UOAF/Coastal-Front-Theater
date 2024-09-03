@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CampObjData>
     <CampObj CampId="1">
-        <CampName>EKSP skrydstrup Airbase</CampName>
+        <CampName>Skrydstrup Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1162752.903</PositionX>
@@ -9,7 +9,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2">
-        <CampName>ESDF ronneby Airbase</CampName>
+        <CampName>Ronneby Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1539950.601</PositionX>
@@ -17,7 +17,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="3">
-        <CampName>ESMT halmstad afb Airbase</CampName>
+        <CampName>Halmstad Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1687549.700</PositionX>
@@ -25,7 +25,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4">
-        <CampName>ETMN nordholz Airbase</CampName>
+        <CampName>Nordholz Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>634676.126</PositionX>
@@ -33,7 +33,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="5">
-        <CampName>EKKA karup Airbase</CampName>
+        <CampName>Karup Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1566190.441</PositionX>
@@ -41,7 +41,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="6">
-        <CampName>ESMQ kalmar Airbase</CampName>
+        <CampName>Kalmar Airbase</CampName>
         <OcdIndex>366</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1700669.620</PositionX>
@@ -49,7 +49,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="7">
-        <CampName>EDBN neubrandenburg Airbase</CampName>
+        <CampName>Neubrandenburg Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>575636.487</PositionX>
@@ -57,7 +57,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="8">
-        <CampName>ETNH hohn Airbase</CampName>
+        <CampName>Hohn Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>834754.905</PositionX>
@@ -65,7 +65,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="9">
-        <CampName>ESTL ljungbyhed Airbase</CampName>
+        <CampName>Ljungbyhed Airbase</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1467791.041</PositionX>
@@ -73,7 +73,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="10">
-        <CampName>EKAH tirstrup Airbase</CampName>
+        <CampName>Tirstrup Airbase</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1556350.501</PositionX>
@@ -81,7 +81,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="11">
-        <CampName>EPOK oksywie Airbase</CampName>
+        <CampName>Babie Doly Airbase</CampName>
         <OcdIndex>359</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>936434.284</PositionX>
@@ -97,7 +97,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="13">
-        <CampName>ETNT wittmund Airbase</CampName>
+        <CampName>Wittmund Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>552676.627</PositionX>
@@ -121,7 +121,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="16">
-        <CampName>EKRN bornholm Airbase</CampName>
+        <CampName>Bornholm Airbase</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1103713.263</PositionX>
@@ -137,7 +137,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="18">
-        <CampName>EKBI billund Airbase</CampName>
+        <CampName>Billund Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1352991.742</PositionX>
@@ -145,7 +145,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="19">
-        <CampName>ESMK kristanstad Airbase</CampName>
+        <CampName>Kristanstad Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1421871.322</PositionX>
@@ -193,7 +193,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="25">
-        <CampName>EPSN svidwin Airbase</CampName>
+        <CampName>Swidwin Airbase</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>644516.066</PositionX>
@@ -201,7 +201,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="26">
-        <CampName>ESTA angelholm Airbase</CampName>
+        <CampName>Angelholm Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1569470.421</PositionX>
@@ -209,7 +209,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="27">
-        <CampName>ESSV visby Airbase</CampName>
+        <CampName>Visby Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2074587.338</PositionX>
@@ -361,7 +361,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="46">
-        <CampName>EPMI miroslawic Airbase</CampName>
+        <CampName>Mirosławiec Airbase</CampName>
         <OcdIndex>359</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>487077.027</PositionX>
@@ -369,7 +369,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="47">
-        <CampName>EPCE cewice Airbase</CampName>
+        <CampName>Cewice Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>874114.665</PositionX>
@@ -377,7 +377,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="48">
-        <CampName>ESGG goteburg landvetter Airbase</CampName>
+        <CampName>Goteburg Landvetter</CampName>
         <OcdIndex>191</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2048347.498</PositionX>
@@ -385,7 +385,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="49">
-        <CampName>ESMX vaxjo Airbase</CampName>
+        <CampName>Vaxjo Airbase</CampName>
         <OcdIndex>355</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1785949.099</PositionX>
@@ -393,7 +393,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="50">
-        <CampName>ESGJ jonkoping Airbase</CampName>
+        <CampName>Jonkoping Airbase</CampName>
         <OcdIndex>360</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2090987.238</PositionX>
@@ -409,7 +409,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="52">
-        <CampName>EKYT aalborg Airbase</CampName>
+        <CampName>Aaalborg Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1838428.779</PositionX>
@@ -449,7 +449,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="57">
-        <CampName>Poznan City</CampName>
+        <CampName>Poznań City</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>129559.209</PositionX>
@@ -473,7 +473,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="60">
-        <CampName>EDDT Berlin Tegel Airbase</CampName>
+        <CampName>Berlin Tegel</CampName>
         <OcdIndex>47</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>214838.689</PositionX>
@@ -881,7 +881,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="111">
-        <CampName>EDDH Hamburg Airbase</CampName>
+        <CampName>Hamburg Airbase</CampName>
         <OcdIndex>143</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>585476.427</PositionX>
@@ -905,7 +905,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="114">
-        <CampName>EDHL Luebeck Blankensee Airbase</CampName>
+        <CampName>Luebeck Blankensee</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>641236.086</PositionX>
@@ -913,7 +913,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="115">
-        <CampName>EDDW Bremen Airbase</CampName>
+        <CampName>Bremen Airbase</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>349317.868</PositionX>
@@ -921,7 +921,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="116">
-        <CampName>EKCH Kastrup Airbase</CampName>
+        <CampName>Kastrup Airbase</CampName>
         <OcdIndex>47</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1303792.042</PositionX>
@@ -929,7 +929,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="117">
-        <CampName>ESMS Malmö Airbase</CampName>
+        <CampName>Malmö Airbase</CampName>
         <OcdIndex>367</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1284112.162</PositionX>
@@ -993,7 +993,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="125">
-        <CampName>EDOP Schwerin-Parchim Airbase</CampName>
+        <CampName>Schwerin-Parchim Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>510036.887</PositionX>
@@ -17153,7 +17153,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2145">
-        <CampName>ENGM Oslo Airbase</CampName>
+        <CampName>Oslo Airbase</CampName>
         <OcdIndex>1</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>3042181.432</PositionX>
@@ -17161,7 +17161,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2146">
-        <CampName>ENCN Kristiansand Airbase</CampName>
+        <CampName>Kristiansand Airbase</CampName>
         <OcdIndex>361</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2258266.217</PositionX>
@@ -17169,7 +17169,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2147">
-        <CampName>ENZV Stavanger Airbase</CampName>
+        <CampName>Stavanger Airbase</CampName>
         <OcdIndex>367</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2500984.735</PositionX>
@@ -32241,7 +32241,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4031">
-        <CampName>ESSP Norrkoping Airbase</CampName>
+        <CampName>Norrkoping Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2379625.476</PositionX>
@@ -32249,7 +32249,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4032">
-        <CampName>ESSA Stockholm Arlanda Airbase</CampName>
+        <CampName>Stockholm Arlanda</CampName>
         <OcdIndex>1</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2769943.094</PositionX>
@@ -32257,7 +32257,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4033">
-        <CampName>ESIB Satenas Airbase</CampName>
+        <CampName>Satenas Airbase</CampName>
         <OcdIndex>191</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>2317305.856</PositionX>
@@ -32265,7 +32265,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4034">
-        <CampName>EPKS Poznan Airbase</CampName>
+        <CampName>Poznan Krzesiny</CampName>
         <OcdIndex>358</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>106599.349</PositionX>
@@ -33025,7 +33025,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4129">
-        <CampName>Poznan Factory</CampName>
+        <CampName>Poznań Factory</CampName>
         <OcdIndex>380</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>122999.249</PositionX>
@@ -33033,7 +33033,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4130">
-        <CampName>Poznan Factory</CampName>
+        <CampName>Poznań Factory</CampName>
         <OcdIndex>175</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>139399.149</PositionX>
@@ -34465,7 +34465,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4309">
-        <CampName>Poznan ArmyBase</CampName>
+        <CampName>Poznań ArmyBase</CampName>
         <OcdIndex>310</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>113159.309</PositionX>
@@ -34569,7 +34569,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4322">
-        <CampName>Poznan Com Control</CampName>
+        <CampName>Poznań Com Control</CampName>
         <OcdIndex>526</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>145959.109</PositionX>
@@ -34609,7 +34609,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4327">
-        <CampName>Tempelhof</CampName>
+        <CampName>Berlin Tempelhof</CampName>
         <OcdIndex>47</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>162359.009</PositionX>

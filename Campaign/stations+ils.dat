@@ -1,108 +1,105 @@
 # New file for Baltic 4.35
 # 
-# ESDF Ronneby (ILS order: 19, 01, -, -) DME as TACAN added to get ILS in use
+# Ronneby (ILS order: 19, 01, -, -) DME as TACAN added to get ILS in use
 2 001 X 999 0 1 319200 119200 10830 11070 0 0 0 320200 357675 0 0 0 0 0 0
 # 
-# ESGG Göteborg/Landvetter (ILS order: 36, 18, -, -) DVOR/DME as TACAN added to get ILS in use
+# Göteborg/Landvetter (ILS order: 36, 18, -, -) DVOR/DME as TACAN added to get ILS in use
 48 093 X 999 80 1 318675 118600 10850 11030 0 0 0 317675 320600 0 114600 0 0 0 0
 # 
-# ESGJ Jönköbing (ILS order: 19, 01, -, -) DVOR/DME as TACAN added to get ILS in use
+# Jönköbing (ILS order: 19, 01, -, -) DVOR/DME as TACAN added to get ILS in use
 50 105 X 0 80 1 304625 118250 11150 10990 0 0 0 319250 357925 0 0 0 0 0 0
 # 
-# ESIB Satenas
+# Satenas
 4033 001 X 0 0 1 328200 128200 11115 10950 0 0 0 329275 330200 0 0 0 0 0 0
 # 
-# ESMK Kristianstad (ILS order: 19, -, -, -) DME as TACAN added to get ILS in use
+# Kristianstad (ILS order: 19, -, -, -) DME as TACAN added to get ILS in use
 19 022 X 0 0 1 329250 129350 10850 0 0 0 0 354275 331250 0 0 0 0 0 0
 # 
-# ESMQ Kalmar (ILS order: 19, -, -, -) VOR/DME as TACAN added to get ILS in use
+# Kalmar (ILS order: 19, -, -, -) VOR/DME as TACAN added to get ILS in use
 6 053 X 0 50 1 330875 130800 0 0 0 10870 0 331800 332825 0 0 0 0 0 0
 # 
-# ESMS Malmö
+# Malmö
 117 113 X 0 50 1 318900 118800 11190 10810 0 0 0 319800 311125 0 129275 0 0 0 0
 # 
-# ESMT Halmstadt (ILS order: 19, -, -, -) no DME available, therefor on ILS -> feature in BMS
+# Halmstadt (ILS order: 19, -, -, -) no DME available, therefor on ILS -> feature in BMS
 3 001 X 0 0 1 330175 130100 11010 0 0 0 0 331100 332100 0 0 0 0 0 0
 # 
-# ESMX Växjö/Kronoberg (ILS order: 19, 01, -, -) DME as TACAN added to get ILS in use
+# Växjö/Kronoberg (ILS order: 19, 01, -, -) DME as TACAN added to get ILS in use
 49 001 X 0 0 1 318550 118150 10970 10910 0 0 0 309775 307750 0 0 0 0 0 0
 # 
-# ESSA Stockholm Arlanda
+# Stockholm Arlanda
 4032 107 X 0 80 1 318500 118500 11070 10990 11135 10935 0 345575 320500 0 121625 0 0 0 0
 # 
-# ESSP Norrkoping
+# Norrkoping
 4031 001 X 0 0 1 356375 120350 10950 11110 0 0 0 354375 352350 0 0 0 0 0 0
 # 
-# ESSV Visby AI ONLY (ILS order: 21, -, -, -) VOR/DME as TACAN added to get ILS in uses
+# Visby AI ONLY (ILS order: 21, -, -, -) VOR/DME as TACAN added to get ILS in uses
 27 098 X 0 50 1 354150 120300 11030 0 0 0 0 321300 328375 0 0 0 0 0 0
 # 
-# ESTA Ängelholm (ILS order: 19, -, -, -) DME as TACAN added to get ILS in use
+# Ängelholm (ILS order: 19, -, -, -) DME as TACAN added to get ILS in use
 26 001 X 0 0 1 327125 127100 11130 0 0 0 0 328100 325150 0 0 0 0 0 0
 # 
-# ESTL Ljungbyhed (ILS order: -, 29L, -, -) VOR/DME as TACAN added to get ILS in use
+# Ljungbyhed (ILS order: -, 29L, -, -) VOR/DME as TACAN added to get ILS in use
 9 081 X 0 50 1 345750 130700 11170 0 0 0 0 355925 372750 0 132750 0 0 0 0
 # 
-# ENCN Kristiansand
+# Kristiansand
 2146 001 X 0 0 1 349975 119950 11035 11090 0 0 0 320900 321925 0 124475 0 0 0 0
 # 
-# ENGM Oslo
+# Oslo
 2145 106 Y 0 50 1 360725 120100 11130 11030 11055 11195 0 321125 322125 0 127150 0 0 0 0
 # 
-# ENZV Stavanger
+# Stavanger
 2147 115 Y 0 50 1 361650 118350 11030 11135 0 0 0 362675 361675 0 0 0 0 0 0
 # 
-# EKAH Aarhus (ILS order: 28L, 10R, -, -) DME as TACAN added to get ILS in use
-10 001 X 0 0 1 325925 118525 11110 11190 0 0 0 317500 347775 0 0 0 0 0 0
-# 
-# EKBI Billund AI ONLY (ILS order: 09, 27, -, -)
+# Billund AI ONLY (ILS order: 09, 27, -, -)
 18 044 X 0 100 1 311025 119000 11070 10975 0 0 0 365175 320000 0 118775 0 0 0 0
 # 
-# EKCH Kastrup
+# Kastrup
 116 001 X 0 0 1 325775 118700 10950 11050 11090 10930 0 317750 324750 0 122850 0 0 0 0
 # 
-# EKKA Karup
+# Karup
 5 037 X 0 180 1 241650 119575 0 0 0 0 0 240650 239650 0 120575 0 0 0 0
 # 
-# EKRN Bornholm/Rønne AI ONLY (ILS order: 11, 29, -, -)
+# Bornholm/Rønne AI ONLY (ILS order: 11, 29, -, -)
 16 057 X 0 50 1 318325 118325 11030 10935 0 0 0 317350 319350 0 0 0 0 0 0
 # 
-# EKYT Aalborg (ILS order: 09L, 27R, -, -)
+# Aalborg (ILS order: 09L, 27R, -, -)
 52 114 X 0 50 1 295750 118300 10990 11150 0 0 0 283775 291750 0 120475 0 0 0 0
 # 
-# EKSP Skrydstrup (ILS order: 28R, 10L, -, -)
+# Skrydstrup Airbase (ILS order: 28R, 10L, -, -)
 1 041 X 0 50 1 259875 118275 10935 10935 0 0 0 258875 257875 0 133900 0 0 0 0
 # 
-# EDDH Hamburg
+# Hamburg
 111 078 X 0 40 1 278450 121275 11150 11050 0 0 0 277550 276450 0 124325 0 0 0 0
 # 
-# EDHL Luebeck
+# Luebeck
 114 001 X 0 300 1 328725 128700 11170 10935 0 0 0 328775 329725 0 119925 0 0 0 0
 # 
-# EDDW Bremen
+# Bremen
 115 121 Y 0 50 1 378350 120325 11030 11090 0 0 0 377375 376350 0 132375 0 0 0 0
 # 
-# ETNH Hohn (ILS order: -, 26, -, -)
+# Hohn (ILS order: -, 26, -, -)
 8 100 X 0 50 1 369300 122100 10890 0 0 0 0 368300 367300 0 0 0 0 0 0
 # 
-# ETMN Nordholz(ILS order: 26, -, -, -)
+# Nordholz(ILS order: 26, -, -, -)
 4 118 Y 0 50 1 257825 131250 11175 10855 0 0 0 256875 255875 0 0 0 0 0 0
 # 
-# ETNT Wittmundhafen (ILS order: 26, -, -, -)
+# Wittmundhafen (ILS order: 26, -, -, -)
 13 082 X 0 60 1 386875 122100 10995 0 0 0 0 385875 384975 0 0 0 0 0 0
 # 
-# EDBN Neubrandenburg (ILS order: -, -, -, -)
+# Neubrandenburg (ILS order: -, -, -, -)
 7 001 X 0 0 1 389575 119175 0 0 0 0 0 378175 360175 0 0 0 0 0 0
 # 
-# EPCE Cewice (ILS order: 25, -, -, -)
+# Cewice (ILS order: 25, -, -, -)
 47 001 Y 0 0 1 326750 126750 11130 11130 0 0 0 320950 328750 0 0 0 0 0 0
 # 
-# EPMI Mirosławiec (ILS order: 30, -, -, -)
+# Mirosławiec (ILS order: 30, -, -, -)
 46 100 Y 0 50 1 337125 133075 11090 11090 0 0 0 347575 351150 0 0 0 0 0 0
 # 
-# EPOK Oksywie (ILS order: 31, -, -, -) TACAN channel changed, channel was assigned twice
+# Babie Doły (ILS order: 31, -, -, -) TACAN channel changed, channel was assigned twice
 11 081 X 0 50 1 319850 119850 10950 10950 0 0 0 347100 321850 0 0 0 0 0 0
 # 
-# EPSN Swidwin (ILS order: -, 29, -, -)
+# Świdwin (ILS order: -, 29, -, -)
 25 107 X 0 50 1 273950 127500 11155 11155 0 0 0 232950 231950 0 0 0 0 0 0
 # 
 # NATO Carrier (VINSON)
@@ -141,7 +138,7 @@
 # VORTAC BKD
 4210 124 X 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 # 
-# EDOP Schwerin-Parchim
+# Schwerin-Parchim
 125 001 X 0 0 1 228900 128900 10950 0 0 0 0 227900 229900 0 126125 0 0 0 0
 # 
 # VORTAC LWB
@@ -150,17 +147,17 @@
 # VORTAC FLD
 4214 118 Y 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 # 
-# EDDT Berlin Tegel
+# Berlin Tegel
 60 001 X 0 0 1 265425 124750 0 0 0 0 0 264425 263425 0 122750 0 0 0 0
 # 
 # VORTAC TGL
 4231 070 X 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 # 
-# EPKS Poznan
+# Poznań Krzesiny
 4034 052 X 0 50 1 321025 121025 0 0 0 0 0 322000 323100 0 128725 0 0 0 0
 # 
 # VORTAC GRU
 4212 093 X 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 # 
-# Tempelhof
+# Berlin Tempelhof
 4327 002 X 0 0 1 265450 124775 0 0 0 0 0 264450 263450 0 122775 0 0 0 0
