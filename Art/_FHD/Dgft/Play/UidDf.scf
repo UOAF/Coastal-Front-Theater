@@ -1,0 +1,30 @@
+#UI BMS4, created by Revientor and Naldo (2009)
+#These are the text-based debrief messages upon completion of
+#a dogfight event
+#Dogfight-> Debriefing-> 1st place
+DF1 DD19E#Yes!
+DF1 DD2E#You have become death... the shatterer of worlds.
+DF1 DD20E#Ladies and Gentlemen, we have a winner!
+DF1 DD1E#You showed the right stuff in that one.
+#Dogfight-> Debriefing-> 2nd place
+DF2 DD3E#If you don't know who the best fighter pilot is, it ain't you.
+DF2 DD4E#The guy who wins is the guy who makes the fewer gross mistakes.
+#Dogfight-> Debriefing-> 3rd place
+DF3 DD5E#At least you didn't finish last.
+DF3 DD6E#Any angles you give your opponent on the first pass will haunt you for the rest of the fight.
+#Dogfight-> Debriefing-> last place
+DF4 DD8E#A pound of hamburger is still a pound of hamburger, no matter how neatly it is wrapped -- even in an F-Sixteen.
+DF4 DD7E#Maybe you should consider a nice, safe activity -- like knitting.
+#Dogfight-> Debriefing-> Most kills (and win)
+DF5 DD10E#You really slaughtered those Whiskey Deltas.
+DF5 DD9E#King of the hill!
+#Dogfight-> Debriefing-> Most kills (but still loses) (team mode
+DF6 DD11E#Good shooting, but next time think a little more about teamwork.
+DF6 DD12E#There is no "I" in team.
+#Dogfight-> Debriefing-> Fewest kills
+DF7 DD13E#You've got the weapons. Why don't you learn how to use them?
+DF7 DD14E#Don't you think that was a bit Whiskey Delta?
+#Dogfight-> Debriefing-> Most frags
+DF8 DD15E#You're supposed to shoot down the guys on the other team.
+#Dogfight-> Debriefing-> Most Deaths
+DF9 DD18E#That's the way to throw your pink little body at them.
