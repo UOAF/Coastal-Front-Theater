@@ -1,0 +1,12 @@
+Dimensions       = 42 -16 20 -1.70000005 1.70000005 -3.29999995 1.5
+TextureSets      = 1
+Switches         = 7
+Dofs             = 53
+AddSlot          = -2.5999999 -8.06999969 0.0199999996
+AddSlot          = -0.400000006 -6.19999981 -0.0500000007
+AddSlot          = 1.5 0 1.95000005
+AddSlot          = -0.400000006 6.19999981 -0.0500000007
+AddSlot          = -2.5999999 8.06999969 0.0199999996
+AddLOD           = Model_0.bml 200
+AddLOD           = Model_1.bml 400
+AddLOD           = Model_2.bml 15000

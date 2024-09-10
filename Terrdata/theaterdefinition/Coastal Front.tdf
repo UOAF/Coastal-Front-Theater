@@ -33,20 +33,23 @@ artdir Add-On Coastal Front
 # uisounds
 # uisounddir Add-On Coastal Front\Sounds\ui
 
-# default objects
+# Misc textures
+misctexdir Terrdata\misctex
+
+# Default Objects
 objectdir Add-On Coastal Front\Terrdata\objects
 
-# misc textures
-# misctexdir Add-On Coastal Front\Terrdata\misctex
-
-# 3d object files
-3ddatadir Terrdata\objects
+# 3D Object files
+3ddatadir Add-On Coastal Front\Terrdata\objects
 
 # sounds dir
 # sounddir Add-On Coastal Front\Sounds
 
 # simdata dir
 # simdatadir Add-On Coastal Front\Sim
+
+# Theater specific tacref dir
+#tacrefdir Add-On Coastal Front\Terrdata
 
 # minimum tacan channel
 mintacan 1

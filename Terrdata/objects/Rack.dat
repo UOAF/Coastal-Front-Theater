@@ -1,0 +1,20 @@
+# DO NOT USE rack.dat (is old fashion)
+# PLEASE USE bmsrack.dat (is new standard)
+
+# rack group definitions
+# count first, remember counting from 0, so last rack + 1
+NumGroups 1
+
+# defintions is
+# <count> <list of racks>
+# rackgroup 0 empty
+Group0 0
+
+# rack defintions
+# count first, remember counting from 0, so last rack + 1
+NumRacks 1
+
+# defintion is
+# Rack<no> <CTID> <MaxOccupancy>
+# Helicopter racks
+Rack0 0 0 # nothing
