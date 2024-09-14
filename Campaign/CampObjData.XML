@@ -449,7 +449,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="57">
-        <CampName>Poznań City</CampName>
+        <CampName>Poznan City</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>129559.209</PositionX>
@@ -649,7 +649,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="82">
-        <CampName>Stupsk Town</CampName>
+        <CampName>Slupsk Town</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>883954.605</PositionX>
@@ -33025,7 +33025,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4129">
-        <CampName>Poznań Factory</CampName>
+        <CampName>Poznan Factory</CampName>
         <OcdIndex>380</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>122999.249</PositionX>
@@ -33033,7 +33033,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4130">
-        <CampName>Poznań Factory</CampName>
+        <CampName>Poznan Factory</CampName>
         <OcdIndex>175</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>139399.149</PositionX>
@@ -34465,7 +34465,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4309">
-        <CampName>Poznań ArmyBase</CampName>
+        <CampName>Poznan ArmyBase</CampName>
         <OcdIndex>310</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>113159.309</PositionX>
@@ -34569,7 +34569,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4322">
-        <CampName>Poznań Com Control</CampName>
+        <CampName>Poznan Com Control</CampName>
         <OcdIndex>526</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>145959.109</PositionX>
@@ -34947,7 +34947,7 @@
     <CampObj CampId="4369">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>0.000</Heading>
+        <Heading>90.000</Heading>
         <PositionX>795395.145</PositionX>
         <PositionY>2455065.015</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -35062,6 +35062,134 @@
         <Heading>0.000</Heading>
         <PositionX>116439.289</PositionX>
         <PositionY>2707623.474</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4384">
+        <CampName>Powidz Airbase</CampName>
+        <OcdIndex>358</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>126279.229</PositionX>
+        <PositionY>2952211.605</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4385">
+        <CampName>Babimost Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>37719.770</PositionX>
+        <PositionY>2546510.873</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4386">
+        <CampName>Bydgoszcz Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>379132.874</PositionX>
+        <PositionY>2975925.796</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4387">
+        <CampName>Pila Airbase</CampName>
+        <OcdIndex>361</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>413047.880</PositionX>
+        <PositionY>2691453.197</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4388">
+        <CampName>Debrzno Airbase</CampName>
+        <OcdIndex>363</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>535620.741</PositionX>
+        <PositionY>2790049.387</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4389">
+        <CampName>Goleniow Airbase</CampName>
+        <OcdIndex>365</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>562254.162</PositionX>
+        <PositionY>2289294.899</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4390">
+        <CampName>Kakolweo Airbase</CampName>
+        <OcdIndex>358</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>86197.876</PositionX>
+        <PositionY>2655143.794</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4391">
+        <CampName>Sniatowo Airbase</CampName>
+        <OcdIndex>358</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>677315.866</PositionX>
+        <PositionY>2294345.996</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4392">
+        <CampName>Zegrze Pomorskie Airbase</CampName>
+        <OcdIndex>363</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>730582.759</PositionX>
+        <PositionY>2565141.136</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4393">
+        <CampName>Slupsk Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>893794.545</PositionX>
+        <PositionY>2733863.314</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4394">
+        <CampName>Malbork Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>725334.771</PositionX>
+        <PositionY>3176660.611</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4395">
+        <CampName>Pienieznica Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>667475.926</PositionX>
+        <PositionY>2724023.374</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4396">
+        <CampName>Kluczewo Airbase</CampName>
+        <OcdIndex>365</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>460869.969</PositionX>
+        <PositionY>2316223.407</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4397">
+        <CampName>Chojna Airbase</CampName>
+        <OcdIndex>363</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>323143.617</PositionX>
+        <PositionY>2212051.211</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4398">
+        <CampName>Nadarzyce</CampName>
+        <OcdIndex>367</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>523780.011</PositionX>
+        <PositionY>2687189.263</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4399">
+        <CampName>Kolobrzeg Airbase</CampName>
+        <OcdIndex>363</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>792967.942</PositionX>
+        <PositionY>2437221.916</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
