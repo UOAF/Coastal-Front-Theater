@@ -137,10 +137,10 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="18">
-        <CampName>Billund Airbase</CampName>
+        <CampName>Vandel Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
-        <PositionX>1352991.742</PositionX>
+        <PositionX>1351974.956</PositionX>
         <PositionY>1051233.584</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
@@ -921,7 +921,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="116">
-        <CampName>Kastrup Airbase</CampName>
+        <CampName>Copenhagen Kastrup</CampName>
         <OcdIndex>47</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1303792.042</PositionX>
@@ -17153,7 +17153,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2145">
-        <CampName>Oslo Airbase</CampName>
+        <CampName>Oslo Gardermoen</CampName>
         <OcdIndex>1</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>3042181.432</PositionX>
@@ -17169,11 +17169,11 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2147">
-        <CampName>Stavanger Airbase</CampName>
-        <OcdIndex>367</OcdIndex>
+        <CampName>Stavanger Sola</CampName>
+        <OcdIndex>61</OcdIndex>
         <Heading>0.000</Heading>
-        <PositionX>2500984.735</PositionX>
-        <PositionY>375557.708</PositionY>
+        <PositionX>2493637.612</PositionX>
+        <PositionY>377722.507</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="2148">
@@ -35310,6 +35310,46 @@
         <Heading>0.000</Heading>
         <PositionX>88395.463</PositionX>
         <PositionY>548412.643</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4415">
+        <CampName>Vaerloese Airbase</CampName>
+        <OcdIndex>638</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1372671.622</PositionX>
+        <PositionY>1717922.347</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4416">
+        <CampName>Karlsborg Airbase</CampName>
+        <OcdIndex>45</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>2358830.315</PositionX>
+        <PositionY>2064714.566</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4417">
+        <CampName>Malmen Airbase</CampName>
+        <OcdIndex>24</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>2323865.816</PositionX>
+        <PositionY>2262136.569</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4418">
+        <CampName>Aerna Airbase</CampName>
+        <OcdIndex>640</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>2888120.868</PositionX>
+        <PositionY>2589117.781</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4419">
+        <CampName>Rygge Airbase</CampName>
+        <OcdIndex>139</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>2674790.842</PositionX>
+        <PositionY>1350958.170</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
