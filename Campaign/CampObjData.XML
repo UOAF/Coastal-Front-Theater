@@ -33402,7 +33402,7 @@
     </CampObj>
     <CampObj CampId="4176">
         <CampName>Power plant Nuclear</CampName>
-        <OcdIndex>346</OcdIndex>
+        <OcdIndex>19</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>418197.448</PositionX>
         <PositionY>2973301.852</PositionY>
@@ -34707,7 +34707,7 @@
     <CampObj CampId="4339">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>270.000</Heading>
+        <Heading>269.999</Heading>
         <PositionX>660915.966</PositionX>
         <PositionY>1572750.401</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -35294,6 +35294,22 @@
         <Heading>0.000</Heading>
         <PositionX>214969.891</PositionX>
         <PositionY>1623163.677</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4413">
+        <CampName>Leeuwarden Airbase</CampName>
+        <OcdIndex>101</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>437713.318</PositionX>
+        <PositionY>300839.768</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4414">
+        <CampName>Twente Airbase</CampName>
+        <OcdIndex>45</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>88395.463</PositionX>
+        <PositionY>548412.643</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
