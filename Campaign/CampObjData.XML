@@ -97,7 +97,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="13">
-        <CampName>Wittmund Airbase</CampName>
+        <CampName>Wittmundhafen Airbase</CampName>
         <OcdIndex>357</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>552676.627</PositionX>
@@ -489,7 +489,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="62">
-        <CampName>Flensgourg City</CampName>
+        <CampName>Flensburg City</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1002033.884</PositionX>
@@ -529,7 +529,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="67">
-        <CampName>Kopenhagen City</CampName>
+        <CampName>Copenhagen City</CampName>
         <OcdIndex>6</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>1330031.882</PositionX>
@@ -881,7 +881,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="111">
-        <CampName>Hamburg Airbase</CampName>
+        <CampName>Hamburg Fuhlsbuettel</CampName>
         <OcdIndex>143</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>585476.427</PositionX>
@@ -33402,7 +33402,7 @@
     </CampObj>
     <CampObj CampId="4176">
         <CampName>Power plant Nuclear</CampName>
-        <OcdIndex>19</OcdIndex>
+        <OcdIndex>426</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>418197.448</PositionX>
         <PositionY>2973301.852</PositionY>
@@ -35350,6 +35350,70 @@
         <Heading>0.000</Heading>
         <PositionX>2674790.842</PositionX>
         <PositionY>1350958.170</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4420">
+        <CampName>Sylt Airbase</CampName>
+        <OcdIndex>641</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1060876.733</PositionX>
+        <PositionY>879559.444</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4421">
+        <CampName>Leck Airbase</CampName>
+        <OcdIndex>364</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1008593.844</PositionX>
+        <PositionY>1005313.864</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4422">
+        <CampName>Eggbek Airbase</CampName>
+        <OcdIndex>355</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>952178.148</PositionX>
+        <PositionY>1090593.344</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4423">
+        <CampName>Husum Airbase</CampName>
+        <OcdIndex>361</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>904684.102</PositionX>
+        <PositionY>1035784.906</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4424">
+        <CampName>Schleswig Airbase</CampName>
+        <OcdIndex>47</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>874508.246</PositionX>
+        <PositionY>1116833.183</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4425">
+        <CampName>Kiel Airbase</CampName>
+        <OcdIndex>369</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>854303.558</PositionX>
+        <PositionY>1254198.761</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4426">
+        <CampName>Tutow Airbase</CampName>
+        <OcdIndex>366</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>689910.977</PositionX>
+        <PositionY>1918001.125</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4427">
+        <CampName>Jever Airbase</CampName>
+        <OcdIndex>41</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>558744.610</PositionX>
+        <PositionY>757150.567</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
