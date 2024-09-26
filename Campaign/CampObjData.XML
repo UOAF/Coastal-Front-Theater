@@ -34032,14 +34032,6 @@
         <PositionY>1910588.339</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
-    <CampObj CampId="4255">
-        <CampName>Air Defense SAM Site</CampName>
-        <OcdIndex>33</OcdIndex>
-        <Heading>0.000</Heading>
-        <PositionX>122999.249</PositionX>
-        <PositionY>1963068.018</PositionY>
-        <PositionZ>0.000</PositionZ>
-    </CampObj>
     <CampObj CampId="4256">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>316</OcdIndex>
@@ -35414,6 +35406,94 @@
         <Heading>0.000</Heading>
         <PositionX>558744.610</PositionX>
         <PositionY>757150.567</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4428">
+        <CampName>Oldenburg Airbase</CampName>
+        <OcdIndex>642</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>423904.631</PositionX>
+        <PositionY>830687.712</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4429">
+        <CampName>Ahlhorn Airbase</CampName>
+        <OcdIndex>638</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>321962.847</PositionX>
+        <PositionY>853581.958</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4430">
+        <CampName>Wunstorf Airbase</CampName>
+        <OcdIndex>357</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>159079.029</PositionX>
+        <PositionY>1106993.243</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4431">
+        <CampName>Celle Airbase</CampName>
+        <OcdIndex>363</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>192797.219</PositionX>
+        <PositionY>1229303.725</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4432">
+        <CampName>Fassberg Airbase</CampName>
+        <OcdIndex>139</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>326358.008</PositionX>
+        <PositionY>1284112.162</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4433">
+        <CampName>Hopsten Airbase</CampName>
+        <OcdIndex>24</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>109879.329</PositionX>
+        <PositionY>689451.782</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4434">
+        <CampName>Bueckeburg</CampName>
+        <OcdIndex>507</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>100039.389</PositionX>
+        <PositionY>1024993.744</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4435">
+        <CampName>MahlwinkelAirbase</CampName>
+        <OcdIndex>154</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>134610.381</PositionX>
+        <PositionY>1621326.896</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4436">
+        <CampName>Berlin Schoenefeld</CampName>
+        <OcdIndex>644</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>96070.617</PositionX>
+        <PositionY>2020697.291</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4437">
+        <CampName>Berlin Gatow</CampName>
+        <OcdIndex>52</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>158685.435</PositionX>
+        <PositionY>1913277.946</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4255">
+        <CampName>Oranienburg Airbase</CampName>
+        <OcdIndex>49</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>280077.489</PositionX>
+        <PositionY>1935778.561</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
