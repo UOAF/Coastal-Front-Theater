@@ -1297,7 +1297,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="163">
-        <CampName>Biatogard Town</CampName>
+        <CampName>Bialogard Town</CampName>
         <OcdIndex>456</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>716675.626</PositionX>
@@ -35662,6 +35662,62 @@
         <Heading>0.000</Heading>
         <PositionX>139399.149</PositionX>
         <PositionY>2028667.618</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4459">
+        <CampName>BARS 206</CampName>
+        <OcdIndex>26</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>890514.565</PositionX>
+        <PositionY>2986421.772</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4460">
+        <CampName>BARS 204</CampName>
+        <OcdIndex>26</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>332917.968</PositionX>
+        <PositionY>3088101.152</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4461">
+        <CampName>BARS 207</CampName>
+        <OcdIndex>26</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>480517.067</PositionX>
+        <PositionY>2500984.735</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4462">
+        <CampName>BARS 301</CampName>
+        <OcdIndex>26</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>277158.308</PositionX>
+        <PositionY>2077867.318</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4463">
+        <CampName>BARS 302</CampName>
+        <OcdIndex>26</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>752755.406</PositionX>
+        <PositionY>1795789.039</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4464">
+        <CampName>New Objective</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>460837.187</PositionX>
+        <PositionY>2323865.816</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4465">
+        <CampName>Obiekt 3001</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>700275.726</PositionX>
+        <PositionY>2540344.495</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
