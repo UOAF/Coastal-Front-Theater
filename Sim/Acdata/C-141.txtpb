@@ -1,0 +1,1787 @@
+fmtype: FM_OFM
+airframe {
+  empty_weight_lbs: 144492
+  area_sqft: 3227
+  internal_fuel_lbs: 153342
+  aoa_max_player_deg: 20
+  aoa_min_deg: -5
+  beta_max_deg: 5
+  beta_min_deg: -5
+  max_g: 2.3
+  max_roll_deg: 60.0000038
+  min_vcas_kts: 230
+  max_vcas_kts: 340
+  corner_vcas_kts: 240
+  theta_max_deg: 7.50000048
+  gear {
+    position_ft {
+      x: 10.7
+      y: 0
+      z: 9.6
+    } 
+    range_deg: 100
+  } 
+  gear {
+    position_ft {
+      x: 83.5
+      y: -9.7
+      z: 9.6
+    } 
+    range_deg: 100
+  } 
+  gear {
+    position_ft {
+      x: 83.5
+      y: 9.7
+      z: 9.6
+    } 
+    range_deg: 100
+  } 
+  cg_location_ft: 71
+  length_ft: 151
+  span_ft: 160
+  fuselage_radius_ft: 5
+  tail_height_ft: 23
+  aoa_max_ai_deg: 20
+} 
+aero {
+  mach_alpha_cl_table {
+    x_axis {
+      breakpoints: [0, 0.4, 0.6, 0.8, 0.86]
+    } 
+    y_axis {
+      breakpoints: [-20, -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40]
+    } 
+    multiplier: 1
+    data {
+      values: [-0.7056, -0.4844, -0.0991, 0.155, 0.62, 1.005, 1.3604, 1.6349, 1.8161, 2.0743, 2.1527, 2.1416]
+    } 
+    data {
+      values: [-0.7093, -0.4873, -0.1012, 0.155, 0.62, 1.004, 1.361, 1.633, 1.8114, 2.069, 2.152, 2.143]
+    } 
+    data {
+      values: [-0.7093, -0.4873, -0.1012, 0.0155, 0.652, 1.0324, 1.3891, 1.6611, 1.8395, 2.0974, 2.1808, 2.1701]
+    } 
+    data {
+      values: [-0.704, -0.479, -0.0896, 0.175, 0.7619, 1.1353, 1.4996, 1.7619, 1.9286, 2.185, 2.288, 2.284]
+    } 
+    data {
+      values: [-0.679, -0.454, -0.0646, 0.2, 0.8228, 1.1962, 1.5605, 1.8228, 1.989, 2.2464, 2.34, 2.34]
+    } 
+  } 
+  mach_alpha_cd_table {
+    multiplier: 1.05
+    data {
+      values: [0.1981, 0.1482, 0.0358, 0.0157, 0.0332, 0.0806, 0.1816, 0.4582, 0.5752, 0.8598, 1.106, 1.3599]
+    } 
+    data {
+      values: [0.1873, 0.1474, 0.0575, 0.0147, 0.0324, 0.0654, 0.1462, 0.2885, 0.4611, 0.6887, 0.8857, 1.0888]
+    } 
+    data {
+      values: [0.1883, 0.1484, 0.0585, 0.0157, 0.0341, 0.0699, 0.1507, 0.293, 0.4656, 0.6932, 0.8902, 1.0934]
+    } 
+    data {
+      values: [0.1974, 0.1576, 0.0634, 0.0163, 0.0354, 0.0739, 0.1534, 0.2977, 0.4688, 0.6981, 0.8877, 1.0992]
+    } 
+    data {
+      values: [0.2021, 0.1623, 0.0681, 0.021, 0.0358, 0.0743, 0.1538, 0.2981, 0.4692, 0.6985, 0.8881, 1.099]
+    } 
+  } 
+  mach_alpha_cy_table {
+    multiplier: 1
+    data {
+      values: [-0.011, -0.0109, -0.0166, -0.0182, -0.0192, -0.0187, -0.0163, -0.0176, -0.0164, -0.0158, -0.0141, -0.009]
+    } 
+    data {
+      values: [-0.011, 0.37, -0.0166, -0.0182, -0.0192, -0.0187, -0.0163, -0.0176, -0.0164, -0.0158, -0.0141, -0.009]
+    } 
+    data {
+      values: [-0.011, -0.0109, 0.57, -0.0182, -0.0192, -0.0187, -0.0163, -0.0176, -0.0164, -0.0158, -0.0141, -0.009]
+    } 
+    data {
+      values: [-0.0115, -0.0112, -0.0172, 0.69, -0.0196, -0.0196, -0.0168, -0.0178, -0.0167, -0.0161, -0.0148, -0.013]
+    } 
+    data {
+      values: [-0.012, -0.0118, -0.018, -0.0195, -0.74, -0.02, -0.0174, -0.0182, -0.0171, -0.0168, -0.0155, -0.0142]
+    } 
+  } 
+  has_advanced_tef: false
+  has_lef_in_cl: false
+  has_osw_data: false
+} 
+engine {
+  has_fuel_flow: false
+  has_advanced_dynamics: false
+  has_advanced_thrust: false
+  thrust_factor: 1
+  alt_mach_thrust_idle_table {
+    x_axis {
+      breakpoints: [0, 5000, 10000, 20000, 30000, 36000, 45000, 50000]
+    } 
+    y_axis {
+      breakpoints: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+  } 
+  alt_mach_thrust_mil_table {
+    data {
+      values: [20250, 20000, 19000, 16000, 13869.8, 12834.8, 12006.7, 11468.5, 11054.5, 10516.2]
+    } 
+    data {
+      values: [16975, 15318.9, 14076.8, 13331.6, 12834.8, 11923.9, 11178.7, 10764.6, 10267.8, 9812.38]
+    } 
+    data {
+      values: [14076.8, 12669.2, 11592.7, 10971.7, 10474.8, 10350.6, 10350.6, 9936.59, 9522.56, 9108.54]
+    } 
+    data {
+      values: [9522.56, 8694.51, 7866.46, 7452.44, 7038.41, 6955.61, 7038.41, 7121.22, 7369.63, 7535.24]
+    } 
+    data {
+      values: [6210.37, 5465.12, 5051.1, 4885.49, 4637.07, 4554.27, 4554.27, 4637.07, 4885.49, 4968.29]
+    } 
+    data {
+      values: [4719.88, 4347.26, 3891.83, 3726.22, 3560.61, 3477.8, 3477.8, 3560.61, 3643.41, 3809.02]
+    } 
+    data {
+      values: [3146.59, 2732.56, 2484.15, 2401.34, 2359.94, 2318.54, 2318.54, 2401.34, 2484.15, 2525.55]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+  } 
+  alt_mach_thrust_ab_table {
+    data {
+      values: [20250, 20000, 19000, 16000, 13869.8, 12834.8, 12006.7, 11468.5, 11054.5, 10516.2]
+    } 
+    data {
+      values: [16975, 15318.9, 14076.8, 13331.6, 12834.8, 11923.9, 11178.7, 10764.6, 10267.8, 9812.38]
+    } 
+    data {
+      values: [14076.8, 12669.2, 11592.7, 10971.7, 10474.8, 10350.6, 10350.6, 9936.59, 9522.56, 9108.54]
+    } 
+    data {
+      values: [9522.56, 8694.51, 7866.46, 7452.44, 7038.41, 6955.61, 7038.41, 7121.22, 7369.63, 7535.24]
+    } 
+    data {
+      values: [6210.37, 5465.12, 5051.1, 4885.49, 4637.07, 4554.27, 4554.27, 4637.07, 4885.49, 4968.29]
+    } 
+    data {
+      values: [4719.88, 4347.26, 3891.83, 3726.22, 3560.61, 3477.8, 3477.8, 3560.61, 3643.41, 3809.02]
+    } 
+    data {
+      values: [3146.59, 2732.56, 2484.15, 2401.34, 2359.94, 2318.54, 2318.54, 2401.34, 2484.15, 2525.55]
+    } 
+    data {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+  } 
+  fuel_flow_factor: 1
+  alt_function66_table {
+    x_axis {
+      breakpoints: [0.25, 0.5]
+    } 
+    data {
+      values: [1, 0.15]
+    } 
+  } 
+} 
+fcs {
+  alpha_qbar_roll_data_table {
+    x_axis {
+      breakpoints: [-10, 0, 10, 20, 30]
+    } 
+    y_axis {
+      breakpoints: [0, 100, 200, 300, 400, 500, 600]
+    } 
+    multiplier: 1
+    data {
+      values: [0, 30, 30, 30, 30, 30, 30]
+    } 
+    data {
+      values: [0, 30, 60, 60, 60, 60, 60]
+    } 
+    data {
+      values: [0, 30, 30, 30, 30, 30, 30]
+    } 
+    data {
+      values: [0, 10, 20, 20, 20, 20, 20]
+    } 
+    data {
+      values: [0, 10, 10, 10, 10, 10, 10]
+    } 
+  } 
+} 
+limits {
+  limit {
+    type: LIMITER_LINE
+    key: LIM_NEG_G
+    data {
+      values: [250, -3, 100, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_THREE_POINT
+    key: LIM_POS_G
+    data {
+      values: [15, 9, 20.4, 7.3, 25, 1]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_ROLL_RATE
+    data {
+      values: [15, 1, 29, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_YAW_ALPHA
+    data {
+      values: [14, 1, 26, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_YAW_RATE
+    data {
+      values: [20, 1, 360, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_CAT3_CMD_TYPE
+    data {
+      values: [100, 7, 420, 15]
+    } 
+  } 
+  limit {
+    type: LIMITER_VALUE
+    key: LIM_CAT3_AOA
+    data {
+      values: [17]
+    } 
+  } 
+  limit {
+    type: LIMITER_PERCENT
+    key: LIM_CAT3_ROLL_RATE
+    data {
+      values: [0.6]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_CAT3_YAW_ALPHA
+    data {
+      values: [3, 1, 15, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_CAT3_YAW_RATE
+    data {
+      values: [20, 1, 180, 0]
+    } 
+  } 
+  limit {
+    type: LIMITER_THREE_POINT
+    key: LIM_PITCH_YAW_DAMP
+    data {
+      values: [0, 0.3, 15, 0.85, 50, 1]
+    } 
+  } 
+  limit {
+    type: LIMITER_THREE_POINT
+    key: LIM_ROLL_DAMP
+    data {
+      values: [0, 0.6, 15, 0.85, 50, 2]
+    } 
+  } 
+  limit {
+    type: LIMITER_VALUE
+    key: LIM_CMD_TYPE
+    data {
+      values: [15]
+    } 
+  } 
+  limit {
+    type: LIMITER_THREE_POINT
+    key: LIM_SPD_OMEGA
+    data {
+      values: [0.01, 0.1, 40, 0.8, 60, 1]
+    } 
+  } 
+  limit {
+    type: LIMITER_LINE
+    key: LIM_STORES_DRAG
+    data {
+      values: [0.9, 0.0001, 1, 0.000283]
+    } 
+  } 
+  limit {
+    type: LIMITER_VALUE
+    key: LIM_CAT3_MAX_G
+    data {
+      values: [1]
+    } 
+  } 
+  limit {
+    type: LIMITER_VALUE
+    key: LIM_AOA
+    data {
+      values: [20]
+    } 
+  } 
+} 
+auxaero {
+  aircraft {
+    type_ac: NONE
+    cockpit_name: ""
+    cockpit_wings_parent: -1
+    is_complex: false
+    ir_signature: 1.2
+    vis_signature: 6
+    mean_time_between_failures: 0
+  } 
+  engine {
+    type_engine: ENIGNE_NULL
+    engine_location {
+      x: -4
+      y: -38
+      z: 0
+    } 
+    engine_location {
+      x: 4
+      y: -23
+      z: 0
+    } 
+    engine_location {
+      x: 4
+      y: 23
+      z: 0
+    } 
+    engine_location {
+      x: -4
+      y: 38
+      z: 0
+    } 
+    has_atc: false
+    engine_smokes: 3
+    norm_spool_rate: 0.7
+    ab_spool_rate: 0.7
+    sec_rpm_var: 0
+    flcs_bit_rpm_var: 0
+    nozzle_mil: 0
+    nozzle_idle_lg_down: 0.94
+    nozzle_idle_lg_up: 0
+    nozzle_spool_rate_open: 1.2
+    nozzle_spool_rate_close: 0.25
+    lg_idle: 0
+    jfs_start_up_time: 15
+    jfs_spool_up_rate: 15
+    jfs_spool_up_limit: 0.25
+    lightup_spool_rate: 10
+    flameout_spool_rate: 80
+    jfs_recharge_time: 60
+    jfs_min_recharge_rpm: 0.12
+    jfs_spin_time: 240
+    ftit_engine_fire_air: 10
+    ftit_engine_fire_ground: 10
+    ftit_hot_start: 11.5
+    ftit_start: 6.1
+    ftit_idle: 5.1
+    ftit_max: 8.6
+    ftit_ab: 8.623
+    main_gen_rpm: 0.63
+    stby_gen_rpm: 0.6
+    epu_burn_time: 600
+    deep_stall_engine_stall: 0
+    damage_stop_threshold: 15
+    damage_no_restart_threshold: 3
+    damage_hit_threshold: 52
+    complex_nozzle: 0
+    anim_exh_noz_idle: 0
+    anim_exh_noz_min: 10
+    anim_exh_noz_max: 5
+    anim_exh_noz_ab: 0
+    anim_exh_noz_abmax: 15
+    anim_exh_noz_rate: 5
+    prop_engine_switch_states: 0
+    anim_engine_rpm_mult: 1000
+    heat_blur_shift: 4
+    has_reverse_thrust: true
+    reverse_thrust_factor: 0.5
+    min_reverse_thrust_speed: 60
+    anim_reverse_angle: 60
+    anim_reverse_rate: 30
+    engine_law_2tt: 5
+    engine_law_2p2: 0.4
+    engine_law_3p2: 0.6
+    engine_law_4tt: 2.5
+    n_engines: 4
+    engine_yaw_multiplier: 0.15
+    engine_roll_multiplier: 0.005
+    engine_alpha {
+      values: [0, 0, 0, 0]
+    } 
+  } 
+  jet_blast_data {
+    jet_wash_range_ft: 300
+    jet_wash_factor: 1
+    wake_angle_deg: 7
+    jet_heat_shader_max_speed_kts: 250
+  } 
+  intake_ramp_data {
+  } 
+  flight_dynamics {
+    area2_span: 0.0496
+    pitch_momentum: 1
+    roll_momentum: 1
+    yaw_momentum: 1
+    pitch_elasticity: 1
+    gear_pitch_factor: 0.1
+    pitch_gear_gain: 0.6
+    roll_gear_gain: 0.6
+    yaw_gear_gain: 0.6
+    critical_aoa: 0
+    afm_critical_aoa: 0
+  } 
+  controls {
+    elevon_max_angle: 20
+    aileron_max_angle: 20
+    rudder_max_angle: 20
+    roll_couple: -0.05
+    elevator_roll: 0
+    elev_rate: 60
+    anim_aileron_rate: 45
+    rudder_rate: 120
+    anim_spoiler1_max: 0
+    anim_spoiler1_rate: 45
+    anim_spoiler1_off_at_wing_sweep: 70
+    anim_spoiler1_air_brake: 0
+    anim_spoiler2_max: 0
+    anim_spoiler2_rate: 45
+    anim_spoiler2_off_at_wing_sweep: 70
+    anim_spoiler2_air_brake: 0
+    rudder_vcas_limiter: 350
+    roll_rate_factor: 2
+    limit_pstick: 1
+  } 
+  trim {
+    pitch_elevator_trim_rate: 0.08
+    pitch_aileron_trim_rate: 0.08
+    pitch_rudder_trim_rate: 0.25
+    trim_dead_zone_percentage: 0.05
+    max_trim_value: 0.5
+    to_pitch_trim_value: 0.49
+  } 
+  flaps {
+    has_flapperons: false
+    flap_gear_relative: 0
+    max_flap_vcas: 252
+    flap_vcas_range: 80
+    flap2_nozzle: 0
+  } 
+  lef {
+    has_lef: 0
+    lef_ground: -2
+    lef_max_angle: 20
+    lef_max_mach: 0.4
+    lef_nstages: 1
+    cd_lef_factor: 0.04
+    lef_rate: 5
+  } 
+  tef {
+    has_tef: 1
+    tef_max_angle: 50
+    cl_tef_factor: 1.2
+    cd_tef_factor: 1.2
+    afm_cl_tef_factor: 0.05
+    afm_cd_tef_factor: 0.05
+    afm_cm_tef_factor: 0.8
+    afm_roll_assym_factor: 1
+    tef_n_stages: 5
+    tef_take_off: 20
+    tef_rate: 5
+    no_tef_sound: false
+  } 
+  air_brakes {
+    cd_spdb_factor: 0.1
+    airbrake_max_angle_deg: 60
+    airbrake_out_rate_factor: 0.5
+    airbrake_in_rate_factor: 0.166667
+    airbrake_approach_angle_deg: -1
+    min_airbrake_speed_kts: -1
+  } 
+  drag_chute {
+    drag_chute_cd: 0
+    drag_chute_max_speed_kts: 170
+    drag_chute_drop_speed_kts: 90
+    drag_chute_min_runway_length_ft: 0
+    drag_chute_delay_sec: 2
+  } 
+  gear_nws {
+    cd_ldg_factor: 0.06
+    sink_rate: 15
+    brake_absorption_factor: 1
+    mlg_wow_percentage: 0.9
+    nlg_wow_percentage: 0.5
+    nws_rate_up: 1.5
+    nws_rate_down: 4
+    nws_dof_multiplier_for_ai: 1
+    nws_dof_multiplier_for_player: 1
+    anim_gear_angle_ofm_deg {
+      values: [0, 0, 0]
+    } 
+    anim_gear_angle_afm_deg {
+      values: [0, 0, 0]
+    } 
+    anim_wheel_radius_ft {
+      values: [0, 0, 0]
+    } 
+    anim_gear_max_comp_ft {
+      values: [0, 0, 0]
+    } 
+    anim_gear_max_ext_ft {
+      values: [0, 0, 0]
+    } 
+    anim_gear_inverted: false
+    gear_dof_rate {
+      values: [0.6, 0.6, 0.6]
+    } 
+    gear_delay_down_sec {
+      values: [1.5, 1.5, 1.5]
+    } 
+    gear_delay_up_sec {
+      values: [0, 0, 0]
+    } 
+    door_dof_rate {
+      values: [0.6, 0.6, 0.6]
+    } 
+    door_delay_down_sec {
+      values: [0, 0, 0]
+    } 
+    door_delay_up_sec {
+      values: [1.5, 1.5, 1.5]
+    } 
+    anim_gear_comp_stored_ft {
+    } 
+    anim_gear_comp_stored_treshold {
+    } 
+  } 
+  ground_handling {
+    max_fwd_angle: 1.5
+    max_aft_angle: 0.5
+    oscillation_amplitude: 0.1
+    oscillation_dampening: 0.01
+    oscillation_period: 1200
+    bump_amplitude: 0.1
+    ground_pitch_elasticity: 2
+    ground_pitch_elasticity_neutral: 3
+    ground_roll_max: 20
+    ground_roll_factor: 1
+    ground_roll_elasticity: 2
+  } 
+  hook {
+    hook_connection_location_ft {
+      x: 0
+      y: 0
+      z: 0
+    } 
+    hook_length_ft: 0
+    anim_hook_initial_angle_deg: -5
+    anim_hook_angle_deg: 0
+    anim_hook_rate: 0
+  } 
+  wing_fold {
+    anim_wing_fold_angle_deg: 0
+    anim_wing_fold_rate: 0
+  } 
+  wing_flex {
+    anim_max_wing_torque: 42000
+    anim_min_bump_flex: 0.01
+    anim_max_bump_flex: 0.18
+    anim_wing_flex_factor: 0
+    anim_max_wing_flex: 1
+    anim_fuel_treshold_wing_flex: 0
+    anim_fuel_wing_flex_factor: 0
+    anim_max_bomb_flex: 1
+  } 
+  canopy {
+    canopy_handle_method: 0
+    canopy_max_angle_deg: 20
+    canopy_open_rate: 5
+    canopy_close_rate: 5
+    canopy_max_speed_kts: 70
+  } 
+  fuel {
+    fuel_gauge_multiplier: 10
+    fuel_flow_factor_normal: 0.56
+    fuel_flow_factor_ab: 0.56
+    min_fuel_flow: 2400
+    abort_fuel_flow_factor: 0.8
+    max_drag_abort: 350
+    min_drag_abort_fuel_factor: 0.8
+    max_drag_abort_fuel_factor: 1.4
+    low_alt_abort_fuel_factor: 1.5
+    fuel_fwd_res: 0
+    fuel_aft_res: 0
+    fuel_fwd1: 0
+    fuel_fwd2: 0
+    fuel_aft1: 0
+    fuel_wing_al: 0
+    fuel_wing_fr: 0
+    fuel_fwd_res_rate: 0
+    fuel_aft_res_rate: 0
+    fuel_fwd1_rate: 0
+    fuel_fwd2_rate: 0
+    fuel_aft1_rate: 0
+    fuel_wing_al_rate: 0
+    fuel_wing_fr_rate: 0
+    fuel_cline_rate: 0
+    fuel_wing_ext_rate: 0
+    fuel_min_fwd: 400
+    fuel_min_aft: 250
+  } 
+  air_air_refuel {
+    aar_probe_spot_light: false
+    static_aar_probe: false
+    receiver_refuel_service: REFUEL_BOOM
+    refuel_location {
+      x: 54.1
+      y: 0
+      z: -9.6
+    } 
+    refuel_speed_kts: 200
+    refuel_altitude_ft: 17000
+    refuel_rate: 100
+    aiboom_distance_ft: 50
+    decel_distance_ft: 2500
+    desired_closure_factor: 0.35
+    long_leg_nm: 60
+    short_leg_nm: 45
+    il78_factor: 0
+    anim_refuel_angle: 0
+    anim_refuel_rate: 0
+    refuel_help_stifness: 600
+    refuel_help_elasticity: 100000
+    refuel_help_straight_factor: 0.5
+    refuel_help_turn_factor: 2
+    refuel_help_moderated_factor: 2
+    refuel_help_simplistic_factor: 2.5
+    refuel_help_simplistic_distance_ft: 30
+  } 
+  avionics {
+    avionics_can_use_spice: false
+    avionics_jdam_avionics_type: 0
+    avionics_diff_icp_style: false
+    avionics_ag_bullseye_symbol: true
+    avionics_mlu_pfl: false
+    avionics_datalink: 1
+    avionics_dl_cursor_as_waypoint: 0
+    avionics_dte_idm_label: false
+    avionics_ehsi: 0
+    avionics_hud_ladder_tape_type: 0
+    avionics_hud_vah_tape_type: 0
+    avionics_hud_dgft_default_mode: 0
+    avionics_dgft_master_mode_label_on_hud: false
+    avionics_dgft_attitude_awareness: true
+    avionics_dgft_segmented_td_arc: true
+    avionics_mlum2ta_on_hud: true
+    avionics_hud_aa_target_aspect_angle: true
+    avionics_hud_older_master_mode_window: false
+    avionics_new_amraam_dlz: true
+    avionics_bullseye_on_hud: true
+    avionics_ded_hud_repeater_blanks_on_dgft: true
+    avionics_hud_nav_declutter_enabled: true
+    avionics_hud_nav_spd_alt_tapes_lag: false
+    avionics_zenith_nadir_on_hud: true
+    avionics_ghost_horizon_awareness: true
+    avionics_hmcs_rwr: true
+    avionics_epaf_radar_cues: true
+    avionics_radar_jam_chevrons: true
+    avionics_radar_vs_mode: true
+    avionics_radar_lrs_mode: true
+    avionics_radar_uls_mode: true
+    avionics_color_mfd: false
+    avionics_gray_scale_gm: true
+    avionics_activate_mfd_boot: 0
+    avionics_mmc_upgrade: true
+    avionics_new_mmc: true
+    avionics_egi_upgrade: true
+    avionics_digital_flcs: true
+    avionics_rwr_type: 0
+    avionics_gun_eegs_mode: false
+    avionics_gun_sslc_mode: false
+    avionics_gun_lcos_mode: false
+    avionics_gun_snap_mode: false
+    avionics_engine_type: 0
+    avionics_mfd_cata_symbol_aim120: false
+    avionics_hud_old_bai_type: false
+    avionics_cursor_enable_as_toggle: false
+    avionics_maverick_handoff_capeable: false
+    avionics_asiu: false
+    avionics_long_uncage_toggles_strf: false
+    avionics_ttd_blanking: 0
+    avionics_backup_tacan_on_mfd: 0
+    avionics_display_colors {
+      values: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    } 
+    avionics_has_link16: false
+    avionics_is_link16_c2: false
+    avionics_is_ufc_power_gps: false
+    avionics_is_link16_mmc: false
+    computer_think_time: 125
+  } 
+  iff {
+    avionics_iff_transponder_settings: 63
+    avionics_iff_interrogator_settings: 0
+    avionics_iff_backup_m1_m3: 1
+  } 
+  autopilot {
+    max_autopilot_mach: 0.95
+    pitch_pid_k: 0.35
+    pitch_pid_ki: 0
+    pitch_pid_kd: 0.1
+    pitch_limit_mx: false
+    pitch_corner: 420
+    pitch_gain: 0.01
+    roll_pid_k: 0.05
+    roll_pid_ki: 0.02
+    roll_pid_kd: 0.02
+    roll_limit_mx: false
+  } 
+  locations {
+    pilot_eye_pos {
+      x: 61.3
+      y: -2.7
+      z: -6.6
+    } 
+    wing_tip_location {
+      x: -34.5
+      y: 80.4
+      z: -3.33
+    } 
+    wing_tip_location2 {
+      x: 0
+      y: 0
+      z: 0
+    } 
+    wing_tip_location2_trail_life_cx: 1
+    bounding_box {
+      min {
+        x: 0
+        y: 0
+        z: 0
+      } 
+      max {
+        x: 0
+        y: 0
+        z: 0
+      } 
+    } 
+  } 
+  counter_measures {
+    has_ews: false
+    ecm_strength: 0
+    n_chaff: 0
+    n_flare: 0
+    flare_sequence: 0
+    flare_dispencer {
+      position {
+        x: 0
+        y: 0
+        z: 0
+      } 
+      vector {
+        x: 0
+        y: 0
+        z: 200
+      } 
+      decoys: 30
+    } 
+    chaff_sequence: 0
+    chaff_dispencer {
+      position {
+        x: 0
+        y: 0
+        z: 0
+      } 
+      vector {
+        x: 0
+        y: 0
+        z: 200
+      } 
+      decoys: 30
+    } 
+  } 
+  hardpoints {
+    num_pod_hardpoints: 0
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    hardpoint_grp: "0"
+    is_external_hardpoint {
+      values: [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    } 
+  } 
+  sounds {
+    snd_external_vol: -1600
+    snd_spd_brake_seq {
+      start: 141
+      loop: 140
+      end: 139
+    } 
+    snd_spd_brake_wind: 142
+    snd_over_speed1: 191
+    snd_over_speed2: 192
+    snd_gun_seq {
+      start: 25
+      loop: 26
+      end: 27
+    } 
+    snd_bb_pullup: 68
+    snd_bb_bingo: 66
+    snd_bb_warning: 63
+    snd_bb_aoa: 412
+    snd_bb_maxg: 413
+    snd_bb_maxg2: 428
+    snd_bb_maxg3: 429
+    snd_bb_yaw: 431
+    snd_bb_caution: 64
+    snd_bb_beeps: 301
+    snd_bb_chaff_flare_low: 184
+    snd_bb_flare: 138
+    snd_bb_chaff_flare: 183
+    snd_bb_chaff_flare_out: 185
+    snd_bb_altitude: 65
+    snd_bb_lock: 67
+    snd_touch_down: 42
+    snd_wheel_brakes: 0
+    snd_drag_chute: 218
+    snd_low_speed: 167
+    snd_flap_seq {
+      start: 145
+      loop: 144
+      end: 143
+    } 
+    snd_hook_seq {
+      start: 195
+      loop: 194
+      end: 193
+    } 
+    snd_gear_open_seq {
+      start: 149
+      loop: 148
+      end: 150
+    } 
+    snd_gear_open_seq {
+      start: 332
+      loop: 148
+      end: 333
+    } 
+    snd_gear_open_seq {
+      start: 395
+      loop: 148
+      end: 396
+    } 
+    snd_gear_close_seq {
+      start: 147
+      loop: 170
+      end: 146
+    } 
+    snd_gear_close_seq {
+      start: 331
+      loop: 170
+      end: 330
+    } 
+    snd_gear_close_seq {
+      start: 394
+      loop: 170
+      end: 393
+    } 
+    snd_canopy_open_middle_seq {
+      start: 422
+      loop: 424
+      end: 423
+    } 
+    snd_canopy_open_seq {
+      start: 271
+      loop: 275
+      end: 272
+    } 
+    snd_canopy_close_seq {
+      start: 273
+      loop: 361
+      end: 274
+    } 
+    snd_canopy_lock: 418
+    snd_canopy_unlock: 419
+    snd_seat_up: 420
+    snd_seat_down: 421
+    snd_eject: 5
+    snd_wind: 33
+    snd_battery: 304
+    snd_radio_buzz: 305
+    snd_ecs_seq {
+      start: 104
+      loop: 411
+      end: 136
+    } 
+    snd_jfs_seq {
+      start: 288
+      loop: 289
+      end: 290
+    } 
+    snd_jfs_int_seq {
+      start: 306
+      loop: 307
+      end: 308
+    } 
+  } 
+  sounds_engine {
+    snd_ab_ext: 231
+    snd_ab_ext_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.7
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 0.9
+      } 
+      map {
+        key: 1.001
+        value: 0.95
+      } 
+      map {
+        key: 1.03
+        value: 1
+      } 
+    } 
+    snd_ab_ext_pitch_chart {
+      map {
+        key: 0
+        value: 1
+      } 
+    } 
+    snd_ext: 366
+    snd_ext_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.45
+        value: 0.8
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_ext_pitch_chart {
+      map {
+        key: 0
+        value: 0.3
+      } 
+      map {
+        key: 0.7
+        value: 1
+      } 
+      map {
+        key: 0.75
+        value: 1.3
+      } 
+      map {
+        key: 0.8
+        value: 1.5
+      } 
+      map {
+        key: 0.85
+        value: 1.7
+      } 
+      map {
+        key: 1
+        value: 1.7
+      } 
+    } 
+    snd_ext2: 365
+    snd_ext2_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.45
+        value: 0.8
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_ext2_pitch_chart {
+      map {
+        key: 0
+        value: 0.3
+      } 
+      map {
+        key: 0.7
+        value: 1
+      } 
+      map {
+        key: 0.75
+        value: 1.3
+      } 
+      map {
+        key: 0.83
+        value: 1.6
+      } 
+      map {
+        key: 0.85
+        value: 1.8
+      } 
+      map {
+        key: 0.9
+        value: 1.8
+      } 
+    } 
+    snd_ext3: 370
+    snd_ext3_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.45
+        value: 0.8
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_ext3_pitch_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1.47
+      } 
+    } 
+    snd_ext4: 0
+    snd_ext4_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.7
+        value: 1
+      } 
+    } 
+    snd_ext4_pitch_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1.47
+      } 
+    } 
+    snd_int: -1
+    snd_int_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.1
+        value: 0.75
+      } 
+      map {
+        key: 0.7
+        value: 1
+      } 
+    } 
+    snd_int_pitch_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1.47
+      } 
+    } 
+    snd_int2: -1
+    snd_int2_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_int2_pitch_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1.47
+      } 
+    } 
+    snd_int3: -1
+    snd_int3_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_int3_pitch_chart {
+      map {
+        key: 0
+        value: 1
+      } 
+    } 
+    snd_int4: 0
+    snd_int4_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 1
+        value: 1
+      } 
+    } 
+    snd_int4_pitch_chart {
+      map {
+        key: 0
+        value: 1
+      } 
+    } 
+    snd_ab_int: 40
+    snd_ab_int_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+      map {
+        key: 0.7
+        value: 0.85
+      } 
+      map {
+        key: 1
+        value: 0.9
+      } 
+      map {
+        key: 1.001
+        value: 0.9
+      } 
+      map {
+        key: 1.03
+        value: 1
+      } 
+    } 
+    snd_ab_int_pitch_chart {
+      map {
+        key: 0
+        value: 1
+      } 
+    } 
+    snd_ab_int2: -1
+    snd_ab_int2_chart {
+      map {
+        key: 0
+        value: 0
+      } 
+    } 
+    snd_ab_int2_pitch_chart {
+      map {
+        key: 0
+        value: 1
+      } 
+    } 
+  } 
+  sounds_aero {
+    sounds_aero_data {
+      snd_aero: 298
+      snd_aero_aoa_chart {
+        map {
+          key: 0
+          value: 1
+        } 
+      } 
+      snd_aero_speed_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 0.1
+          value: 0.65
+        } 
+        map {
+          key: 0.8
+          value: 0.9
+        } 
+        map {
+          key: 1
+          value: 0.95
+        } 
+        map {
+          key: 2.3
+          value: 1
+        } 
+      } 
+      snd_aero_speed_pitch_chart {
+        map {
+          key: 0
+          value: 0.85
+        } 
+        map {
+          key: 3
+          value: 1.05
+        } 
+      } 
+      snd_aero_g_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+      } 
+    } 
+    sounds_aero_data {
+      snd_aero: 299
+      snd_aero_aoa_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 6
+          value: 0.5
+        } 
+        map {
+          key: 15
+          value: 1
+        } 
+      } 
+      snd_aero_speed_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 0.1
+          value: 0.8
+        } 
+        map {
+          key: 0.5
+          value: 1
+        } 
+      } 
+      snd_aero_speed_pitch_chart {
+        map {
+          key: 0
+          value: 1
+        } 
+      } 
+      snd_aero_g_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+      } 
+    } 
+    sounds_aero_data {
+      snd_aero: 300
+      snd_aero_aoa_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 5
+          value: 0.8
+        } 
+        map {
+          key: 8
+          value: 1
+        } 
+      } 
+      snd_aero_speed_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 0.7
+          value: 1
+        } 
+      } 
+      snd_aero_speed_pitch_chart {
+        map {
+          key: 0
+          value: 1
+        } 
+      } 
+      snd_aero_g_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+      } 
+    } 
+    sounds_aero_data {
+      snd_aero: 4
+      snd_aero_aoa_chart {
+        map {
+          key: 0
+          value: 0.9
+        } 
+        map {
+          key: 10
+          value: 1
+        } 
+      } 
+      snd_aero_speed_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+        map {
+          key: 0.1
+          value: 0.6
+        } 
+        map {
+          key: 1
+          value: 1
+        } 
+      } 
+      snd_aero_speed_pitch_chart {
+        map {
+          key: 0
+          value: 1
+        } 
+      } 
+      snd_aero_g_chart {
+        map {
+          key: 0
+          value: 0
+        } 
+      } 
+    } 
+  } 
+  ai_behavior {
+    roll_limit_for_ai_in_wp: 35
+    follow_rate: 20
+    bingo_return_distance: 50
+    joker_factor: 30.8
+    bingo_factor: 30.8
+    fumes_factor: 182.7
+    large_park: 1
+    min_takeoff_runway_length_clean: 7500
+    min_takeoff_runway_length_mtow: 7500
+    opt_takeoff_pitch: 14
+    gear_retract_alt: 70
+    max_climb_pitch: 15
+    opt_climb_speed_kts: 300
+    opt_climb_mach: 0.74
+    min_climb_rate: 1500
+    descent_path: 4
+    landing_aoa: 4
+    aerobraking_aoa: 0
+    ai_landing_offset: 0
+    min_decel_gs_after_touchdown: 0.1
+    max_decel_gs_after_touchdown: 0.5
+    min_tgt_mar: 0
+    max_mar_id_start: 0
+    add_mar_id_5k: 0
+    add_mar_id_18k: 0
+    add_mar_id_28k: 0
+    add_mar_id_spike: 0
+    max_wez_ta_start: 0
+    is_short_burn_threat: false
+    is_long_burn_threat: false
+  } 
+  missions {
+    mis_type_capability {
+      values: [100, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 100, 0, 0, 0, 0, 0, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    alt_reduction_by_loadout_drag: 0
+    alt_reduction_by_loadout_weight: 0
+  } 
+  tfr {
+    tfr_type: POD_NONE
+    pid_k: 0.6
+    pid_ki: 0
+    pid_kd: 0.3
+    tfr_limit_mx: false
+    tfr_corner: 420
+    tfr_gain: 0.01
+    eva_gain: 15
+    tfr_max_roll: 60
+    tfr_soft_g: 2
+    tfr_med_g: 2
+    tfr_hard_g: 2
+    tfr_clearance: 20
+    slow_percent: 0
+    tfr_look_ahead: 7000
+    eva1_soft_factor: 0.6
+    eva2_soft_factor: 0.5
+    eva1_med_factor: 0.6
+    eva2_med_factor: 0.5
+    eva1_hard_factor: 0.6
+    eva2_hard_factor: 0.5
+    tfr_gamma_corr_mult: 1.5
+  } 
+  tgp {
+    tgp_type: POD_NONE
+    tgp_camera_off {
+      x: 0
+      y: 0
+      z: 0
+    } 
+    tgp_has_north_meter: true
+    tgp_version: 1
+    tgp_mask_table {
+      x_axis {
+        breakpoints: [-180, -170, -160, -82, -81, -60, -40, 0, 40, 120, 150, 160, 170, 180]
+      } 
+      data {
+        values: [-35, -30, -10, -10, 0, 28, 20, 10, 70, 70, -10, -30, -35, -35]
+      } 
+    } 
+    tgp_mask_warn_table {
+      x_axis {
+        breakpoints: [-180, -170, -160, -82, -81, -60, -40, 0, 40, 120, 150, 160, 170, 180]
+      } 
+      data {
+        values: [-40, -35, -15, -15, -5, 23, 15, 5, 65, 65, -15, -35, -40, -40]
+      } 
+    } 
+    tgp_point_threshold: 0.01
+    tgp_wide_fov: 3.6
+    tgp_nar_fov: 1
+    tgp_exp_fov: 0.334
+    tgp_tv_fov: 0.5
+    tgp_has_tv_video: true
+  } 
+  gun {
+    gun_location {
+      x: 2
+      y: -2
+      z: 0
+    } 
+    gun_trail_id: 11
+    gun_effect: 5900
+    gun_elevation: 0
+    gun_azimuth: 0
+    can_do_gun_strafe: false
+  } 
+  weapons {
+    a2g_harm {
+      nom_alt_ft: 20000
+      min_alt_ft: 1000
+      max_alt_ft: 38000
+    } 
+    a2g_agm {
+      nom_alt_ft: 8000
+      min_alt_ft: 5000
+      max_alt_ft: 18000
+    } 
+    a2g_gbu {
+      nom_alt_ft: 20000
+      min_alt_ft: 15000
+      max_alt_ft: 25000
+    } 
+    a2g_dumb {
+      nom_alt_ft: 1500
+      min_alt_ft: 1200
+      max_alt_ft: 2500
+    } 
+    a2g_cluster {
+      nom_alt_ft: 14000
+      min_alt_ft: 9000
+      max_alt_ft: 19000
+    } 
+    a2g_dumb_ld {
+      nom_alt_ft: 16000
+      min_alt_ft: 11000
+      max_alt_ft: 13000
+    } 
+    a2g_gun_rocket {
+      nom_alt_ft: 3500
+      min_alt_ft: 1500
+      max_alt_ft: 5500
+    } 
+    a2g_camera {
+      nom_alt_ft: 12000
+      min_alt_ft: 10000
+      max_alt_ft: 14000
+    } 
+    a2g_bomb_missile {
+      nom_alt_ft: 20000
+      min_alt_ft: 15000
+      max_alt_ft: 25000
+    } 
+    a2g_iam_bomb {
+      nom_alt_ft: 20000
+      min_alt_ft: 15000
+      max_alt_ft: 25000
+    } 
+    max_ripple_count: 0
+    max_loadout_drag {
+      values: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    } 
+    max_loadout_weight {
+      values: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+    } 
+    min_num_fuel_tanks {
+      values: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    } 
+    ext_tanks_load_order: 1
+    load_radar_guided_first: 0
+    max_num_arms: 0
+  } 
+  rockets {
+    rkt_alt_is_agl: false
+    rkt_high_alt_ft: 3000
+    rkt_prefered_alt_ft: 2000
+    rkt_low_alt_ft: 1000
+    rkt_emergency_alt_ft: 700
+    rkt_fire_range_ft: 10000
+    rkt_popup_range_ft: -1
+    rkt_popup_alt_ft: 0
+  } 
+  bomb_bays {
+    assign_bays: false
+    assign_cur_weap_to_bay {
+      values: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+    } 
+    max_bay_angle_deg {
+      values: [90, 90, 90, 90, 90]
+    } 
+    rcs_bays: 0
+    rcs_external_stores_factor: 0
+  } 
+  camera_views {
+    top_gun_camera {
+      x: -31
+      y: -84
+      z: -8
+      yaw: 0
+      pitch: 28
+      roll: 0
+      fov: 60
+    } 
+    top_gun_camera {
+      x: 87
+      y: -84
+      z: -8.6
+      yaw: 0
+      pitch: 120
+      roll: 0
+      fov: 60
+    } 
+    top_gun_camera {
+      x: 71
+      y: 0
+      z: 6
+      yaw: -2
+      pitch: -180
+      roll: 0
+      fov: 60
+    } 
+    top_gun_camera {
+      x: 251
+      y: -31
+      z: 4
+      yaw: -13
+      pitch: 180
+      roll: 0
+      fov: 47
+    } 
+  } 
+  lights {
+    anim_strobe_on_time: 0.02
+    anim_strobe_off_time: 1
+    anim_wing_flash_on_time: 0.03
+    anim_wing_flash_off_time: 1.5
+    num_formation_light_levels: 0
+    num_aar_light_levels: 0
+    ext_light_ctrl_panel: 0
+    features_mobile_lights {
+      type: LIGHT_TAIL_STROBE
+      identifier: 0
+      position {
+        x: -15
+        y: 65
+        z: -34
+      } 
+      color {
+        x: 0.7
+        y: 0.7
+        z: 0.6
+      } 
+      direction {
+        x: 0
+        y: 20
+        z: 40
+      } 
+      attenuation: 0.015
+      inner_cone_deg: 170
+      outer_cone_deg: 180
+    } 
+    features_mobile_lights {
+      type: LIGHT_TAIL_STROBE
+      identifier: 1
+      position {
+        x: -15
+        y: -65
+        z: -34
+      } 
+      color {
+        x: 0.7
+        y: 0.7
+        z: 0.6
+      } 
+      direction {
+        x: 0
+        y: -20
+        z: 40
+      } 
+      attenuation: 0.015
+      inner_cone_deg: 170
+      outer_cone_deg: 180
+    } 
+    features_mobile_lights {
+      type: LIGHT_TAIL_STROBE
+      identifier: 2
+      position {
+        x: 40.4
+        y: 0
+        z: -34
+      } 
+      color {
+        x: 0.7
+        y: 0.7
+        z: 0.6
+      } 
+      direction {
+        x: -20
+        y: 0
+        z: 40
+      } 
+      attenuation: 0.02
+      inner_cone_deg: 170
+      outer_cone_deg: 180
+    } 
+    features_mobile_lights {
+      type: LIGHT_TAIL_STROBE
+      identifier: 3
+      position {
+        x: -55
+        y: 0
+        z: -38
+      } 
+      color {
+        x: 0.7
+        y: 0.7
+        z: 0.6
+      } 
+      direction {
+        x: 20
+        y: 0
+        z: 40
+      } 
+      attenuation: 0.02
+      inner_cone_deg: 170
+      outer_cone_deg: 180
+    } 
+    spot_landing_lights {
+      identifier: 0
+      position {
+        x: 61.67
+        y: 0
+        z: 7.79
+      } 
+      color {
+        x: 0.25
+        y: 0.25
+        z: 0.24
+      } 
+      direction {
+        x: 68.47
+        y: 0
+        z: 8.29
+      } 
+      attenuation: 0.0001
+      inner_cone_deg: 30
+      outer_cone_deg: 45
+    } 
+    has_old_landing_light: false
+  } 
+  ps_heat_name: "$PS_AIRCRAFT_HEAT_EFFECT"
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+  ps_heat_name: ""
+} 

@@ -1,0 +1,66 @@
+# Title: OH-58D Kiowa
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.10 Date: 3/6/2022 1:44:51 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Airframe Index
+0
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+0 33
+3 0
+#
+# Num gear DOFs
+0
+# DOF index | rate (deg/sec) | retracted angle (deg) | extracted angle (deg) | retract delay (sec) | extract delay (sec)
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+#-----------------------------------------------------
+# Hardpoint data
+#-----------------------------------------------------
+hardpoint1Grp 0
+hardpoint2Grp 0
+hardpoint3Grp 0
+hardpoint4Grp 0
+hardpoint5Grp 0
+hardpoint6Grp 0
+hardpoint7Grp 0
+hardpoint8Grp 0
+hardpoint9Grp 0
+hardpoint10Grp 0
+hardpoint11Grp 0
+hardpoint12Grp 0
+hardpoint13Grp 0
+hardpoint14Grp 0
+hardpoint15Grp 0
+hardpoint16Grp 0
+#-----------------------------------------------------
+# Counter measure
+#-----------------------------------------------------
+chaffData 0 
+flareData 0
+#-----------------------------------------------------
+# Rotor
+#-----------------------------------------------------
+mainRotorHeight 4.39
+#-----------------------------------------------------
+# Missions
+#-----------------------------------------------------
+misTypeCapability 50 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 0 0 0 0 0 0 0 0
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

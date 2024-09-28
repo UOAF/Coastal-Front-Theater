@@ -1,0 +1,38 @@
+# Title: Wasp Class LHD
+# Author: Radium
+# Revision: Vehicle Data Manager ver:0.1.0.10 Date: 3/6/2022 1:44:51 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 53
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 7  332.26 60.56 -70.73 220.64 60.56 -70.73 137.60 60.56 -70726.00 -244.62 60.56 -70.73 -389.94 45.84 -70.80 -171.07 -60.80 -70.76 -333.87 95.57 -70.76
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 2  -83.00 42.00 -125.00 -83.00 42.00 -125.00
+ExhaustSmokeMinAlpha 0.05
+ExhaustSmokeMaxAlpha 0.2
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 1
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+DecalSwitchIdx 2
+#
+#
+# End of Additional
+#

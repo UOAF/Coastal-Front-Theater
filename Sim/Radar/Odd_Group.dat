@@ -1,0 +1,67 @@
+Indx 91 - Odd Group (PRV-17) - EWR (SA-5)
+Prf 0
+
+CustomSymbolType 4
+
+TimeToLock 25000
+MaxTwstargets 1
+Timeskillfactor 200
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 25000
+Timetoguide 8000
+
+Timetocoast 10000
+
+Rangetosearch1 1017100
+Rangetosearch2 311679
+Rangetosearch3 147638
+Rangetoacuire 508550
+Rangetoguide 451619
+
+Sweeptimesearch1 8571
+Sweeptimesearch2 8571
+Sweeptimesearch3 8571
+Sweeptimeacuire 8571
+Sweeptimeguide 8571
+
+Sweeptimecoast 1000
+
+Rwrsoundsearch1 152
+Rwrsoundsearch2 152
+Rwrsoundsearch3 152
+Rwrsoundacuire 152
+Rwrsoundguide 152
+
+Rwrsymbolsearch1 98
+Rwrsymbolsearch2 98
+Rwrsymbolsearch3 98
+Rwrsymbolacuire 98
+Rwrsymbolguide 98
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire E
+Bandguide E
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 2666
+PRIsearch2 2666
+PRIsearch3 2666
+PRIacuire 2666
+PRIguide 2666
+
+TrackWarning 0
+LaunchWarning 0
+RwrsymbolALR93Override -105
+
+
+
