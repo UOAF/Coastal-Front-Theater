@@ -1082,7 +1082,7 @@
     </ACD>
     <ACD Num="72">
         <CombatClass>4</CombatClass>
-        <AirframeDatIdx>100</AirframeDatIdx>
+        <AirframeDatIdx>101</AirframeDatIdx>
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>1</SensorType_1>
@@ -1780,8 +1780,8 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>15</SensorIdx_1>
-        <SensorIdx_2>50</SensorIdx_2>
+        <SensorIdx_1>87</SensorIdx_1>
+        <SensorIdx_2>17</SensorIdx_2>
         <SensorIdx_3>0</SensorIdx_3>
         <SensorIdx_4>0</SensorIdx_4>
     </ACD>
@@ -1900,8 +1900,8 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>15</SensorIdx_1>
-        <SensorIdx_2>50</SensorIdx_2>
+        <SensorIdx_1>87</SensorIdx_1>
+        <SensorIdx_2>17</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
     </ACD>
@@ -2080,8 +2080,8 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>15</SensorIdx_1>
-        <SensorIdx_2>50</SensorIdx_2>
+        <SensorIdx_1>87</SensorIdx_1>
+        <SensorIdx_2>17</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
     </ACD>
@@ -2477,7 +2477,7 @@
     </ACD>
     <ACD Num="165">
         <CombatClass>4</CombatClass>
-        <AirframeDatIdx>133</AirframeDatIdx>
+        <AirframeDatIdx>189</AirframeDatIdx>
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>1</SensorType_1>
@@ -2912,7 +2912,7 @@
     </ACD>
     <ACD Num="194">
         <CombatClass>4</CombatClass>
-        <AirframeDatIdx>188</AirframeDatIdx>
+        <AirframeDatIdx>189</AirframeDatIdx>
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>1</SensorType_1>

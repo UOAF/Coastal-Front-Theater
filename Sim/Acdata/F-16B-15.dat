@@ -1516,8 +1516,8 @@ avionicsLink16MMC 0
 avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0
 avionicsDiffICPStyle 0
-avionicsUFCPowerGPS 0
 avionicsMLUPFL 0
+avionicsUFCPowerGPS 0
 avionicsDatalink 1
 avionicsDLCursorAsWaypoint 0
 avionicsDteIdmLabel 0
@@ -1551,10 +1551,10 @@ avionicsNewMMC 0
 avionicsEGIUpgrade 0
 avionicsDigitalFLCS 0
 avionicsRWRType 2
-avionicsGunEEGSMode 1
-avionicsGunSSLCMode 1
+avionicsGunEEGSMode 0
+avionicsGunSSLCMode 0
 avionicsGunLCOSMode 1
-avionicsGunSNAPMode 1
+avionicsGunSNAPMode 0
 avionicsEngineType 1
 avionicsMfdCataSymbolAim120 1
 avionicsHudOldBAIType 1

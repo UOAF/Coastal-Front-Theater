@@ -1820,10 +1820,10 @@ auxaero {
     avionics_egi_upgrade: false
     avionics_digital_flcs: false
     avionics_rwr_type: 2
-    avionics_gun_eegs_mode: true
-    avionics_gun_sslc_mode: true
+    avionics_gun_eegs_mode: false
+    avionics_gun_sslc_mode: false
     avionics_gun_lcos_mode: true
-    avionics_gun_snap_mode: true
+    avionics_gun_snap_mode: false
     avionics_engine_type: 1
     avionics_mfd_cata_symbol_aim120: true
     avionics_hud_old_bai_type: true
