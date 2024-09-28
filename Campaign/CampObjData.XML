@@ -913,7 +913,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="115">
-        <CampName>Bremen Airbase</CampName>
+        <CampName>Bremen Airport</CampName>
         <OcdIndex>363</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>349317.868</PositionX>
@@ -35494,6 +35494,94 @@
         <Heading>0.000</Heading>
         <PositionX>280077.489</PositionX>
         <PositionY>1935778.561</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4438">
+        <CampName>Bollingstedt Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>943781.408</PositionX>
+        <PositionY>1106993.243</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4439">
+        <CampName>Berkendorf Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>880674.625</PositionX>
+        <PositionY>1136513.063</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4440">
+        <CampName>Midlum Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>615553.837</PositionX>
+        <PositionY>942994.244</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4441">
+        <CampName>Hohenheide Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>457983.621</PositionX>
+        <PositionY>897074.525</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4442">
+        <CampName>Sittensen Highway Strip</CampName>
+        <OcdIndex>369</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>457557.207</PositionX>
+        <PositionY>1120113.163</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4443">
+        <CampName>Wildeshausen Highway Strip</CampName>
+        <OcdIndex>369</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>319798.048</PositionX>
+        <PositionY>883954.605</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4444">
+        <CampName>Alhorn Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>333770.770</PositionX>
+        <PositionY>838034.885</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4445">
+        <CampName>Bakum Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>254592.055</PositionX>
+        <PositionY>831474.925</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4446">
+        <CampName>Holdorf Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>198865.190</PositionX>
+        <PositionY>815075.025</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4447">
+        <CampName>Ladbergen Highway Strip</CampName>
+        <OcdIndex>369</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>63959.610</PositionX>
+        <PositionY>756035.385</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4448">
+        <CampName>Greven Highway Strip</CampName>
+        <OcdIndex>2</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>34931.786</PositionX>
+        <PositionY>726515.566</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
