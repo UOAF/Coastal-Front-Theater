@@ -20561,33 +20561,14 @@
     </UCD>
     <UCD Num="247">
         <CtIdx>579</CtIdx>
-        <ElementCount_0>3</ElementCount_0>
+        <ElementCount_0>1</ElementCount_0>
         <ElementCount_1>3</ElementCount_1>
-        <ElementCount_2>3</ElementCount_2>
-        <ElementCount_3>3</ElementCount_3>
-        <ElementCount_4>3</ElementCount_4>
-        <ElementCount_5>3</ElementCount_5>
-        <ElementCount_6>3</ElementCount_6>
-        <ElementCount_7>3</ElementCount_7>
-        <ElementCount_8>3</ElementCount_8>
-        <ElementCount_9>3</ElementCount_9>
-        <ElementCount_10>1</ElementCount_10>
-        <VehicleCtIdx_0>18</VehicleCtIdx_0>
-        <VehicleCtIdx_1>14</VehicleCtIdx_1>
-        <VehicleCtIdx_2>536</VehicleCtIdx_2>
-        <VehicleCtIdx_3>533</VehicleCtIdx_3>
-        <VehicleCtIdx_4>18</VehicleCtIdx_4>
-        <VehicleCtIdx_5>37</VehicleCtIdx_5>
-        <VehicleCtIdx_6>37</VehicleCtIdx_6>
-        <VehicleCtIdx_7>37</VehicleCtIdx_7>
-        <VehicleCtIdx_8>689</VehicleCtIdx_8>
-        <VehicleCtIdx_9>689</VehicleCtIdx_9>
-        <VehicleCtIdx_10>29</VehicleCtIdx_10>
-        <ElementFlags_0>1</ElementFlags_0>
-        <ElementFlags_1>1</ElementFlags_1>
-        <ElementFlags_4>1</ElementFlags_4>
+        <ElementCount_2>1</ElementCount_2>
+        <VehicleCtIdx_0>688</VehicleCtIdx_0>
+        <VehicleCtIdx_1>707</VehicleCtIdx_1>
+        <VehicleCtIdx_2>702</VehicleCtIdx_2>
         <Flags>13</Flags>
-        <Name>HQ</Name>
+        <Name>VIP</Name>
         <MoveType>2</MoveType>
         <MoveSpeed>35</MoveSpeed>
         <MaxRange>0</MaxRange>

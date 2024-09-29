@@ -20758,8 +20758,8 @@
         <NumberOfCrew>1</NumberOfCrew>
         <RackFlags>4094</RackFlags>
         <VisibleFlags>4094</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>77</CallsignIdx>
+        <CallsignSlots>10</CallsignSlots>
         <Hit_NoMove>40</Hit_NoMove>
         <Hit_Foot>20</Hit_Foot>
         <Hit_Wheeled>30</Hit_Wheeled>
@@ -21181,7 +21181,7 @@
     <VCD Num="288">
         <CtIdx>774</CtIdx>
         <HitPoints>60</HitPoints>
-        <Flags>1074333696</Flags>
+        <Flags>1074268160</Flags>
         <Name>F-16A-15 RDAF</Name>
         <NCTR>F16</NCTR>
         <RadarCs>1.000000</RadarCs>
@@ -21198,8 +21198,8 @@
         <NumberOfCrew>1</NumberOfCrew>
         <RackFlags>4094</RackFlags>
         <VisibleFlags>4094</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>105</CallsignIdx>
+        <CallsignSlots>7</CallsignSlots>
         <Hit_NoMove>40</Hit_NoMove>
         <Hit_Foot>20</Hit_Foot>
         <Hit_Wheeled>15</Hit_Wheeled>
@@ -29035,7 +29035,7 @@
     <VCD Num="383">
         <CtIdx>2453</CtIdx>
         <HitPoints>60</HitPoints>
-        <Flags>1074333696</Flags>
+        <Flags>1074268160</Flags>
         <Name>F-16A-15 RNoAF</Name>
         <NCTR>F16</NCTR>
         <RadarCs>1.000000</RadarCs>
@@ -29052,8 +29052,8 @@
         <NumberOfCrew>1</NumberOfCrew>
         <RackFlags>4094</RackFlags>
         <VisibleFlags>4094</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>97</CallsignIdx>
+        <CallsignSlots>8</CallsignSlots>
         <Hit_NoMove>40</Hit_NoMove>
         <Hit_Foot>20</Hit_Foot>
         <Hit_Wheeled>30</Hit_Wheeled>
@@ -29582,8 +29582,8 @@
         <NumberOfCrew>2</NumberOfCrew>
         <RackFlags>1022</RackFlags>
         <VisibleFlags>1022</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>40</CallsignIdx>
+        <CallsignSlots>7</CallsignSlots>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
         <Hit_Wheeled>50</Hit_Wheeled>
@@ -29824,8 +29824,8 @@
         <NumberOfCrew>1</NumberOfCrew>
         <RackFlags>1022</RackFlags>
         <VisibleFlags>1022</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>97</CallsignIdx>
+        <CallsignSlots>15</CallsignSlots>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
         <Hit_Wheeled>50</Hit_Wheeled>

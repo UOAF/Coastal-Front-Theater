@@ -43,7 +43,10 @@ objectdir Add-On Coastal Front\Terrdata\objects
 3ddatadir Add-On Coastal Front\Terrdata\objects
 
 # sounds dir
-# sounddir Add-On Coastal Front\Sounds
+ sounddir Add-On Coastal Front\Sounds
+
+#Subtitles
+subtitlesdir Add-On Coastal Front\Sounds
 
 # simdata dir
  simdatadir Add-On Coastal Front\Sim

@@ -1,0 +1,982 @@
+# It's highly recommended to work on this file with Microsoft Excel!													
+#													
+# Explanation of Sound-table													
+#													
+# https://channel9.msdn.com/coding4fun/articles/Beginning-Game-Development-Part-VIII-DirectSound													
+# https://msdn.microsoft.com/en-us/library/ee418662%28v=vs.85%29.aspx													
+#													
+# Note that if you want the volume of an aircraft engine to be audible at a certain maximum range, then you have to take care to make the sound fade out properly when they exceed that range. Otherwise the sound will simply snap in/out at that given range.													
+# The volume is expressed in hundredths of a decibel and ranges from 0 (full volume) to -10,000 (completely silent).													
+# The decibel scale is not linear, so you may reach effective silence well before the volume setting reaches true silence at -10,000.													
+# There is also no way to increase the volume of the sound above the volume it was recorded at, so you have to make sure to record the sound with a high enough volume to at least match the desired maximum volume in the game.													
+# Note that the db scale is logarithmic. Psycho acoustician tell us, that a 10 db increase of level give the impression of the doubling the loudness (volume). Your loudspeakers need 10 times more power. If you have 6 violins as source, then you have to ten times the violins, you need 60 violins to double the psycho-acoustic loudness (volume).													
+# A doubling of the sensed volume (loudness) is equivalent to a level change approximately between 6 db and 10 db.													
+# Also pay attention to the fact that a .wav / .ogg file can be reduced in volume via the aircraft .dat file (volume chart in respect to rpm), and then also reduced and modified with the sound-table. Pay close attention to these elements if you are not getting the desired results when modifying sounds via the f4sndtbl.													
+# When modifying the f4sndtable.txt it is best to copy it into an excel sheet where you can apply all kinds of formatting (color, bold, etc etc) that don't cross into a .txt file when you copy and paste it back.													
+#													
+########################################													
+#JP 16/11/2019 COMMENTS ON ATTENUATION #													
+########################################													
+# The sound system uses this table in two different ways.													
+# (1) For sounds using the DSound3dBuffer : reference (1) in the comments.													
+# (2) For sounds no using the DSound3Dbuffer : reference (2) in the comments.													
+# Note: (2) are probably no more used in BMS (4.34 and after).													
+#													
+# Column 1: OGG File-name													
+# The file name is relative to the Sound directory.													
+#													
+# Column 2: 'Start'													
+# Unused (exists purely due to historical reasons).													
+#													
+# Column 3: 'End'													
+# Unused (exists purely due to historical reasons).													
+#													
+# Column 4: 'MaxFeet'													
+# (1) & (2) The maximum distance, in feet, that a sound can be heard, beyond this distance, the sound will not be played at all.													
+# Note that it is not about attenuation nor any attenuation curve. It will just stop playing whatever its volume at that distance.													
+#													
+# Column 5: 'MinFeet'													
+# This value shall not be 0. If 0, default value is MaxFeet/20													
+# (1) The distance from the listener, in feet, at which the sound BEGINS to attenuate.													
+# From this distance, the attenuation is logarithmic, for instance for a value of 300ft, the sound is maxed below and half at 600 ft ... etc ...													
+# (2) The distance from the listener, in feet, at which the sound BEGINS to attenuate.													
+# At this distance, the sound is played at Vol @ MinFeet.													
+#													
+# Column 6: 'Loudness Factor / Vol @ MinFeet'													
+# (1) is Loudness Factor: This is the value that will be added globally on the sound whatever the distance. Negative for attenuation / Positive for augmentation.													
+# (2) is Vol @ MinFeet: This is the maximum volume the sounds will be played. It is handled differently depending on whether or not the sound is an external type.													
+# For NON external sounds this is the volume the sound will be played.													
+# For external sounds (Flag E): This is the volume the sound will heard at and within MinFeet.													
+#													
+# Column 7: 'Vol @ MaxFeet'													
+# (1) Unused (keep 0 as default value)													
+# (2) This is volume at MaxFeet, it only effects external sounds.													
+#													
+# Column 8: 'Flags'													
+#													
+# Primary Flags: (The following 6 are mutually exclusive, only use 1 per sound).													
+# E : External sound, when heard from in the cockpit, extra attenuation is applied.													
+# S : External sound, if the player's aircraft (self) emitted that sound, it is not attenuated when heard from the inside cockpit.													
+# O : External sound, is ONLY played with an exterior view.													
+# X : External sound, is ONLY played while in the cockpit.													
+# V : VMS (Betty), is always heard.													
+# I : Internal sound, only heard while in cockpit.													
+#													
+# Secondary Flags:													
+# L : Looped.													
+# F : Frequency can be adjusted.													
+# H : High priority.													
+# R : Reverse Doppler effect, this might be useful for Burner sounds.													
+# C : Cone effect controlled by column 14.													
+#													
+# Column 9: 'Unused'													
+#													
+# Column 10: 'Sound Group'													
+# These correspond to the sound level sliders in F4's Sound Setup.													
+#													
+# -  0 - Engine External													
+# -  1 - Sidewinder (IR Missile tones)													
+# -  2 - RWR													
+# -  3 - (Reserved - COM1)													
+# -  4 - (Reserved - COM2)													
+# -  5 - Sound Effects													
+# -  6 - (Reserved - Music)													
+# -  7 - (Reserved - UI)													
+# -  8 - Cockpit													
+# -  9 - (Reserved - Master)													
+# - 10 - Engine Internal													
+# - 11 - Intercom (Tones/Alarms/VMS/Betty)													
+#													
+# Column 11: 'Linked Sound ID'													
+# This is the ID number of another sound. This allows F4 to automatically play multiple sounds. This is useful where the code doesn't explicitly call internal & external sounds for the same effect.													
+# An example of this is the Vulcan cannon sounds. If you check the sound table, you'll see that the M61 Vulcan sound is already setup using this method.													
+#													
+# Column 12: 'Inside Cone'													
+# The sound is heard normally when the listener (camera) is within the cone specified.													
+# If for example you want the sound to be heard normally when facing the rear of an aircraft, then the inside cone could be between 190 and 170.													
+# Then as the camera moves towards the left wing, he enters the Outside Cone which could be slightly wider. The sound is still audible but is fading out, until the camera is outside the Outside Cone, at which point the sound begins to fade out to the volume set for attenuation.													
+#													
+# Note:													
+# Every 3D sound buffer has a sound cone, but by default a buffer behaves like an omni-directional sound source, because the outside volume is not attenuated, and the inside and outside cone angles are 360 degrees. Unless the application changes these values, the sound does not have any apparent orientation.													
+# Designing sound cones properly can add dramatic effects to your application. For example, you could position a sound source in the center of a room, setting its orientation toward an open door in a hallway. Then set the angle of the inside cone so that it extends to the width of the doorway, make the outside cone a bit wider, and set the outside cone volume to inaudible.													
+# A listener moving along the hallway will begin to hear the sound only when near the doorway, and the sound will be loudest as the listener passes in front of the open door.													
+#													
+# Column 13: 'Outside Cone'													
+# Specifies the outside cone where the volume begins to attenuate to the specified value.													
+#													
+# Column 14: 'Attenuation'													
+# The value which to decrease the volume of a sound transitioning from the Inside Cone to the Outside Cone at its maximum reciprocal value for the inside cone.													
+# As the listener transitions from inside the cone, to outside, the attenuation is applied it's telling it that when you are outside of the cone.													
+#													
+#													
+# Note: Only external sounds have 3D affects applied to them.													
+#													
+#													
+# 0	'Start'	'End'	'MaxFeet'	'MinFeet'	'Loudness Factor / Vol @ MinFeet'	'Vol @ MaxFeet'	'Flags'	'Unused'	'Sound Group'	'Linked Sound ID'	'Inside Cone'	'Outside Cone'	'Attenuation'
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 1													
+Common\biggun1.ogg	0	0	30300	30	1000	-10000	E	0	5	0			
+# 2													
+Common\biggun2.ogg	0	0	30300	30	1000	-10000	E	0	5	0			
+# 3													
+Common\bombdrop.ogg	0	0	1000	10	-1500	-10000	S	0	5	0			
+# 4	Airflow sound flyby view												
+Common\airflow.ogg	0	0	6000	10	3000	-10000	OLF	0	5	0			
+# 5													
+Common\eject.ogg	0	0	1000	200	0	-10000	O	0	0	0			
+# 6													
+Cockpit\aim9caged.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 7													
+Cockpit\aim9uncaged.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 8													
+Common\grndhit1.ogg	0	0	12000	100	0	-10000	E	0	5	0			
+# 9													
+Common\grndhit2.ogg	0	0	12000	100	0	-10000	E	0	5	0			
+# 10	Internal Missile Launch												
+Common\missile1.ogg	0	0	99999	0	1000	-10000	I	0	5	0			
+# 11	Internal Missile Launch												
+Common\missile2.ogg	0	0	99999	0	1000	-10000	I	0	5	0			
+# 12	Internal Missile Launch												
+Common\missile3.ogg	0	0	99999	0	1000	-10000	I	0	5	0			
+# 13	Crash/hard landing on mud(?)												
+Common\dirtdart.ogg	0	0	6000	0	10000	-10000	O	0	5	0			
+# 14	Crash/hard landing on water(?)												
+Common\h2odart.ogg	0	0	300	0	0	-10000	O	0	5	0			
+# 15	Crash/hard landing on grass(?)												
+Common\lawndart.ogg	0	0	6000	0	10000	-10000	O	0	5	0			
+# 16	EMPTY FREE SLOT (old prop.ogg)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 17													
+Common\tank.ogg	0	0	12000	100	0	-10000	EL	0	5	0			
+# 18													
+Common\truck1.ogg	0	0	12000	50	0	-10000	EL	0	5	0			
+# 19													
+Common\truck2.ogg	0	0	12000	50	0	-10000	EL	0	5	0			
+# 20													
+Common\ricco1.ogg	0	0	500	10	-1000	-10000	S	0	5	0			
+# 21													
+Common\ricco2.ogg	0	0	500	10	-1000	-10000	S	0	5	0			
+# 22													
+Common\ricco3.ogg	0	0	500	10	-1000	-10000	S	0	5	0			
+# 23													
+Common\ricco4.ogg	0	0	500	10	-1000	-10000	S	0	5	0			
+# 24													
+Common\ricco5.ogg	0	0	500	10	-1000	-10000	S	0	5	0			
+# 25	Exterior												
+Common\vulstartext.ogg	0	0	24000	50	500	-10000	E	0	5	51			
+# 26	Exterior												
+Common\vulloopext.ogg	0	0	24000	50	2000	-10000	EL	0	5	71			
+# 27	Exterior												
+Common\vulendext.ogg	0	0	24000	50	2000	-10000	E	0	5	72			
+# 28													
+Common\boomg1.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 29													
+Common\boomg2.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 30													
+Common\boomg3.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 31													
+Common\boomg4.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 32													
+Common\boomg5.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 33	Environment in cockpit when canopy is open												
+Common\windinckpt.ogg	0	0	99999	0	-500	-10000	XL	0	5	0			
+# 34	Engine Pitch Sound - Varies with throttle												
+Engines\Fighter\F-16\f16sndint1.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 35	External engine nozzle exhaust airflow - Rear facing heard at close distance												
+Engines\Fighter\F-16\f16sndext1.ogg	0	0	12000	10	0	-10000	ELFHC	0	0	0	180	100	-1500
+# 36	(old engines\fighter\F-16\Int.wav)												
+Common\buffeting.ogg	0	0	99999	0	-200	-10000	ILH	0	5	0			
+# 37													
+Twi\mig21.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 38	(old geardn.wav)												
+Common\gunimpact.ogg	0	0	6000	10	3000	-10000	O	0	5	0			
+# 39	External high RPM & afterburner roar - Heard mostly from the rear at close and medium distance												
+Engines\Fighter\F-16\f16sndabext.ogg	0	0	180000	200	0	-10000	ELFHCR	0	0	0	135	80	-2000
+# 40	Internal engine rush sound												
+Engines\Fighter\F-16\f16sndabint1.ogg	0	0	99999	0	-500	-10000	ILH	0	10	0			
+# 41													
+Twi\mig23.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 42													
+Common\touchdown.ogg	0	0	6000	10	3000	-10000	E	0	5	0			
+# 43													
+Common\booma1.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 44													
+Common\booma2.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 45													
+Common\booma3.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 46													
+Common\booma4.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 47													
+Common\booma5.ogg	0	0	30300	100	1500	-10000	E	0	5	0			
+# 48 ***	(Unused?)												
+Common\flaps.ogg	0	0	1200	0	0	-10000	S	0	5	0			
+# 49													
+Common\mcgun.ogg	0	0	30300	20	1000	-10000	E	0	5	0			
+# 50	VMS (Betty)												
+Cockpit\jammer.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 51													
+Common\vulstart.ogg	0	0	99999	0	0	-10000	I	0	5	0			
+# 52													
+Twi\mig25.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 53													
+Twi\mig31.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 54													
+Common\impacta1.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 55													
+Common\impacta2.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 56													
+Common\impacta3.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 57													
+Common\impacta4.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 58													
+Common\impacta5.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 59	Landing gear sequence Internal												
+Common\geardownstart_nlg_int.ogg	0	0	99999	0	-1300	-10000	I	0	5	0			
+# 60	Landing gear sequence Internal (old twslnch.wav)												
+Common\geardownend_nlg_int.ogg	0	0	99999	0	-600	-10000	I	0	5	0			
+# 61	Landing gear sequence Internal (old twslncir.wav)												
+Common\geardownend_lmlg_int.ogg	0	0	99999	0	-900	-10000	I	0	5	0			
+# 62	Landing gear sequence Internal (old twssrch.wav)												
+Common\geardownend_rmlg_int.ogg	0	0	99999	0	-900	-10000	I	0	5	0			
+# 63	VMS (Betty)												
+Cockpit\warning.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 64	VMS (Betty)												
+Cockpit\caution.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 65	VMS (Betty)												
+Cockpit\altitude.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 66	VMS (Betty)												
+Cockpit\bingo.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 67	VMS (Betty)												
+Cockpit\lock.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 68	VMS (Betty)												
+Cockpit\pullup.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 69	Landing gear sequence Internal (old twslock.wav)												
+Common\gearupend_nlg_int.ogg	0	0	99999	0	-1100	-10000	I	0	5	0			
+# 70	VMS (Betty)												
+Cockpit\iff.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 71	Interior												
+Common\vulloop.ogg	0	0	99999	0	0	-10000	IL	0	5	0			
+# 72	Interior												
+Common\vulend.ogg	0	0	99999	0	0	-10000	I	0	5	0			
+# 73													
+Twi\a50.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 74													
+Twi\sa15.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 75													
+Twi\f5.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 76													
+Twi\f22.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 77													
+Twi\2s6.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 78	EMPTY FREE SLOT												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 79	EMPTY FREE SLOT 												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 80													
+Twi\av8b.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 81													
+Twi\e2.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 82													
+Twi\e3.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 83													
+Twi\f4.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 84													
+Twi\f14.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 85													
+Twi\f15.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 86													
+Twi\hawk.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 87													
+Twi\nikescr.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 88													
+Twi\j5.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 89													
+Twi\j7.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 90													
+Twi\nikeacq.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 91													
+Twi\nike.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 92													
+Twi\patriotsrc.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 93													
+Twi\sa2.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 94													
+Twi\sa3.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 95													
+Twi\sa4.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 96													
+Twi\sa5.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 97													
+Twi\sa6.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 98													
+Twi\sa8.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 99													
+Twi\sa15acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 100													
+Twi\sa11acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 101													
+Twi\sa11.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 102													
+Twi\slotback.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 103													
+Twi\su15.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 104	ECS (old diveloop.wav)												
+Cockpit\ecsstart.ogg	0	0	99999	0	-2200	-10000	IH	0	8	0			
+# 105													
+Common\fireloop.ogg	0	0	300	10	0	-10000	OLF	0	5	0			
+# 106													
+Common\chute.ogg	0	0	1000	10	3000	-10000	O	0	5	0			
+# 107													
+Common\splish.ogg	0	0	6000	10	3000	-10000	O	0	5	0			
+# 108													
+Common\rocket.ogg	0	0	12000	20	1000	-10000	SLF	0	5	0			
+# 109													
+Common\impactg1.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 110													
+Common\impactg2.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 111													
+Common\impactg3.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 112													
+Common\impactg4.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 113													
+Common\impactg5.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 114													
+Common\impactg6.ogg	0	0	30300	50	2000	-10000	E	0	5	0			
+# 115													
+Cockpit\toggllil.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 116													
+Cockpit\rtryknob.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 117													
+Cockpit\ejecthandle.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 118													
+Cockpit\geardown.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 119													
+Cockpit\gearup.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 120													
+Cockpit\icp1.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 121													
+Cockpit\icp2.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 122													
+Cockpit\icpmntry.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 123													
+Cockpit\jettisonswitch.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 124													
+Cockpit\knobbig.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 125													
+Cockpit\knoblil.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 126													
+Cockpit\mfd.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 127													
+Cockpit\momntary.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 128													
+Cockpit\navknob.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 129													
+Cockpit\togglbig.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 130													
+Cockpit\bumpswitch.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 131	(old airbrake.wav)												
+Common\flareint.ogg	0	0	99999	0	-1000	-10000	IH	0	5	0			
+# 132	EMPTY FREE SLOT (old bind.ogg)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 133	Refuel boom contact												
+Common\aarboomcontact.ogg	0	0	99999	0	0	-10000	I	0	5	0			
+# 134													
+Common\jettison.ogg	0	0	1000	10	-1500	-10000	S	0	5	0			
+# 135	This is not a free slot!!! - Men is actually screaming here!												
+Common\scream.ogg	0	0	300	10	0	-10000	O	0	5	0			
+# 136	ECS (old stall.wav)												
+Cockpit\ecsend.ogg	0	0	99999	0	-2200	-10000	IH	0	8	0			
+# 137													
+Common\wind.ogg	0	0	99999	0	-500	-10000	OL	0	5	0			
+# 138													
+Common\flareext.ogg	0	0	6000	50	2000	-10000	OH	0	5	0			
+# 139													
+Common\airbrakeend.ogg	0	0	300	5	0	-10000	O	0	5	0			
+# 140													
+Common\airbrakeloop.ogg	0	0	300	5	0	-10000	OL	0	5	0			
+# 141													
+Common\airbrakestart.ogg	0	0	300	5	0	-10000	O	0	5	0			
+# 142													
+Common\airbrakewind.ogg	0	0	99999	0	-500	-10000	IL	0	5	0			
+# 143													
+Common\flapend.ogg	0	0	300	5	-1000	-10000	S	0	5	0			
+# 144													
+Common\flaploop.ogg	0	0	300	5	-1000	-10000	SL	0	5	0			
+# 145													
+Common\flapstart.ogg	0	0	300	5	-1000	-10000	S	0	5	0			
+# 146	Landing gear sequence												
+Common\gearupend_nlg.ogg	0	0	6000	50	0	-10000	O	0	5	69			
+# 147	Landing gear sequence												
+Common\gearupstart_nlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 148	Landing gear sequence												
+Common\geardownloop.ogg	0	0	6000	50	-850	-10000	OL	0	5	0			
+# 149	Landing gear sequence												
+Common\geardownstart_nlg.ogg	0	0	6000	50	0	-10000	O	0	5	59			
+# 150	Landing gear sequence												
+Common\geardownend_nlg.ogg	0	0	6000	50	500	-10000	O	0	5	60			
+# 151	(Unused?)												
+Cockpit\ugh.ogg	0	0	99999	0	0	-10000	I	0	8	0			
+# 152													
+Twi\barlock.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 153													
+Twi\firecan.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 154													
+Twi\flatface.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 155													
+Twi\straightflush.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 156													
+Twi\lowblow.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 157													
+Twi\hawkscr.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 158													
+Twi\hawkacq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 159													
+Twi\patriotacq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 160													
+Twi\spoonrest.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 161													
+Twi\tps63.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 162													
+Twi\f16.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 163													
+Twi\longtrack.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 164													
+Twi\gundish.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 165													
+Twi\amraam.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 166													
+Twi\phoenix.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 167	VMS (Betty)												
+Cockpit\lspdtone.ogg	0	0	99999	0	-950	-10000	IL	0	11	0			
+# 168													
+Common\tailscrape.ogg	0	0	6000	50	1000	-10000	SLF	0	5	0			
+# 169	Aircraft rolling												
+Common\rumbleint.ogg	0	0	99999	0	0	-10000	ILF	0	5	281			
+# 170	Landing gear sequence												
+Common\gearuploop.ogg	0	0	6000	50	-850	-10000	OL	0	5	0			
+# 171 ***	Rolling on grass at high speed?												
+Common\thump.ogg	0	0	99999	0	0	-10000	IF	0	5	0			
+# 172	Wheel brake												
+Common\wheelbrake.ogg	0	0	99999	0	0	-10000	ILF	0	5	0			
+# 173	Played once on impact at belly landing.												
+Common\contactbelly.ogg	0	0	99999	0	-1000	-10000	I	0	5	0			
+# 174	Collapse of landing gear on ground when is not locked down.												
+Common\gearbreak.ogg	0	0	99999	0	-1000	-10000	I	0	5	0			
+# 175													
+Common\gearwind.ogg	0	0	99999	0	500	-10000	IL	0	5	0			
+# 176	EMPTY FREE SLOT (old hit4.ogg)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 177	EMPTY FREE SLOT (old hit5.ogg)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 178 ***	Gear doors overstressed	(Unused?)											
+Common\groundcrunch.ogg	0	0	99999	0	-1000	-10000	I	0	5	0			
+# 179													
+Common\jetblast.ogg	0	0	99999	0	0	-10000	IL	0	5	0			
+# 180													
+Cockpit\counter.ogg	0	0	99999	0	-950	-10000	I	0	11	0			
+# 181													
+Common\ship.ogg	0	0	24000	50	2000	-10000	EL	0	5	0			
+# 182	IFF mode 4 monitor audio												
+Cockpit\iffmode4monitor.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 183	VMS (Betty)												
+Cockpit\chaflare.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 184	VMS (Betty)												
+Cockpit\low.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 185	VMS (Betty)												
+Cockpit\out.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 186													
+Cockpit\aim9envgnd.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 187													
+Cockpit\aim9envsky.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 186													
+Common\thunder.ogg	0	0	60000	500	0	-10000	E	0	5	0			
+# 189													
+Common\rainint.ogg	0	0	99999	0	0	-10000	IL	0	5	0			
+# 190													
+Common\rainext.ogg	0	0	99999	0	0	-10000	OL	0	5	0			
+# 191 ***	Airframe overstress - Low Overspeed												
+Common\groan1.ogg	0	0	99999	0	-1500	-10000	IL	0	5	0			
+# 192 ***	Airframe overstress - High Overspeed												
+Common\groan2.ogg	0	0	99999	0	-1500	-10000	IL	0	5	0			
+# 193													
+Common\hookend.ogg	0	0	300	5	0	-10000	O	0	5	0			
+# 194													
+Common\hookloop.ogg	0	0	300	5	0	-10000	OL	0	5	0			
+# 195													
+Common\hookstart.ogg	0	0	300	5	0	-10000	O	0	5	0			
+# 196													
+Twi\flaplid.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 197													
+Twi\tombstone.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 198													
+Twi\clamshell.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 199													
+Twi\bigbird.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 200													
+Twi\skyguard.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 201													
+Twi\tallking.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 202													
+Twi\sidenet.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 203													
+Twi\backnet.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 204													
+Twi\snowdrift.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 205													
+Twi\grillpan.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 206													
+Twi\billboard.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 207													
+Twi\highscreen.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 208													
+Twi\oddgroup.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 209													
+Twi\pathand.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 210													
+Twi\thinskin.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 211													
+Twi\tinshield.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 212													
+Twi\ksam.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 213													
+Twi\flapwheel.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 214													
+Twi\dogear.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 215													
+Twi\bigback.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 216													
+Twi\sa5acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 217													
+Cockpit\mikeclick.ogg	0	0	99999	0	0	-10000	I	0	11	0			
+# 218													
+Common\dragchute.ogg	0	0	6000	10	0	-10000	O	0	5	0			
+# 219	Inside Cone	Outside Cone	Attenuation										
+Engines\Fighter\single-small.ogg	0	0	60000	150	0	-10000	ELFC	0	0	276	180	0	-500
+# 220													
+Engines\Fighter\single-med.ogg	0	0	60000	150	0	-10000	ELFC	0	0	276	180	0	-500
+# 221													
+Engines\Fighter\twin-small.ogg	0	0	60000	150	0	-10000	ELFC	0	0	276	180	0	-500
+# 222													
+Engines\Fighter\twin-med.ogg	0	0	60000	150	0	-10000	ELFC	0	0	276	180	0	-500
+# 223													
+Engines\Fighter\twin-large.ogg	0	0	60000	150	0	-10000	ELFC	0	0	276	180	0	-500
+# 224	External constant engine roar - Far distance effect												
+Engines\Fighter\burner-small.ogg	0	0	60000	150	0	-10000	ELFHCR	0	0	0	140	100	-1500
+# 225	External constant engine roar - Far distance effect												
+Engines\Fighter\burner-med.ogg	0	0	60000	150	0	-10000	ELFHCR	0	0	0	140	100	-1500
+# 226	External constant engine roar - Far distance effect												
+Engines\Fighter\burner-large.ogg	0	0	60000	150	0	-10000	ELFHCR	0	0	0	140	100	-1500
+# 227													
+Engines\Fighter\single-large.ogg	0	0	60000	150	0	-10000	ELFC	0	0	0	180	0	-500
+# 228													
+Engines\TurboFan\twin-small.ogg	0	0	60000	125	0	-10000	ELFC	0	0	0	180	0	-500
+# 229													
+Engines\TurboFan\twin-med.ogg	0	0	60000	125	0	-10000	ELFC	0	0	0	180	0	-500
+# 230													
+Engines\TurboFan\twin-large.ogg	0	0	60000	125	0	-10000	ELFC	0	0	0	180	0	-500
+# 231													
+Engines\Jet\quad.ogg	0	0	60000	150	0	-10000	ELFC	0	0	0	180	0	-500
+# 232													
+Engines\Jet\oct.ogg	0	0	60000	150	0	-10000	ELFC	0	0	0	180	0	-500
+# 233													
+Engines\Jet\twin.ogg	0	0	60000	150	0	-10000	ELFC	0	0	0	180	0	-500
+# 234													
+Engines\Heli\single-small.ogg	0	0	60000	100	0	-10000	ELF	0	0	0			
+# 235													
+Engines\Heli\single-med.ogg	0	0	60000	100	0	-10000	ELF	0	0	0			
+# 236													
+Engines\Heli\single-large.ogg	0	0	60000	100	0	-10000	ELF	0	0	0			
+# 237													
+Engines\Heli\twin-small.ogg	0	0	60000	100	0	-10000	ELF	0	0	0			
+# 238													
+Engines\Heli\twin-large.ogg	0	0	60000	100	0	-10000	ELF	0	0	0			
+# 239													
+Engines\Prop\single-small.ogg	0	0	60000	50	0	-10000	ELFC	0	0	0	0	160	-500
+# 240													
+Engines\Prop\twin-small.ogg	0	0	60000	50	0	-10000	ELFC	0	0	0	0	160	-500
+# 241													
+Engines\Prop\twin-med.ogg	0	0	60000	50	0	-10000	ELFC	0	0	0	0	160	-500
+# 242													
+Engines\Prop\twin-large.ogg	0	0	60000	50	0	-10000	ELFC	0	0	0	0	160	-500
+# 243													
+Engines\Prop\quad.ogg	0	0	60000	50	0	-10000	ELFC	0	0	0	0	160	-500
+# 244													
+Engines\Prop\quad-large.ogg	0	0	60000	150	0	-10000	ELFC	0	0	0	0	160	-500
+# 245													
+Engines\Internal\fighter-small.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 246													
+Engines\Internal\fighter-med.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 247													
+Engines\Internal\fighter-large.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 248													
+Engines\Internal\jet-small.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 249													
+Engines\Internal\jet-med.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 250													
+Engines\Internal\jet-large.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 251													
+Engines\Internal\prop-small1.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 252													
+Engines\Internal\prop-small2.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 253													
+Engines\Internal\prop-med.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 254													
+Engines\Internal\prop-large.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 255													
+Engines\Internal\turbo-small.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 256													
+Engines\Internal\turbo-med.ogg 	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 257													
+Engines\Internal\turbo-large.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 258	Interior												
+Common\avengerstart.ogg	0	0	99999	0	0	-10000	IH	0	5	0			
+# 259	Exterior												
+Common\avengerstarte.ogg	0	0	24000	50	500	-10000	EH	0	5	258			
+# 260	Interior												
+Common\avengerend.ogg	0	0	99999	0	0	-10000	IH	0	5	0			
+# 261	Exterior												
+Common\avengerendext.ogg	0	0	24000	50	2000	-10000	EH	0	5	260			
+# 262	Interior												
+Common\avengerloop.ogg	0	0	99999	0	0	-10000	IHL	0	5	0			
+# 263	Exterior												
+Common\avengerloopext.ogg	0	0	24000	50	2000	-10000	EHL	0	5	262			
+# 264	EMPTY FREE SLOT (old engines/fighter/a-10/Ext.wav)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 265	EMPTY FREE SLOT (old A10Int.wav)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 266	Missile Exterior (Small)Inside Cone	Outside Cone	Attenuation										
+Missiles\small.ogg	0	0	24000	20	500	-10000	OLFC	0	5	0	180	0	-500
+# 267	Missile Exterior (Medium)												
+Missiles\medium.ogg	0	0	24000	30	1000	-10000	OLFC	0	5	0	180	0	-500
+# 268	Missile Exterior (Large)												
+Missiles\large.ogg	0	0	24000	40	2000	-10000	OLFC	0	5	0	180	0	-500
+# 269	Missile Exterior (Huge)												
+Missiles\huge.ogg	0	0	24000	50	3000	-10000	OLFC	0	5	0	180	0	-500
+# 270	VMS (Betty) Test												
+Cockpit\vms-test.ogg	0	0	99999	0	-950	-10000	VL	0	11	0			
+# 271													
+Cockpit\canopyopenstart.ogg	0	0	300	10	1000	-10000	S	0	8	0			
+# 272													
+Cockpit\canopyopenend.ogg	0	0	300	10	1000	-10000	S	0	8	0			
+# 273													
+Cockpit\canopyclosestart.ogg	0	0	300	10	1000	-10000	S	0	8	0			
+# 274													
+Cockpit\canopycloseend.ogg	0	0	300	10	1000	-10000	S	0	8	0			
+# 275													
+Cockpit\canopyopenloop.ogg	0	0	300	10	1000	-10000	SL	0	8	0			
+# 276	External engine compressor suction - Heard mostly forward facing at close distance												
+Engines\Fighter\F-16\f16sndext2.ogg	0	0	12000	10	0	-10000	ELFHC	0	0	0	45	100	-2500
+# 277	EMPTY FREE SLOT (old snd Aero1.wav)												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 278	Background engine rumble - Constant												
+Engines\Fighter\F-16\f16sndint2.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 279													
+Cockpit\aim9pcaged.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 280													
+Cockpit\aim9puncaged.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 281	Aircraft rolling Internal												
+Common\rumble.ogg	0	0	6000	50	0	-10000	SLF	0	5	0			
+# 282													
+Common\sonicboom.ogg	0	0	60000	0	0	-10000	OL	0	0	0			
+# 283	Outer Marker Beacon Morse Tones												
+Cockpit\outermarker.ogg	0	0	99999	0	-950	-10000	IL	0	11	0			
+# 284	Middle Marker Beacon Morse Tones												
+Cockpit\middlemarker.ogg	0	0	99999	0	-950	-10000	IL	0	11	0			
+# 285	O2 Mask Breath Calm												
+Common\breathcalm.ogg	0	0	99999	0	-1000	-10000	ILF	0	11	0			
+# 286	O2 Mask Breath Fast												
+Common\breathfast.ogg	0	0	99999	0	-800	-10000	ILF	0	11	0			
+# 287	O2 Mask Breath Special (AGSM)												
+Common\breathshort.ogg	0	0	99999	0	-600	-10000	ILF	0	11	0			
+# 288	JFS Start - Exterior												
+Engines\Fighter\F-16\f16jfsstart.ogg	0	0	6000	20	-1500	-10000	E	0	0	0			
+# 289	JFS Loop - Exterior												
+Engines\Fighter\F-16\f16jfsloop.ogg	0	0	6000	20	-1500	-10000	EL	0	0	0			
+# 290	JFS End - Exterior												
+Engines\Fighter\F-16\f16jfsend.ogg	0	0	6000	20	-1500	-10000	E	0	0	0			
+# 291	VMS (Betty)												
+Cockpit\data.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 292													
+Cockpit\modem.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 293													
+Twi\sa6acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 294													
+Twi\sa8acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 295													
+Twi\gundishacq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 296													
+Twi\sa2acq.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 297	EMPTY FREE SLOT												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 298	We're flying now (Dynamic pressure and relative wind on canopy)												
+Common\airflowcanopy.ogg	0	0	99999	0	0	-10000	ILFH	0	5	0			
+# 299	Low speed high AoA (audible over mach .6 at 10deg AoA)												
+Common\aoalowspeed.ogg	0	0	99999	0	-450	-10000	ILH	0	5	0			
+# 300	High speed low AoA (audible over mach .8 at 8deg AoA)												
+Common\aoahighspeed.ogg	0	0	99999	0	-400	-10000	ILH	0	5	0			
+# 301	Gear Not Down Alarm												
+Cockpit\to_l-beeps.ogg	0	0	99999	0	-950	-10000	IL	0	11	0			
+# 302	External high RPM & afterburner roar - Heard mostly from the rear at close and medium distance												
+Engines\Fighter\M2k\m2kabext.ogg	0	0	15200	0	0	-10000	ELFHCR	0	0	0	135	80	-2000
+# 303													
+Engines\Fighter\F-16\f16sndint3.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 304	Altimeter Vibrator												
+Cockpit\altvibrator.ogg	0	0	99999	0	-2000	-10000	IL	0	8	0			
+# 305	Electrical Buzz - Buzz on intercom system												
+Cockpit\buzz.ogg	0	0	99999	0	-2000	-10000	ILH	0	11	0			
+# 306	JFS Start - Interior												
+Engines\Fighter\F-16\f16jfsstartint.ogg	0	0	99999	0	-300	-10000	I	0	10	0			
+# 307	JFS Loop - Interior												
+Engines\Fighter\F-16\f16jfsloopint.ogg	0	0	99999	0	-300	-10000	IL	0	10	0			
+# 308	JFS End - Interior												
+Engines\Fighter\F-16\f16jfsendint.ogg	0	0	99999	0	-300	-10000	I	0	10	0			
+# 309													
+Cockpit\trimwheel.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 310													
+Cockpit\togglsafe1.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 311													
+Cockpit\togglsafe2.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 312													
+Cockpit\pushbutton_in.ogg	0	0	99999	0	208	-10000	I	0	8	0			
+# 313													
+Cockpit\pushbutton_out.ogg	0	0	99999	0	208	-10000	I	0	8	0			
+# 314													
+Cockpit\pushbutton.ogg	0	0	99999	0	208	-10000	I	0	8	0			
+# 315													
+Cockpit\seatarm.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 316													
+Cockpit\togglguard_in.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 317													
+Cockpit\togglguard_out.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 318													
+Cockpit\rwrbutton.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 319													
+Cockpit\magswitch_in.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 320													
+Cockpit\magswitch_out.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 321													
+Cockpit\altgeardown.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 322													
+Cockpit\canopyswitch.ogg	0	0	99999	0	-208	-10000	I	0	8	0			
+# 323													
+Engines\Fighter\F-18\f18jfsloop.ogg	0	0	6000	50	0	-10000	EL	0	0	0			
+# 324													
+F-18\f18canopyopenloop.ogg	0	0	300	0	0	-10000	SL	0	8	0			
+# 325													
+Engines\Fighter\F-18\f18jfsstart.ogg	0	0	6000	50	0	-10000	E	0	0	0			
+# 326													
+Engines\Fighter\F-18\f18jfsend.ogg	0	0	6000	50	0	-10000	E	0	0	0			
+# 327	F-18 External engine nozzle exhaust airflow - Rear facing heard at close distance												
+Engines\Fighter\F-18\f18sndext1.ogg	0	0	2000	0	-500	-10000	ELFHC	0	0	0	180	100	-2000
+# 328	Internals Sound Engine - Base response												
+Engines\Fighter\F-18\f18sndabint.ogg	0	0	99999	0	0	-10000	ILH	0	10	0			
+# 329	F-18 Internals Engine Sound												
+Engines\Fighter\F-18\f18sndint1.ogg	0	0	99999	0	0	-10000	ILH	0	10	0			
+# 330	Landing gear sequence												
+Common\gearupend_lmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 331	Landing gear sequence												
+Common\gearupstart_lmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 332	Landing gear sequence												
+Common\geardownstart_lmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 333	Landing gear sequence												
+Common\geardownend_lmlg.ogg	0	0	6000	50	500	-10000	O	0	5	61			
+# 334	F-18 Internals Engine Sound												
+Engines\Fighter\F-18\f18sndint2.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 335	F-18 External engine compressor suction - Heard mostly forward facing at close distance												
+Engines\Fighter\F-18\f18sndext2.ogg	0	0	2000	0	-1300	-10000	ELFHC	0	0	0	45	100	-2000
+# 336	F-18 Internals Engine Sound												
+Engines\Fighter\F-18\f18sndint3.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 337	Inside Cone	Outside Cone	Attenuation										
+Engines\Fighter\F-18\f18jfsstartint.ogg	0	0	99999	0	500	-10000	I	0	10	0	0	10	0
+# 338	Inside Cone	Outside Cone	Attenuation										
+Engines\Fighter\F-18\f18jfsloopint.ogg	0	0	99999	0	500	-10000	IL	0	10	0	0	10	0
+# 339	Inside Cone	Outside Cone	Attenuation										
+Engines\Fighter\F-18\f18jfsendint.ogg	0	0	99999	0	500	-10000	I	0	10	0	0	10	0
+# 340	F-18 External high RPM & afterburner roar - Heard mostly from the rear at close and medium distance												
+Engines\Fighter\F-18\f18abext.ogg	0	0	15200	0	0	-10000	ELFHCR	0	0	0	135	80	-2000
+# 341	F-18 External constant engine roar - Far distance effect												
+Engines\Fighter\F-18\f18sndabext.ogg	0	0	79000	0	0	-10000	ELFHCR	0	0	0	140	100	-1500
+# 342													
+Twi\ALR56\ALR56_Test.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 343													
+Twi\ALR93\ALR93_NewGuy.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 344													
+Twi\ALR69\ALR69_Lock.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 345													
+Twi\ALR69\ALR69_Launch.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 346													
+Twi\ALR56\ALR56_NewAA.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 347													
+Twi\ALR56\ALR56_NewAG.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 348													
+Twi\ALR69\ALR69_ThreeBeeps.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 349													
+F-18\f18canopyopenstart.ogg	0	0	300	0	0	-10000	S	0	8	0			
+# 350													
+F-18\f18canopyopenend.ogg	0	0	300	0	0	-10000	S	0	8	0			
+# 351													
+F-18\f18canopyclosestart.ogg	0	0	300	0	0	-10000	S	0	8	0			
+# 352													
+F-18\f18canopycloseend.ogg	0	0	300	0	0	-10000	S	0	8	0			
+# 353													
+F-18\f18canopycloseloop.ogg	0	0	300	0	0	-10000	SL	0	8	0			
+# 354													
+Twi\ALR67V3\ALR67V3_NewGuy.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 355													
+Twi\ALR93\ALR93_Launch.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 356													
+Twi\ALR67V3\ALR67V3_Lock.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 357													
+Twi\ALR67V3\ALR67V3_Launch.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 358													
+Twi\ALR56\ALR56_LaunchRecycle.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 359													
+Twi\ALR69\ALR69_LaunchRecycle.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 360													
+Twi\ALR69\ALR69_SelfTest.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 361													
+Cockpit\canopycloseloop.ogg	0	0	300	0	1000	-10000	SL	0	8	0			
+# 362	Exterior												
+F-18\f18vulstartext.ogg	0	0	24000	50	2000	-10000	SH	0	5	51			
+# 363	Exterior												
+F-18\f18vulloopext.ogg	0	0	24000	50	2000	-10000	SLH	0	5	71			
+# 364	Exterior												
+F-18\f18vulendext.ogg	0	0	24000	50	2000	-10000	SH	0	5	72			
+# 365	KC10 Engine Whine - Forward facing												
+Engines\Jet\kc10.ogg	0	0	12000	10	0	-10000	ELFHC	0	0	0	20	100	-2500
+# 366	External Engine Roar - Heard mostly from the rearInside Cone	Outside Cone	Attenuation										
+Engines\Jet\kc10sndext.ogg	0	0	60000	100	0	-10000	ELFHC	0	0	0	180	100	-2500
+# 367													
+Twi\ALR93\ALR93_Spike.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 368													
+Engines\Fighter\M2k\m2kdefa.ogg	0	0	24000	50	2000	-10000	SLH	0	5	0			
+# 369	KC135 Engine Whine - Forward facing												
+Engines\Jet\kc135.ogg	0	0	3000	0	0	-10000	ELFHC	0	0	0	20	100	-2500
+# 370	KC135 Engine Suction - Forward facing												
+Engines\Jet\sndsuc.ogg	0	0	2000	0	0	-10000	ELHC	0	0	0	20	100	-2500
+# 371	Rear aspect												
+Engines\fighter\f-16\f16sndext3.ogg	0	0	12000	10	0	-10000	ELHC	0	0	0	70	180	-2500
+# 372													
+Twi\SPS1000\SPS1000_LAUNCH.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 373													
+Twi\SPS1000\SPS1000_NEWGUY.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 374													
+Twi\SPS1000\SPS1000_SYSTEST.ogg	0	0	99999	0	0	-10000	IL	0	2	0			
+# 375	Engine Whine - Forward facing												
+Engines\Fighter\AV8B\av8sndext2.ogg	0	0	1000	0	0	-10000	ELFHC	0	0	0	20	100	-1500
+# 376	External Engine Roar - Heard mostly from the rearInside Cone	Outside Cone	Attenuation										
+Engines\Fighter\AV8B\av8sndabext.ogg	0	0	30000	0	0	-10000	ELFHCR	0	0	0	135	80	-1000
+# 377	Engine Pitch Sound - Varies with throttle												
+Engines\Fighter\AV8B\av8sndint1.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 378	External Engine Roar - Heard mostly from the rearInside Cone	Outside Cone	Attenuation										
+Engines\Fighter\AV8B\av8sndext1.ogg	0	0	30000	0	0	-10000	ELFHCR	0	0	0	135	80	-950
+# 379													
+Engines\Fighter\AV8B\av8sndint2.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 380													
+Engines\Fighter\AV8B\av8sndint3.ogg	0	0	99999	0	0	-10000	ILFH	0	10	0			
+# 381													
+Engines\Fighter\AV8B\av8sndext3.ogg	0	0	2000	0	0	-10000	ELHC	0	0	0	20	100	-2500
+# 382	External engine nozzle exhaust airflow - Rear facing heard at close distance												
+Engines\Fighter\JA37\ja37eng.ogg	0	0	2000	0	-500	-10000	ELFHC	0	0	0	180	100	-1500
+# 383	External engine compressor suction - Heard mostly forward facing at close distance												
+Engines\Fighter\JA37\ja37whine.ogg	0	0	2000	0	-1300	-10000	ELFHC	0	0	0	45	100	-500
+# 384	External high RPM & afterburner roar - Heard mostly from the rear at close and medium distance												
+Engines\Fighter\JA37\ja37ab.ogg	0	0	15200	0	0	-10000	ELFHC	0	0	0	135	80	-2000
+# 385													
+JA37\ja37_gdn.ogg	0	0	99999	0	-200	-10000	I	0	5	0			
+# 386													
+JA37\ja37_gup.ogg	0	0	99999	0	-200	-10000	I	0	5	0			
+# 387	EMPTY FREE SLOT												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 388 - Master Caution													
+JA37\ja37_mc.ogg	0	0	99999	0	-2000	-10000	V	0	11	0			
+# 389 - Altitude Warning													
+JA37\ja37_aw.ogg	0	0	99999	0	-2000	-10000	V	0	11	0			
+# 390 - Ground Collision Warning													
+JA37\ja37_mkv.ogg	0	0	99999	0	-2000	-10000	V	0	11	0			
+# 391 - Radar Lock													
+JA37\ja37_rl.ogg	0	0	99999	0	-2000	-10000	V	0	11	0			
+# 392 - DataLink recieve													
+JA37\ja37_dl.ogg	0	0	99999	0	-2000	-10000	V	0	11	0			
+# 393	Landing gear sequence												
+Common\gearupend_rmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 394	Landing gear sequence												
+Common\gearupstart_rmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 395	Landing gear sequence												
+Common\geardownstart_rmlg.ogg	0	0	6000	50	0	-10000	O	0	5	0			
+# 396	Landing gear sequence												
+Common\geardownend_rmlg.ogg	0	0	6000	50	500	-10000	O	0	5	62			
+# 397	RWR ALR56 Failure												
+Twi\ALR56\ALR56_Failure.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 398													
+Twi\Carapace\carapace_1000Hz.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 399													
+Twi\Carapace\carapace_2000Hz.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 400													
+Twi\Carapace\carapace_500Hz.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 401													
+Twi\Carapace\carapace_alpha.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 402													
+Twi\Carapace\carapace_4beeps.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 403	RWR Caprapace Failure												
+Twi\Carapace\carapace_failure.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 404													
+Twi\Carapace\carapace_testok.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 405													
+Twi\ALR56\ALR56_Launch.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 406													
+Twi\ALR56\ALR56_Lock.ogg	0	0	99999	0	0	-10000	I	0	2	0			
+# 407	IRIS-T seeker cold												
+Cockpit\iristweak.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 408	IRIS-T seeker warm												
+Cockpit\iristgrowl.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 409	IRIS-T seeker uncaged												
+Cockpit\iristuncage.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 410	EMPTY FREE SLOT												
+Common\none.ogg	0	0	0	0	0	0	X	0	0	0			
+# 411	ECS												
+Cockpit\ecsloop.ogg	0	0	99999	0	-2200	-10000	ILH	0	8	0			
+# 412	VMS (Betty)												
+Cockpit\nadiaAOA.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 413	VMS (Betty)												
+Cockpit\nadiamaxG.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 414	VMS (Betty)												
+Cockpit\nadiaPULLUP.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 415													
+Cockpit\aim9uncagedflared.ogg	0	0	99999	0	0	-10000	ILF	0	1	0			
+# 416													
+Engines\Heli\start-up.ogg	0	0	20000	100	0	-10000	EL	0	0	0			
+# 417													
+Engines\Heli\shut-down.ogg	0	0	20000	100	0	-10000	EL	0	0	0			
+# 418													
+Cockpit\canopylock.ogg	0	0	99999	0	0	-10000	I	0	8	0			
+# 419													
+Cockpit\canopyunlock.ogg	0	0	99999	0	0	-10000	I	0	8	0			
+# 420													
+Cockpit\seatup.ogg	0	0	99999	0	-600	-10000	IL	0	8	0			
+# 421													
+Cockpit\seatdown.ogg	0	0	99999	0	-600	-10000	IL	0	8	0			
+# 422													
+Cockpit\canopyopenmiddlestart.ogg	0	0	300	10	1000	-10000	S	0	8	0			
+# 423													
+Cockpit\canopyopenmiddleend.ogg		0	0	300	10	1000	-10000	S	0	8	0		
+# 424													
+Cockpit\canopyopenmiddleloop.ogg	0	0	300	10	1000	-10000	SL	0	8	0			
+# 425													
+Missiles\small.ogg	0	0	24000	20	2000	-10000	OLF	0	5	0			
+# 426	CATM Hit												
+Common\CatmHit.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 427	CATM Launch												
+Common\CatmLaunch.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 428	VMS (F15 BBMAXG2)												
+Cockpit\f15maxG2.ogg	0	0	99999	0	-950	-10000	V	0	11	0			
+# 429	VMS (F15 BBMAXG3)												
+Cockpit\f15maxG3.ogg	0	0	99999	0	-950	-10000	V	0	11	0	
+# 430	VMS (F15 BBMAXG)												
+Cockpit\OverGLimit.ogg	0	0	99999	0	-950	-10000	V	0	11	0	
+# 431	VMS (F15 BBYAW)												
+Cockpit\f15maxYAW.ogg	0	0	99999	0	-950	-10000	V	0	11	0	
+# 432	VMS (F15 BBAOA)												
+Cockpit\f15maxAOA.ogg	0	0	99999	0	-950	-10000	V	0	11	0
+# 433	VMS (F15 IAF BBMAXG )												
+Cockpit\f15maxG.ogg	0	0	99999	0	-950	-10000	V	0	11	0	

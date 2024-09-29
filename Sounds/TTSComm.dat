@@ -1,0 +1,48 @@
+//
+// Test content for use with Text-To-Speech
+//
+// Pipe symbol "|" is the field separator so strings to be spoken can include punctuation.
+// Format: <line number>|<eval count>|<eval-1>...<eval-N>|<string>
+//
+// <line number>: simply the ordinal number of the current line in the file as an integer starting at 1
+//
+// <eval count>: a variable integer 0-N number of evals to follow, each eval is an integer number into the TTSEval file
+//
+// <eval-1:N>: integers that represent line numbers in the TTSEval file; these are parameters for the strings; there may be
+// none of these fields if <eval count> is zero
+//
+// String content should include '@' token for evals to fill in; only subbing '@' for a string is supported for now
+//
+//
+// First message should start at 9001.  When you add a line, just make the <line number> one larger than the last line before your
+// new line.  They don't strictly need to be monotonic but that makes life easier in debug perhaps.  Equally, keeping these numbers
+// high ensures they don't conflict with conv.h 
+//
+9001|1|6|This is the first message with a parameter which is @. Neat, eh?
+9002|0|A second string with no parameters
+9003|5|1|2|1|2|7|@ @, @ @, checking in @
+9004|6|1|2|6|6|6|6|@ @, Force QNH @ @ @ @
+9005|8|1|2|1|2|6|6|6|6|@ @, @ @, Alpha check: bullseye @ @ @; @006|2|1|2|Copy @ @, Good radar contact; recycle mode two, mode three as fragged; report ready to copy lowdown.
+9100|5|1|2||6|6|6|@ @. Mother is case 1. BRC is @ @ @. Report see me
+9101|3|1|2|18|@ @. Roger, continue inbound and marshall at @. Switch to tower
+9102|5|1|2|6|6|6|@ @. Charlie now. BRC is @ @ @
+9103|3|1|2|18|@ @. Marshal now at @
+9104|8|1|2|19|6|6|6|6|6|@ @, Mother's weather is: Poor, @ overcast, visibility @ miles, altimeter @ @ @ @
+9105|8|1|2|19|6|6|6|6|6|@ @, Mother's weather is: Poor, overcast above @ feets, visibility @ miles, altimeter @ @ @ @
+9106|8|1|2|19|6|6|6|6|6|@ @, Mother's weather is: Fair @, visibility @ miles, altimeter @ @ @ @
+9107|10|1|2|6|6|6|6|6|6|6|6|@ @, Case 3 recovery. Marshal on the @ @ @, @, angel @. Expect final bearing @ @ @
+9108|2|1|2|@ @. Switch to tower
+9109|8|1|2|6|6|6|6|6|6|@ @, Charlie now, bearing @ @ @. BRC is @ @ @
+9110|2|1|2|@ @, Fly your needles
+9111|4|23|6|6|26|@ @ @. Expect @ approach 
+9112|6|6|22|21|22|19|28| Visibility @ kilometers @. Sky conditions: @ @ @ @
+9113|2|24|29| @: Information @
+9114|1|25|Sky conditions: @
+9115|8|30|6|6|6|6|6|6|27|Temperature: @ @ @ degrees celsius. Altimeter: @ @ @ @ @
+9116|8|6|6|6|6|6|6|6|20|Wind: @ @ @ degrees, @ @ knots, gusts @ @, @
+9117|3|23|6|6|@ @ @. 
+9118|1|26|Expect @ approach 
+9119|2|6|22|Visibility @ kilometers @.
+9120|4|21|22|19|28|Sky conditions: @ @ @ @
+9121|3|30|6|6|Temperature: @ @ @ degrees celsius.
+9122|5|6|6|6|6|27|Altimeter: @ @ @ @ @
