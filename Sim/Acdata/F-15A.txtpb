@@ -2331,8 +2331,8 @@ auxaero {
     avionics_egi_upgrade: true
     avionics_digital_flcs: true
     avionics_rwr_type: 0
-    avionics_gun_eegs_mode: true
-    avionics_gun_sslc_mode: true
+    avionics_gun_eegs_mode: false
+    avionics_gun_sslc_mode: false
     avionics_gun_lcos_mode: true
     avionics_gun_snap_mode: true
     avionics_engine_type: 0
@@ -2452,8 +2452,8 @@ auxaero {
   counter_measures {
     has_ews: true
     ecm_strength: 0
-    n_chaff: 120
-    n_flare: 60
+    n_chaff: 0
+    n_flare: 0
     flare_sequence: 0
     flare_dispencer {
       position {

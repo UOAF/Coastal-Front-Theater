@@ -1060,7 +1060,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>29</SensorIdx_1>
+        <SensorIdx_1>23</SensorIdx_1>
         <SensorIdx_2>57</SensorIdx_2>
         <SensorIdx_3>0</SensorIdx_3>
         <SensorIdx_4>0</SensorIdx_4>
@@ -1465,7 +1465,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>29</SensorIdx_1>
+        <SensorIdx_1>23</SensorIdx_1>
         <SensorIdx_2>57</SensorIdx_2>
         <SensorIdx_3>0</SensorIdx_3>
         <SensorIdx_4>0</SensorIdx_4>
@@ -1585,7 +1585,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>29</SensorIdx_1>
+        <SensorIdx_1>23</SensorIdx_1>
         <SensorIdx_2>57</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
@@ -2477,7 +2477,7 @@
     </ACD>
     <ACD Num="165">
         <CombatClass>4</CombatClass>
-        <AirframeDatIdx>189</AirframeDatIdx>
+        <AirframeDatIdx>133</AirframeDatIdx>
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>1</SensorType_1>
@@ -2912,7 +2912,7 @@
     </ACD>
     <ACD Num="194">
         <CombatClass>4</CombatClass>
-        <AirframeDatIdx>189</AirframeDatIdx>
+        <AirframeDatIdx>188</AirframeDatIdx>
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>1</SensorType_1>

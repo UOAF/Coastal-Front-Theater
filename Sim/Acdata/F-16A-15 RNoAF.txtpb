@@ -1971,8 +1971,8 @@ auxaero {
   counter_measures {
     has_ews: true
     ecm_strength: 0
-    n_chaff: 30
-    n_flare: 15
+    n_chaff: 0
+    n_flare: 30
     flare_sequence: 0
     flare_dispencer {
       position {
@@ -1985,7 +1985,7 @@ auxaero {
         y: 0
         z: 100
       } 
-      decoys: 15
+      decoys: 30
     } 
     chaff_sequence: 0
     chaff_dispencer {
@@ -1999,7 +1999,7 @@ auxaero {
         y: 0
         z: 100
       } 
-      decoys: 30
+      decoys: 0
     } 
   } 
   hardpoints {
@@ -2711,7 +2711,7 @@ auxaero {
   } 
   missions {
     mis_type_capability {
-      values: [100, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100, 100, 100, 0, 0, 0, 100, 100, 0, 0, 0, 0, 0, 100, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0]
+      values: [100, 100, 100, 100, 100, 0, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 0, 0, 100, 100, 100, 100, 100, 100, 0, 0, 0, 100, 100, 0, 0, 0, 0, 0, 100, 100, 100, 100, 100, 100, 0, 0, 0, 0, 0, 0, 0, 0]
     } 
     alt_reduction_by_loadout_drag: 0
     alt_reduction_by_loadout_weight: 0

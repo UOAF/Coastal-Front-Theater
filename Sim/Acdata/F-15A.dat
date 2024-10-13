@@ -1768,8 +1768,8 @@ avionicsNewMMC 1
 avionicsEGIUpgrade 1
 avionicsDigitalFLCS 1
 avionicsRWRType 0
-avionicsGunEEGSMode 1
-avionicsGunSSLCMode 1
+avionicsGunEEGSMode 0
+avionicsGunSSLCMode 0
 avionicsGunLCOSMode 1
 avionicsGunSNAPMode 1
 avionicsEngineType 0
@@ -1815,8 +1815,8 @@ boundingBoxMax_5 -017.000 +005.500 -002.000
 #-----------------------------------------------------
 hasEWS 1
 ecmStrength 0.000
-nChaff 120
-nFlare 60
+nChaff 0
+nFlare 0
 FlareDispensers 4
 FlareSeq 0
 FlarePos1 4.00 2.95 2.25

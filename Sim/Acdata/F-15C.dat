@@ -1780,7 +1780,7 @@ animRefuelRate 5.0
 #-----------------------------------------------------
 # Avionics
 #-----------------------------------------------------
-avionicsLink16 1
+avionicsLink16 0
 avionicsLink16MMC 0
 avionicsCanUseSpice 0
 avionicsJDAMAvionicsType 0

@@ -6,3 +6,5 @@ Mod of the official Baltic theater geared towards a 1980s experience with realis
 - Airbases from the period.
 - New aircraft skins and correct roundels.
 - EPAF F-16 with Blk 15 avionics. 
+- Ships from the period with SAMs from the perdio
+- Submarines (surfaced only) 
