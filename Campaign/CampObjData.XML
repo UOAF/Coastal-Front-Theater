@@ -33913,11 +33913,11 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4240">
-        <CampName>Air Defense SAM Site</CampName>
+        <CampName>NIKE</CampName>
         <OcdIndex>315</OcdIndex>
         <Heading>0.000</Heading>
-        <PositionX>1395631.482</PositionX>
-        <PositionY>1710509.560</PositionY>
+        <PositionX>1412031.382</PositionX>
+        <PositionY>1720349.500</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4241">
@@ -33985,7 +33985,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4249">
-        <CampName>Air Defense SAM Site</CampName>
+        <CampName>HAWK</CampName>
         <OcdIndex>315</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>444437.287</PositionX>
@@ -34011,7 +34011,7 @@
     <CampObj CampId="4252">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>598596.346</PositionX>
         <PositionY>1526830.681</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34075,7 +34075,7 @@
     <CampObj CampId="4261">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>362437.788</PositionX>
         <PositionY>3104501.052</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34321,11 +34321,11 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4292">
-        <CampName>Air Defense SAM Site</CampName>
+        <CampName>HAWK</CampName>
         <OcdIndex>315</OcdIndex>
         <Heading>0.000</Heading>
-        <PositionX>651076.026</PositionX>
-        <PositionY>923314.365</PositionY>
+        <PositionX>644516.066</PositionX>
+        <PositionY>956114.164</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="4293">
@@ -34643,7 +34643,7 @@
     <CampObj CampId="4332">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>792115.165</PositionX>
         <PositionY>1926988.239</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34659,7 +34659,7 @@
     <CampObj CampId="4334">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>792115.165</PositionX>
         <PositionY>1713789.540</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34747,7 +34747,7 @@
     <CampObj CampId="4345">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>598596.346</PositionX>
         <PositionY>2028667.618</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34851,7 +34851,7 @@
     <CampObj CampId="4358">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>972514.064</PositionX>
         <PositionY>3006101.652</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -34883,7 +34883,7 @@
     <CampObj CampId="4362">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>1018433.784</PositionX>
         <PositionY>2894582.333</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -35003,7 +35003,7 @@
     <CampObj CampId="4377">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>431317.367</PositionX>
         <PositionY>2166426.777</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -35035,7 +35035,7 @@
     <CampObj CampId="4381">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>180.000</Heading>
+        <Heading>179.999</Heading>
         <PositionX>100039.389</PositionX>
         <PositionY>2733863.314</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -35846,6 +35846,446 @@
         <Heading>0.000</Heading>
         <PositionX>1188992.743</PositionX>
         <PositionY>1730189.440</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4482">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1195552.703</PositionX>
+        <PositionY>1723629.480</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4483">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1293952.102</PositionX>
+        <PositionY>1762989.240</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4484">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1293952.102</PositionX>
+        <PositionY>1746589.340</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4485">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1326751.902</PositionX>
+        <PositionY>1762989.240</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4486">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1284112.162</PositionX>
+        <PositionY>1664589.840</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4487">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>1248032.383</PositionX>
+        <PositionY>1270992.242</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4488">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>995473.924</PositionX>
+        <PositionY>1218512.563</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4489">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>916754.405</PositionX>
+        <PositionY>1231632.483</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4490">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>939714.264</PositionX>
+        <PositionY>1129953.103</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4491">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>834754.905</PositionX>
+        <PositionY>1064353.504</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4492">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>847874.825</PositionX>
+        <PositionY>1182432.783</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4493">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>801955.105</PositionX>
+        <PositionY>1097153.303</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4494">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>782275.225</PositionX>
+        <PositionY>1008593.844</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4495">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>729795.546</PositionX>
+        <PositionY>1047953.604</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4496">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>614996.246</PositionX>
+        <PositionY>959394.144</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4497">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>654356.006</PositionX>
+        <PositionY>1011873.824</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4498">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>611716.266</PositionX>
+        <PositionY>998753.904</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4499">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>552676.627</PositionX>
+        <PositionY>952834.184</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4500">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>539556.707</PositionX>
+        <PositionY>1011873.824</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4501">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>500196.947</PositionX>
+        <PositionY>1038113.664</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4502">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>460837.187</PositionX>
+        <PositionY>995473.924</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4503">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>431317.367</PositionX>
+        <PositionY>1051233.584</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4504">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>339477.928</PositionX>
+        <PositionY>1133233.083</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4505">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>323078.028</PositionX>
+        <PositionY>939714.264</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4506">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>293558.208</PositionX>
+        <PositionY>985633.984</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4507">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>293558.208</PositionX>
+        <PositionY>1116833.183</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4508">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>401797.548</PositionX>
+        <PositionY>1080753.404</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4509">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>368997.748</PositionX>
+        <PositionY>1034833.684</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4510">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>424757.407</PositionX>
+        <PositionY>897074.525</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4511">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>241078.529</PositionX>
+        <PositionY>933154.304</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4512">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>224678.629</PositionX>
+        <PositionY>1028273.724</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4513">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>241078.529</PositionX>
+        <PositionY>1116833.183</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4514">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>195158.809</PositionX>
+        <PositionY>1005313.864</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4515">
+        <CampName>HAWK</CampName>
+        <OcdIndex>33</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>172198.949</PositionX>
+        <PositionY>982354.004</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4516">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>191878.829</PositionX>
+        <PositionY>1116833.183</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4517">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>159079.029</PositionX>
+        <PositionY>1047953.604</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4518">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>80359.510</PositionX>
+        <PositionY>1090593.344</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4519">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>77079.530</PositionX>
+        <PositionY>1051233.584</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4520">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>40999.750</PositionX>
+        <PositionY>1103713.263</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4521">
+        <CampName>HAWK</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>14759.910</PositionX>
+        <PositionY>1047953.604</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4522">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>83639.490</PositionX>
+        <PositionY>683875.826</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4523">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>142679.129</PositionX>
+        <PositionY>637956.106</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4524">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>162359.009</PositionX>
+        <PositionY>815075.025</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4525">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>237798.549</PositionX>
+        <PositionY>874114.665</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4526">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>185318.869</PositionX>
+        <PositionY>883954.605</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4527">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>113159.309</PositionX>
+        <PositionY>880674.625</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4528">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>47559.710</PositionX>
+        <PositionY>864274.725</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4529">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>27879.830</PositionX>
+        <PositionY>667475.926</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4530">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>332917.968</PositionX>
+        <PositionY>818355.005</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4531">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>411637.488</PositionX>
+        <PositionY>785555.205</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4532">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>503476.927</PositionX>
+        <PositionY>877394.645</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4533">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>503476.927</PositionX>
+        <PositionY>769155.305</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4534">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>454277.227</PositionX>
+        <PositionY>867554.705</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4535">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>608436.286</PositionX>
+        <PositionY>782275.225</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4536">
+        <CampName>NIKE</CampName>
+        <OcdIndex>315</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>595316.366</PositionX>
+        <PositionY>670755.906</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
