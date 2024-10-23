@@ -50070,4 +50070,34 @@
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
     </FCD>
+    <FCD Num="1669">
+        <CtIdx>4470</CtIdx>
+        <RepairTime>672</RepairTime>
+        <DisplayPriority>3</DisplayPriority>
+        <Flags>7201</Flags>
+        <Name>Secret Bat Project</Name>
+        <HitPoints>100</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>100</Dam_Penetration>
+        <Dam_HighExplosive>100</Dam_HighExplosive>
+        <Dam_Heave>0</Dam_Heave>
+        <Dam_Incendairy>100</Dam_Incendairy>
+        <Dam_Proximity>25</Dam_Proximity>
+        <Dam_Kinetic>100</Dam_Kinetic>
+        <Dam_Hydrostatic>0</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
 </FCDRecords>
