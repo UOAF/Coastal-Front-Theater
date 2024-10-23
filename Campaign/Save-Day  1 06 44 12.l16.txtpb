@@ -146,14 +146,6 @@ network {
 }
 all_flights {
   flights {
-    flight_number: 6234
-    stn_number: 3164
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
     flight_number: 5972
     stn_number: 2502
     f2f_channel: 91
@@ -180,6 +172,14 @@ all_flights {
   flights {
     flight_number: 5975
     stn_number: 7460
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5958
+    stn_number: 2101
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
@@ -266,8 +266,8 @@ all_flights {
     team: 2
   }
   flights {
-    flight_number: 6230
-    stn_number: 3144
+    flight_number: 5970
+    stn_number: 2370
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
@@ -284,6 +284,14 @@ all_flights {
   flights {
     flight_number: 6181
     stn_number: 2707
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5924
+    stn_number: 3273
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
