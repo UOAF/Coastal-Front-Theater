@@ -6601,7 +6601,7 @@
         <PositionZ>0.000</PositionZ>
     </CampObj>
     <CampObj CampId="826">
-        <CampName>Bunker Fortification</CampName>
+        <CampName>Bunker Komplex 5000</CampName>
         <OcdIndex>11</OcdIndex>
         <Heading>0.000</Heading>
         <PositionX>270598.348</PositionX>
@@ -35035,7 +35035,7 @@
     <CampObj CampId="4381">
         <CampName>Air Defense SAM Site</CampName>
         <OcdIndex>317</OcdIndex>
-        <Heading>179.999</Heading>
+        <Heading>180.000</Heading>
         <PositionX>100039.389</PositionX>
         <PositionY>2733863.314</PositionY>
         <PositionZ>0.000</PositionZ>
@@ -36294,6 +36294,38 @@
         <Heading>0.000</Heading>
         <PositionX>665803.154</PositionX>
         <PositionY>2728812.217</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4538">
+        <CampName>Underground HQ</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>680595.846</PositionX>
+        <PositionY>2195946.597</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4539">
+        <CampName>Obiekt 3002</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>513316.867</PositionX>
+        <PositionY>2704343.494</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4540">
+        <CampName>Obiekt 3003</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>145959.109</PositionX>
+        <PositionY>2405865.316</PositionY>
+        <PositionZ>0.000</PositionZ>
+    </CampObj>
+    <CampObj CampId="4541">
+        <CampName>Granit</CampName>
+        <OcdIndex>11</OcdIndex>
+        <Heading>0.000</Heading>
+        <PositionX>323078.028</PositionX>
+        <PositionY>2205786.537</PositionY>
         <PositionZ>0.000</PositionZ>
     </CampObj>
 </CampObjData>
