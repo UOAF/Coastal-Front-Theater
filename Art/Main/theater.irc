@@ -4,7 +4,7 @@
 // the scenario strings, such as  scenario name, description.
 // This file offers some newly added features:
 // - You can specify 4 lines in the description field in the campaign
-//   select window which gives you the opprortunity for more detailed
+//   select window which gives you the opportunity for more detailed
 //   descriptions. 
 // - In the bottom line of the description field you can enter the
 //   campaign duration (Max. Campaign days:) and the stalemate conditions
@@ -41,8 +41,8 @@
 [ADDTEXT] TXT_SCENARIO_1 "ZAPAD '81"																																			 
 [ADDTEXT] TXT_SC_1_LINE_1 "The peaceful and defensive Warsaw Pact did what it was designed to do, it attacked the West."
 [ADDTEXT] TXT_SC_1_LINE_2 "After holding the largest military exercises in history, the troops did not return to their garrisons."
-[ADDTEXT] TXT_SC_1_LINE_3 "Instead, a full out invansion into the Westrn Europe began."
-[ADDTEXT] TXT_SC_1_LINE_4 "WWW III has just started, it's not jsut another war, it is a fight for survival of your civilsation"
+[ADDTEXT] TXT_SC_1_LINE_3 "Instead, a full out invasion into the Western Europe began."
+[ADDTEXT] TXT_SC_1_LINE_4 "WWW III has just started, it's not just another war, it is a fight for survival of your civilisation"
 [ADDTEXT] TXT_SC_1_CAMP_END "20"
 [ADDTEXT] TXT_SC_1_CAMP_STALE "30"
 [ADDTEXT] TXT_SC_1_CAMP_DIFF "Hard"

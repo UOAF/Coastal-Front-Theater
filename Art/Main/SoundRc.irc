@@ -195,78 +195,78 @@
 [STREAMSOUND] SND_CAMPAIGN_BAD    "Add-On Coastal Front\music\campaign_theme.ogg"     S_BIT_NORMAL S_BIT_FADE_IN S_BIT_FADE_OUT S_BIT_LOOP
 [LOOPCOUNT]   SND_CAMPAIGN_BAD 2
 
-[STREAMSOUND] SND_PIECE_1 	  "Add-On Coastal Front\music\themes34561.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_2 	  "Add-On Coastal Front\music\themes34561.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_3 	  "Add-On Coastal Front\music\themes34561.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_4 	  "Add-On Coastal Front\music\themes34561.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_5 	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_6 	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_7 	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_8 	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_9 	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_10	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_11	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_12	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_13	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_14	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_15	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_16	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_17	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_18	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_19	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_20	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_21	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_22	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_23	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_24	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_25	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_26	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_27	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_28	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_29	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_30	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_31	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_32	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_33	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_34	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_35	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_36	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_37	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_38	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_39	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_40	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_41	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_42	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_43	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_44	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_45	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_46	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_47	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_48	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_49	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_50	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_51	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_52	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_53	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_54	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_55	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_56	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_57	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_58	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_59	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_60	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_61	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_62	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_63	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_64	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_65	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_66	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_67	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_68	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_69	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_70	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_71	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_74	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_75	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_76	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
-[STREAMSOUND] SND_PIECE_77	  "music\theme_4.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_1 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_2 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_3 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_4 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_5 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_6 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_7 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_8 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_9 	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_10	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_11	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_12	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_13	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_14	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_15	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_16	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_17	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_18	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_19	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_20	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_21	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_22	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_23	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_24	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_25	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_26	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_27	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_28	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_29	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_30	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_31	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_32	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_33	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_34	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_35	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_36	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_37	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_38	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_39	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_40	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_41	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_42	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_43	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_44	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_45	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_46	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_47	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_48	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_49	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_50	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_51	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_52	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_53	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_54	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_55	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_56	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_57	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_58	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_59	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_60	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_61	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_62	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_63	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_64	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_65	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_66	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_67	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_68	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_69	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_70	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_71	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_74	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_75	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_76	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_77	  "Add-On Coastal Front\music\campaign_theme.ogg"   S_BIT_NORMAL   S_BIT_FADE_IN
