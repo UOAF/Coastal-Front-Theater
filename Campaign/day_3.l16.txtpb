@@ -146,56 +146,64 @@ network {
 }
 all_flights {
   flights {
-    flight_number: 6152
-    stn_number: 2177
+    flight_number: 5447
+    stn_number: 5774
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 6239
-    stn_number: 1541
+    flight_number: 5948
+    stn_number: 1652
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 6055
-    stn_number: 5324
+    flight_number: 5996
+    stn_number: 6160
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 4950
-    stn_number: 6701
+    flight_number: 5901
+    stn_number: 3541
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 6026
-    stn_number: 3506
+    flight_number: 5345
+    stn_number: 3562
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 6127
-    stn_number: 3260
+    flight_number: 6089
+    stn_number: 6266
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 5874
-    stn_number: 7540
+    flight_number: 6071
+    stn_number: 3711
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5063
+    stn_number: 2542
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
@@ -203,223 +211,15 @@ all_flights {
   }
   flights {
     flight_number: 6087
-    stn_number: 7436
+    stn_number: 7612
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 5876
-    stn_number: 4517
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5086
-    stn_number: 4506
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6077
-    stn_number: 4640
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5931
-    stn_number: 2637
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 4977
-    stn_number: 6116
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5906
-    stn_number: 7247
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6102
-    stn_number: 4505
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6228
-    stn_number: 4744
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5469
-    stn_number: 2233
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6084
-    stn_number: 4240
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 4550
-    stn_number: 6327
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6149
-    stn_number: 7776
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5963
-    stn_number: 7221
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6106
-    stn_number: 6712
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5616
-    stn_number: 2600
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6220
-    stn_number: 7603
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6112
-    stn_number: 5556
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 4564
-    stn_number: 2271
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5949
-    stn_number: 5221
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5988
-    stn_number: 5654
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 5918
-    stn_number: 1217
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 4961
-    stn_number: 5377
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6133
-    stn_number: 2524
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6181
-    stn_number: 1445
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6150
-    stn_number: 5317
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 4556
-    stn_number: 4770
-    f2f_channel: 91
-    mission_channel: 115
-    ew_channel: -1
-    team: 2
-  }
-  flights {
-    flight_number: 6175
-    stn_number: 5551
+    flight_number: 5476
+    stn_number: 2145
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
@@ -427,15 +227,279 @@ all_flights {
   }
   flights {
     flight_number: 6054
-    stn_number: 1577
+    stn_number: 5745
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
     team: 2
   }
   flights {
-    flight_number: 6098
-    stn_number: 3527
+    flight_number: 5374
+    stn_number: 1263
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5469
+    stn_number: 3232
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 6046
+    stn_number: 3456
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5368
+    stn_number: 5470
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5897
+    stn_number: 3412
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5554
+    stn_number: 7174
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5885
+    stn_number: 5314
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5924
+    stn_number: 4430
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5926
+    stn_number: 3767
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5378
+    stn_number: 2504
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 4951
+    stn_number: 2453
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 6052
+    stn_number: 7171
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5973
+    stn_number: 1275
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5501
+    stn_number: 4635
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5478
+    stn_number: 1267
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 5552
+    stn_number: 6377
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5371
+    stn_number: 7457
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5320
+    stn_number: 5562
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 5420
+    stn_number: 4136
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5870
+    stn_number: 7427
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5136
+    stn_number: 7243
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 6107
+    stn_number: 1340
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5888
+    stn_number: 7356
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5955
+    stn_number: 4634
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5979
+    stn_number: 4463
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 4586
+    stn_number: 1244
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 6009
+    stn_number: 6412
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5827
+    stn_number: 5153
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5869
+    stn_number: 4446
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5355
+    stn_number: 3350
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 4750
+    stn_number: 1666
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5998
+    stn_number: 1612
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5991
+    stn_number: 6411
+    f2f_channel: 91
+    mission_channel: 115
+    ew_channel: -1
+    team: 2
+  }
+  flights {
+    flight_number: 5334
+    stn_number: 3130
     f2f_channel: 91
     mission_channel: 115
     ew_channel: -1
