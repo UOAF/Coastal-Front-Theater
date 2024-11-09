@@ -1,8 +1,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Objective type priorities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- 1	 50		; TYPE_AIRBASE
- 2	 30		; TYPE_AIRSTRIP
+ 1	  0		; TYPE_AIRBASE
+ 2	  0		; TYPE_AIRSTRIP
  3	 50		; TYPE_ARMYBASE
  4	  0		; TYPE_BEACH
  5	  0		; TYPE_BORDER
@@ -31,12 +31,12 @@
 28	  0		; TYPE_TOWN
 29	  0		; TYPE_VILLAGE
 30	 40		; TYPE_HARTS
-31	 50		; TYPE_SAM_SITE
+31	  0		; TYPE_SAM_SITE
 -1
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Unit type priorities
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- 1	 60		; STYPE_UNIT_AIR_DEFENSE
+ 1	  0		; STYPE_UNIT_AIR_DEFENSE
  2	 20		; STYPE_UNIT_AIRMOBILE
  3	 50		; STYPE_UNIT_ARMOR
  4	 50		; STYPE_UNIT_ARMORED_CAV
@@ -50,7 +50,7 @@
 12	 30		; STYPE_UNIT_SS_MISSILE
 13	 50		; STYPE_UNIT_SUPPLY
 14	 30		; STYPE_UNIT_TOWED_ARTILLERY
-19	 50		; STYPE_UNIT_NAVAL
+19	  0		; STYPE_UNIT_NAVAL
 -1
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Mission priorities
@@ -65,8 +65,8 @@
  8	 20		; AMIS_ALERT
  9	 40		; AMIS_INTERCEPT
 10	100		; AMIS_ESCORT
-11	 50		; AMIS_SEADSTRIKE
-12	100		; AMIS_SEADESCORT
+11	  0		; AMIS_SEADSTRIKE
+12	  0		; AMIS_SEADESCORT
 13	 50		; AMIS_OCASTRIKE
 14	100		; AMIS_INTSTRIKE
 15	100		; AMIS_STRIKE
@@ -89,8 +89,8 @@
 32	 60		; AMIS_AIRCAV
 33	 60		; AMIS_AIRLIFT
 34	 60		; AMIS_SAR
-35	 20		; AMIS_ASW
-36	 60		; AMIS_ASHIP
+35	  0		; AMIS_ASW
+36	  0		; AMIS_ASHIP
 37	 10		; AMIS_PATROL
 38	 80		; AMIS_RECONPATROL
 39	  0		; AMIS_ABORT

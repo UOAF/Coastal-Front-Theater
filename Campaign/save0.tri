@@ -3,6 +3,85 @@
 //
 // Base event file
 //
+//Teams layout
+//1-Denmark
+//2-NATO
+//3-Norway
+//4-Sweden
+//5-DDR
+//6-CCCP
+//7-PRL
+//
+//PAK - Name - Campid 
+//
+//#SET_PAK_PRIORITY [team#] [pakID#] [priority# 0 to 100]
+//
+//PAK0 - Mamonovo - 4324 
+//#SET_PAK_PRIORITY 2 4324 50
+//PAK1 - Hannover - 4297
+//#SET_PAK_PRIORITY 2 4297 50  
+//PAK2 - Karlstad - 3996
+//#SET_PAK_PRIORITY 2 3996 50
+//PAK3 - Nomkoping - 3984
+//#SET_PAK_PRIORITY 2 3984 50
+//PAK4 - Holestebro - 235
+//#SET_PAK_PRIORITY 2 235 50
+///PAK5 - Plock - 158
+//#SET_PAK_PRIORITY 2 158 50
+//PAK6 - Torun - 157
+//#SET_PAK_PRIORITY 2 157 50
+//PAK7 - Rostock - 120
+//#SET_PAK_PRIORITY 2 120 50
+//PAK8 - Kiel - 113
+//#SET_PAK_PRIORITY 2 113 50
+//PAK9 - Pila - 98
+//#SET_PAK_PRIORITY 2 98 50
+//PAK10 - Schwerin - 93
+//#SET_PAK_PRIORITY 2 93 50
+//PAK11 - Neubrandenburg - 92
+//#SET_PAK_PRIORITY 2 92 50
+//PAK12 - Vaxjo City - 91
+//#SET_PAK_PRIORITY 2 91 50
+//PAK13 - Visby City - 90
+//#SET_PAK_PRIORITY 2 90 50
+//PAK14 - Koszalin - 84
+//#SET_PAK_PRIORITY 2 84 50
+//PAK15 - Stockholm - 79
+//#SET_PAK_PRIORITY 2 79 50
+//PAK16 - Veilje - 73
+//#SET_PAK_PRIORITY 2 73 50
+//PAK17 - Jonkoping - 72
+//#SET_PAK_PRIORITY 2 72 50
+//PAK18 - Olso - 70
+//#SET_PAK_PRIORITY 2 70 50
+//PAK19 - Goteburg - 69
+//#SET_PAK_PRIORITY 2 69 50
+//PAK20 - Malmo - 68
+//#SET_PAK_PRIORITY 2 68 50
+//PAK21 - Copenhagen - 67
+//#SET_PAK_PRIORITY 2 67 50
+//PAK22 - Odense - 66
+//#SET_PAK_PRIORITY 2 66 50
+//PAK23 - Aalborg - 65
+//#SET_PAK_PRIORITY 2 65 50
+//PAK24 - Arhus - 64
+//#SET_PAK_PRIORITY 2 64 50
+//PAK25 - Bremen - 63
+//#SET_PAK_PRIORITY 2 63 50
+//PAK26 - Flensburg - 62
+//#SET_PAK_PRIORITY 2 62 50
+//PAK27 - Hamburg - 61
+//#SET_PAK_PRIORITY 2 61 50
+//PAK29 - Szczecin - 58
+//#SET_PAK_PRIORITY 2 58 50
+//PAK30 - Poznan - 57
+//#SET_PAK_PRIORITY 2 57 50
+//PAK31 - Bydgoszcz - 56
+//#SET_PAK_PRIORITY 2 56 50
+//PAK32 - Gdansk - 55
+//#SET_PAK_PRIORITY 2 55 50
+//PAK33 - Gdynia - 54
+//#SET_PAK_PRIORITY 2 54 50
 // :::::::::::::::::::::::::::::::::::::::::;
 //
 // #TOTAL_EVENTS is a required entry, and
@@ -15,59 +94,502 @@
 // :::::::::::::::::::::::::::::::::::::::::;
 // 
 // This sets the initial tempo
-#SET_TEMPO 150
+#SET_TEMPO 255
+
 #ENDINIT
 //
 //
-//
+//////////////////////////////////////////////////////////////////////////////
 // Event #1
-// NATO convince Sweden to help after 7 days
-#IF_EVENT_PLAYED 1
-#ELSE
-#IF_CAMPAIGN_DAY G 7
-#CHANGE_RELATIONS 2 4 1
-#CHANGE_RELATIONS 4 2 1
-#CHANGE_RELATIONS 4 6 5
-#CHANGE_RELATIONS 6 4 5
-#SHIFT_INITIATIVE 6 2 30
-#SET_TEMPO 150
-#DO_EVENT 1
+// NATO defence
+//////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Hamburg + Kiel being attacked by CCCP forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 1
+	#IF_CONTROLLED 2 OR 61 113
+		//Kiel maxed
+		#SET_PAK_PRIORITY 2 113 100
+		#SET_PAK_PRIORITY 6 113 100
+		//Hamburg maxed
+		#SET_PAK_PRIORITY 2 61 100
+		#SET_PAK_PRIORITY 6 61 100
+		#SET_PAK_PRIORITY 5 61 100
+		#SET_PAK_PRIORITY 7 61 100
+		//Hannover maxed
+		#SET_PAK_PRIORITY 2 4297 100
+		#SET_PAK_PRIORITY 6 4297 100
+		#SET_PAK_PRIORITY 5 4297 100
+		#SET_PAK_PRIORITY 7 4297 100
+		//Copenhagen initial
+		#SET_PAK_PRIORITY 2 67 50
+		#SET_PAK_PRIORITY 6 67 50
+		#SET_PAK_PRIORITY 1 67 50
+		#SET_PAK_PRIORITY 3 67 100
+		//Odense initial
+		#SET_PAK_PRIORITY 2 66 50
+		#SET_PAK_PRIORITY 6 66 50
+		#SET_PAK_PRIORITY 1 66 50
+		#SET_PAK_PRIORITY 3 66 100
+		//Bremen balanced
+		#SET_PAK_PRIORITY 2 63 50
+		#SET_PAK_PRIORITY 6 63 100
+		#SET_PAK_PRIORITY 5 63 100
+		#SET_PAK_PRIORITY 7 63 100
+		//aalborg Balanced
+		#SET_PAK_PRIORITY 2 65 10
+		#SET_PAK_PRIORITY 6 65 10
+		//Berlin Balanced
+		#SET_PAK_PRIORITY 2 59 20
+		#SET_PAK_PRIORITY 6 59 20
+		//Szczecin Balanced
+		#SET_PAK_PRIORITY 2 58 10
+		#SET_PAK_PRIORITY 6 58 10
+		//rostock Balanced
+		#SET_PAK_PRIORITY 2 120 10
+		#SET_PAK_PRIORITY 6 120 10
+		//Schwerin Balanced
+		#SET_PAK_PRIORITY 2 93 10
+		#SET_PAK_PRIORITY 6 93 10
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		//
+		#SET_TEMPO 255
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50 
+		#DO_EVENT 1
+		#DO_MONOLOG Hamburg Attacked By Warsaw Pact
+	#ENDIF
 #ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// Bremen being attacked by CCCP forces (Hamburg or Kiel fallen to CCCP)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 2
+	#IF_CONTROLLED 6 OR 61 113
+		//Kiel reduced 
+		#SET_PAK_PRIORITY 2 113 40
+		#SET_PAK_PRIORITY 6 113 50
+		#SET_PAK_PRIORITY 5 113 50
+		#SET_PAK_PRIORITY 7 113 50
+		//Hamburg reduced
+		#SET_PAK_PRIORITY 2 61 40
+		#SET_PAK_PRIORITY 6 61 50
+		#SET_PAK_PRIORITY 5 61 50
+		#SET_PAK_PRIORITY 7 61 50
+		//Bremen maxed
+		#SET_PAK_PRIORITY 2 63 100
+		#SET_PAK_PRIORITY 6 63 100
+		#SET_PAK_PRIORITY 5 63 100
+		#SET_PAK_PRIORITY 7 63 100
+		//rostock Balanced
+		#SET_PAK_PRIORITY 2 120 10
+		#SET_PAK_PRIORITY 6 120 50
+		#SET_PAK_PRIORITY 5 120 50
+		#SET_PAK_PRIORITY 7 120 50
+		//Schwerin Balanced
+		#SET_PAK_PRIORITY 2 93 10
+		#SET_PAK_PRIORITY 6 93 50
+		#SET_PAK_PRIORITY 5 93 50
+		#SET_PAK_PRIORITY 7 93 50
+		///
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		///
+		#SET_TEMPO 255
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50  
+		#DO_EVENT 2
+		#DO_MONOLOG Hamburg or Kiel has Fallen Bremen Attacked By Warsaw Pact
+	#ENDIF
 #ENDIF
-//
-//
-//
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// Hannover Fallen
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CONTROLLED 6 OR 4297
+		//Hannover reduced
+		#SET_PAK_PRIORITY 2 4297 60
+		#SET_PAK_PRIORITY 6 4297 60
+		#SET_PAK_PRIORITY 5 4297 60
+		#SET_PAK_PRIORITY 7 4297 60
+		///
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		///
+		#SET_TEMPO 255
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50 
+		#DO_EVENT 3
+		#DO_MONOLOG Hannover has Fallen Bremen Attacked By Warsaw Pact
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// CCCP Forces attacking Denmark (Hamburg fallen) (Turning North) (Flensburg + Copenhagen)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 4
+	#IF_CONTROLLED 6 OR 61 113
+		//Copenhagen secondfront
+		#SET_PAK_PRIORITY 2 67 100
+		#SET_PAK_PRIORITY 6 67 80
+		//Odense secondfront
+		#SET_PAK_PRIORITY 2 66 100
+		#SET_PAK_PRIORITY 6 66 80
+		//flensburg secondfront
+		#SET_PAK_PRIORITY 2 62 100
+		#SET_PAK_PRIORITY 6 62 80
+		//Veilje second line
+		#SET_PAK_PRIORITY 2 73 80
+		#SET_PAK_PRIORITY 6 73 80
+		//
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		///
+		#SET_TEMPO 255
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50 
+		#DO_EVENT 4
+		#DO_MONOLOG Hamburg or Kiel has Fallen Flensburg And Copenhagen Attacked By Warsaw Pact
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// CCCP Forces attacking Denmark (Pushing Further North) (Vejle + Copenhagen)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 5
+	#IF_CONTROLLED 6 OR 62
+		//Flensburg reduced red
+		#SET_PAK_PRIORITY 2 62 80
+		#SET_PAK_PRIORITY 6 62 80
+		//Veilje second line
+		#SET_PAK_PRIORITY 2 73 100
+		#SET_PAK_PRIORITY 6 73 80
+		#SET_TEMPO 255
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		///
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50  
+		#DO_EVENT 5
+		#DO_MONOLOG Vejle Attacked By Warsaw Pact
+	#ENDIF
+#ENDIF
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// Sweden Joins Nato
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 6
+	#IF_CAMPAIGN_DAY >= 3
+		//#PLAY_MOVIE 115
+		// NATO & Sweden - Allied
+		//#CHANGE_RELATIONS 2 4 1
+		// Sweden & NATO - Allied
+		#CHANGE_RELATIONS 4 2 1
+		// Sweden & CCCP - At war
+		#CHANGE_RELATIONS 4 6 5
+		//CCCP & Sweden - At war
+		//#CHANGE_RELATIONS 6 4 5
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50 
+		//Malmo
+		#SET_PAK_PRIORITY 2 68 60
+		#SET_PAK_PRIORITY 6 68 50
+		#SET_PAK_PRIORITY 4 68 100
+		//Vaxjo
+		#SET_PAK_PRIORITY 2 91 60
+		#SET_PAK_PRIORITY 6 91 50
+		#SET_PAK_PRIORITY 4 91 100
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		///
+		#DO_EVENT 6
+		#DO_MONOLOG Sweden Joins NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7
+// red Progress Supply 1 Uelzen Camp
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 7
+	#IF_CONTROLLED 6 OR 174
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#DO_EVENT 7
+		#DO_MONOLOG Red Control Uelzen, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// red Progress Supply 2 Luebeck Camp
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 8
+	#IF_CONTROLLED 6 OR 94
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 8
+		#DO_MONOLOG Red Control Luebeck, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// red Progress Supply 3 Dannenberg   Camp
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 9
+	#IF_CONTROLLED 6 OR 132
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 9
+		#DO_MONOLOG Red Control Dannenberg, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #10 
+// red Progress Supply 4 Launenburg
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 10
+	#IF_CONTROLLED 6 OR 177
+		//Keep Red Supply up	
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 10
+		#DO_MONOLOG Red Control Launenburg, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #11 
+// red Progress Supply 5 Horneburg
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 11
+	#IF_CONTROLLED 6 OR 181
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 11
+		#DO_MONOLOG Red Control Horneburg, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #12 
+// red Progress Supply 6 Bremervoerde
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 12
+	#IF_CONTROLLED 6 OR 129
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 12
+		#DO_MONOLOG Red Control Bremervoerde, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13 
+// red Progress Supply 7 Rotenburg
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 13
+	#IF_CONTROLLED 6 OR 128
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 13
+		#DO_MONOLOG Red Control Rotenburg, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
 // Event #14
-// Bremen (ID 63) falls to the red side (Team 6 = USSR)
-//
-//
-#IF_CONTROLLED 6 A 63
-#DO_EVENT 14
-#END_GAME 14
+// Nato Loss (Copehagen or Bremen under CCCP Control)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 14
+	#IF_CONTROLLED 6 OR 67 63
+		#SET_TEMPO 255
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50  
+		#DO_EVENT 14
+		#END_GAME 14
+		#DO_MONOLOG Bremen And/Or Copenhagen Fallen To Warsaw Pact, NATO Loses
+	#ENDIF
 #ENDIF
-// 
-// Event #15
-// Stalemate
-// 
-#IF_BORDOM_HOURS 480
-#DO_EVENT 15
-#END_GAME 15
-#ENDIF
-// 
-// Event #16
-// Timeout - You have 30 days to win (or lose) the war
-// 
-#IF_CAMPAIGN_DAY G 30
-#DO_EVENT 16
-#END_GAME 16
-#ENDIF
-// 
+
+
+
+//////////////////////////////////////////////////////////////////////////////
 // Event #17
-// NATO (Team 2) captures Bydgoszcz (ID 56)
-//
-#IF_CONTROLLED 2 A 56
-#DO_EVENT 17
-#END_GAME 17
+// Nato Win (Copehagen or Bremen under Nato Control)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 17
+	#IF_CAMPAIGN_DAY >= 6
+		#IF_CONTROLLED 2 AND 67 63
+			//#PLAY_MOVIE 115
+			#SHIFT_INITIATIVE 2 6 50 
+			#SHIFT_INITIATIVE 1 5 50 
+			#SHIFT_INITIATIVE 3 6 50  
+			#DO_EVENT 17
+			#END_GAME 17
+			#DO_MONOLOG Warsaw Pact Attack Halted NATO Wins
+		#ENDIF
+	#ENDIF
 #ENDIF
-// End
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// Timeout
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 16
+	#IF_CAMPAIGN_DAY >= 7
+		//#PLAY_MOVIE 115
+		#SHIFT_INITIATIVE 2 6 50 
+		#SHIFT_INITIATIVE 1 5 50 
+		#SHIFT_INITIATIVE 3 6 50  
+		#DO_EVENT 16
+		#END_GAME 16
+		#DO_MONOLOG Timeout -> END GAME STALEMATE
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #18
+// red resupply
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 18
+	//Keep Red Supply up
+	#IF_SUPPLY 6 <= 1000
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 18
+		#RESET_EVENT 18
+		#DO_MONOLOG Red supply low, resupply
+	#ENDIF
+#ENDIF
+//////////////////////////////////////////////////////////////////////////////
+// Event #19
+// red Progress Supply 9 Hannover
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 19
+		#IF_CONTROLLED 6 OR 2497
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 19
+		#DO_MONOLOG Red Control Hannover, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #20
+// red Progress Supply 10 Flensburg
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 20
+	#IF_CONTROLLED 6 OR 62
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 20
+		#DO_MONOLOG Red Control Flensburg, Resupply		
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #21
+// red Progress Supply 11 Vejle
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 21
+	#IF_CONTROLLED 6 OR 73
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_EVENT 21
+		#DO_MONOLOG Red Control Vejle, Resupply		
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #22
+// red Progress Supply 12 Odense
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 22
+	#IF_CONTROLLED 6 OR 66
+		//Keep Red Supply up
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+		#DO_MONOLOG Red Control Odense, Resupply	
+		#DO_EVENT 22
+	#ENDIF
+#ENDIF
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
 #ENDSCRIPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
