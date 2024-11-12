@@ -6,16 +6,16 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="1">
-        <WpnStores_130>180</WpnStores_130>
-        <WpnStores_166>200</WpnStores_166>
-        <WpnStores_167>200</WpnStores_167>
-        <WpnStores_174>200</WpnStores_174>
+        <WpnStores_130>250</WpnStores_130>
+        <WpnStores_166>250</WpnStores_166>
+        <WpnStores_167>250</WpnStores_167>
+        <WpnStores_174>250</WpnStores_174>
         <WpnStores_355>40</WpnStores_355>
         <WpnStores_357>40</WpnStores_357>
         <WpnStores_358>40</WpnStores_358>
         <WpnStores_362>40</WpnStores_362>
         <WpnStores_363>40</WpnStores_363>
-        <WpnStores_729>200</WpnStores_729>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -762,15 +762,15 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="32">
-        <WpnStores_130>180</WpnStores_130>
-        <WpnStores_166>200</WpnStores_166>
-        <WpnStores_175>200</WpnStores_175>
+        <WpnStores_130>250</WpnStores_130>
+        <WpnStores_166>250</WpnStores_166>
+        <WpnStores_175>250</WpnStores_175>
         <WpnStores_355>20</WpnStores_355>
         <WpnStores_357>20</WpnStores_357>
         <WpnStores_358>20</WpnStores_358>
         <WpnStores_362>20</WpnStores_362>
         <WpnStores_363>20</WpnStores_363>
-        <WpnStores_729>200</WpnStores_729>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -1711,21 +1711,21 @@
     <SSD Num="68">
         <WpnStores_85>100</WpnStores_85>
         <WpnStores_93>120</WpnStores_93>
-        <WpnStores_147>80</WpnStores_147>
-        <WpnStores_175>220</WpnStores_175>
+        <WpnStores_147>200</WpnStores_147>
+        <WpnStores_175>250</WpnStores_175>
         <WpnStores_188>60</WpnStores_188>
-        <WpnStores_256>80</WpnStores_256>
-        <WpnStores_258>80</WpnStores_258>
+        <WpnStores_256>120</WpnStores_256>
+        <WpnStores_258>120</WpnStores_258>
         <WpnStores_322>80</WpnStores_322>
         <WpnStores_323>80</WpnStores_323>
         <WpnStores_355>250</WpnStores_355>
         <WpnStores_357>250</WpnStores_357>
         <WpnStores_358>250</WpnStores_358>
-        <WpnStores_360>80</WpnStores_360>
-        <WpnStores_361>80</WpnStores_361>
-        <WpnStores_362>80</WpnStores_362>
-        <WpnStores_363>80</WpnStores_363>
-        <WpnStores_729>220</WpnStores_729>
+        <WpnStores_360>250</WpnStores_360>
+        <WpnStores_361>250</WpnStores_361>
+        <WpnStores_362>120</WpnStores_362>
+        <WpnStores_363>120</WpnStores_363>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -1766,28 +1766,28 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="71">
-        <WpnStores_85>40</WpnStores_85>
-        <WpnStores_93>80</WpnStores_93>
-        <WpnStores_143>80</WpnStores_143>
-        <WpnStores_146>120</WpnStores_146>
-        <WpnStores_147>100</WpnStores_147>
-        <WpnStores_175>220</WpnStores_175>
-        <WpnStores_188>60</WpnStores_188>
+        <WpnStores_85>200</WpnStores_85>
+        <WpnStores_93>200</WpnStores_93>
+        <WpnStores_143>120</WpnStores_143>
+        <WpnStores_146>180</WpnStores_146>
+        <WpnStores_147>180</WpnStores_147>
+        <WpnStores_175>250</WpnStores_175>
+        <WpnStores_188>120</WpnStores_188>
         <WpnStores_239>180</WpnStores_239>
-        <WpnStores_256>160</WpnStores_256>
-        <WpnStores_257>160</WpnStores_257>
-        <WpnStores_258>160</WpnStores_258>
-        <WpnStores_260>160</WpnStores_260>
+        <WpnStores_256>180</WpnStores_256>
+        <WpnStores_257>180</WpnStores_257>
+        <WpnStores_258>180</WpnStores_258>
+        <WpnStores_260>180</WpnStores_260>
         <WpnStores_322>100</WpnStores_322>
         <WpnStores_323>100</WpnStores_323>
         <WpnStores_329>30</WpnStores_329>
-        <WpnStores_346>160</WpnStores_346>
+        <WpnStores_346>180</WpnStores_346>
         <WpnStores_355>200</WpnStores_355>
         <WpnStores_357>200</WpnStores_357>
         <WpnStores_358>200</WpnStores_358>
-        <WpnStores_362>120</WpnStores_362>
-        <WpnStores_363>120</WpnStores_363>
-        <WpnStores_729>220</WpnStores_729>
+        <WpnStores_362>200</WpnStores_362>
+        <WpnStores_363>200</WpnStores_363>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -2047,18 +2047,18 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="85">
-        <WpnStores_85>100</WpnStores_85>
-        <WpnStores_93>120</WpnStores_93>
+        <WpnStores_85>200</WpnStores_85>
+        <WpnStores_93>200</WpnStores_93>
         <WpnStores_143>120</WpnStores_143>
-        <WpnStores_146>80</WpnStores_146>
-        <WpnStores_147>80</WpnStores_147>
-        <WpnStores_175>220</WpnStores_175>
+        <WpnStores_146>120</WpnStores_146>
+        <WpnStores_147>120</WpnStores_147>
+        <WpnStores_175>250</WpnStores_175>
         <WpnStores_187>60</WpnStores_187>
-        <WpnStores_236>100</WpnStores_236>
-        <WpnStores_256>100</WpnStores_256>
-        <WpnStores_257>100</WpnStores_257>
-        <WpnStores_258>100</WpnStores_258>
-        <WpnStores_260>100</WpnStores_260>
+        <WpnStores_236>180</WpnStores_236>
+        <WpnStores_256>180</WpnStores_256>
+        <WpnStores_257>180</WpnStores_257>
+        <WpnStores_258>180</WpnStores_258>
+        <WpnStores_260>180</WpnStores_260>
         <WpnStores_322>150</WpnStores_322>
         <WpnStores_323>150</WpnStores_323>
         <WpnStores_355>250</WpnStores_355>
@@ -2066,7 +2066,7 @@
         <WpnStores_358>250</WpnStores_358>
         <WpnStores_362>80</WpnStores_362>
         <WpnStores_363>80</WpnStores_363>
-        <WpnStores_729>220</WpnStores_729>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -2083,18 +2083,18 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="87">
-        <WpnStores_85>100</WpnStores_85>
-        <WpnStores_93>120</WpnStores_93>
+        <WpnStores_85>200</WpnStores_85>
+        <WpnStores_93>200</WpnStores_93>
         <WpnStores_132>80</WpnStores_132>
-        <WpnStores_146>80</WpnStores_146>
-        <WpnStores_147>80</WpnStores_147>
-        <WpnStores_175>220</WpnStores_175>
-        <WpnStores_188>60</WpnStores_188>
-        <WpnStores_256>80</WpnStores_256>
-        <WpnStores_257>80</WpnStores_257>
-        <WpnStores_258>80</WpnStores_258>
-        <WpnStores_260>80</WpnStores_260>
-        <WpnStores_261>80</WpnStores_261>
+        <WpnStores_146>180</WpnStores_146>
+        <WpnStores_147>180</WpnStores_147>
+        <WpnStores_175>250</WpnStores_175>
+        <WpnStores_188>120</WpnStores_188>
+        <WpnStores_256>180</WpnStores_256>
+        <WpnStores_257>180</WpnStores_257>
+        <WpnStores_258>180</WpnStores_258>
+        <WpnStores_260>180</WpnStores_260>
+        <WpnStores_261>180</WpnStores_261>
         <WpnStores_322>80</WpnStores_322>
         <WpnStores_323>80</WpnStores_323>
         <WpnStores_355>250</WpnStores_355>
@@ -2102,7 +2102,7 @@
         <WpnStores_358>250</WpnStores_358>
         <WpnStores_362>80</WpnStores_362>
         <WpnStores_363>80</WpnStores_363>
-        <WpnStores_729>220</WpnStores_729>
+        <WpnStores_729>250</WpnStores_729>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>

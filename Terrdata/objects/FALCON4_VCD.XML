@@ -17874,7 +17874,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>111</RadarIdx>
         <NumberOfCrew>254</NumberOfCrew>
-        <RackFlags>15360</RackFlags>
+        <RackFlags>7680</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -17918,13 +17918,12 @@
         <WpnOrHpIdx_5>524</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>524</WpnOrHpIdx_6>
         <WpnOrHpIdx_7>524</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>234</WpnOrHpIdx_8>
-        <WpnOrHpIdx_9>152</WpnOrHpIdx_9>
+        <WpnOrHpIdx_8>152</WpnOrHpIdx_8>
+        <WpnOrHpIdx_9>494</WpnOrHpIdx_9>
         <WpnOrHpIdx_10>494</WpnOrHpIdx_10>
         <WpnOrHpIdx_11>494</WpnOrHpIdx_11>
         <WpnOrHpIdx_12>494</WpnOrHpIdx_12>
-        <WpnOrHpIdx_13>494</WpnOrHpIdx_13>
-        <WpnOrHpIdx_14>486</WpnOrHpIdx_14>
+        <WpnOrHpIdx_13>486</WpnOrHpIdx_13>
         <WpnCount_0>50</WpnCount_0>
         <WpnCount_1>50</WpnCount_1>
         <WpnCount_2>60</WpnCount_2>
@@ -17933,13 +17932,12 @@
         <WpnCount_5>60</WpnCount_5>
         <WpnCount_6>60</WpnCount_6>
         <WpnCount_7>60</WpnCount_7>
-        <WpnCount_8>32</WpnCount_8>
-        <WpnCount_9>16</WpnCount_9>
+        <WpnCount_8>16</WpnCount_8>
+        <WpnCount_9>200</WpnCount_9>
         <WpnCount_10>200</WpnCount_10>
         <WpnCount_11>200</WpnCount_11>
         <WpnCount_12>200</WpnCount_12>
-        <WpnCount_13>200</WpnCount_13>
-        <WpnCount_14>50</WpnCount_14>
+        <WpnCount_13>50</WpnCount_13>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>3</Dam_Penetration>
         <Dam_HighExplosive>4</Dam_HighExplosive>
@@ -19754,7 +19752,7 @@
         <MaxSpeed>50</MaxSpeed>
         <RadarIdx>110</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>492</RackFlags>
+        <RackFlags>236</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -19795,10 +19793,9 @@
         <WpnOrHpIdx_2>494</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>494</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>395</WpnOrHpIdx_4>
-        <WpnOrHpIdx_5>234</WpnOrHpIdx_5>
-        <WpnOrHpIdx_6>398</WpnOrHpIdx_6>
-        <WpnOrHpIdx_7>219</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>398</WpnOrHpIdx_8>
+        <WpnOrHpIdx_5>398</WpnOrHpIdx_5>
+        <WpnOrHpIdx_6>219</WpnOrHpIdx_6>
+        <WpnOrHpIdx_7>398</WpnOrHpIdx_7>
         <WpnCount_0>50</WpnCount_0>
         <WpnCount_1>50</WpnCount_1>
         <WpnCount_2>200</WpnCount_2>
@@ -19806,8 +19803,7 @@
         <WpnCount_4>8</WpnCount_4>
         <WpnCount_5>8</WpnCount_5>
         <WpnCount_6>8</WpnCount_6>
-        <WpnCount_7>8</WpnCount_7>
-        <WpnCount_8>16</WpnCount_8>
+        <WpnCount_7>16</WpnCount_7>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>5</Dam_Penetration>
         <Dam_HighExplosive>8</Dam_HighExplosive>
@@ -21928,7 +21924,7 @@
         <Rng_Tracked>14</Rng_Tracked>
         <Rng_LowAir>26</Rng_LowAir>
         <Rng_Air>31</Rng_Air>
-        <Rng_Naval>185</Rng_Naval>
+        <Rng_Naval>68</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
@@ -22010,7 +22006,7 @@
         <Rng_Tracked>0</Rng_Tracked>
         <Rng_LowAir>83</Rng_LowAir>
         <Rng_Air>99</Rng_Air>
-        <Rng_Naval>185</Rng_Naval>
+        <Rng_Naval>68</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
@@ -22310,7 +22306,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>104</RadarIdx>
         <NumberOfCrew>254</NumberOfCrew>
-        <RackFlags>192</RackFlags>
+        <RackFlags>96</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -22349,19 +22345,17 @@
         <WpnOrHpIdx_0>433</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>433</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>395</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>234</WpnOrHpIdx_3>
+        <WpnOrHpIdx_3>482</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>482</WpnOrHpIdx_4>
-        <WpnOrHpIdx_5>482</WpnOrHpIdx_5>
+        <WpnOrHpIdx_5>494</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>494</WpnOrHpIdx_6>
-        <WpnOrHpIdx_7>494</WpnOrHpIdx_7>
         <WpnCount_0>34</WpnCount_0>
         <WpnCount_1>34</WpnCount_1>
         <WpnCount_2>8</WpnCount_2>
-        <WpnCount_3>8</WpnCount_3>
+        <WpnCount_3>100</WpnCount_3>
         <WpnCount_4>100</WpnCount_4>
-        <WpnCount_5>100</WpnCount_5>
+        <WpnCount_5>200</WpnCount_5>
         <WpnCount_6>200</WpnCount_6>
-        <WpnCount_7>200</WpnCount_7>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>4</Dam_Penetration>
         <Dam_HighExplosive>7</Dam_HighExplosive>
@@ -22818,7 +22812,7 @@
         <Rng_Tracked>14</Rng_Tracked>
         <Rng_LowAir>54</Rng_LowAir>
         <Rng_Air>65</Rng_Air>
-        <Rng_Naval>185</Rng_Naval>
+        <Rng_Naval>68</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
@@ -23212,7 +23206,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>103</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>1022</RackFlags>
+        <RackFlags>254</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -23250,24 +23244,20 @@
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>482</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>494</WpnOrHpIdx_1>
-        <WpnOrHpIdx_2>234</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>435</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>434</WpnOrHpIdx_4>
-        <WpnOrHpIdx_5>686</WpnOrHpIdx_5>
-        <WpnOrHpIdx_6>234</WpnOrHpIdx_6>
-        <WpnOrHpIdx_7>435</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>434</WpnOrHpIdx_8>
-        <WpnOrHpIdx_9>219</WpnOrHpIdx_9>
+        <WpnOrHpIdx_2>435</WpnOrHpIdx_2>
+        <WpnOrHpIdx_3>434</WpnOrHpIdx_3>
+        <WpnOrHpIdx_4>686</WpnOrHpIdx_4>
+        <WpnOrHpIdx_5>435</WpnOrHpIdx_5>
+        <WpnOrHpIdx_6>434</WpnOrHpIdx_6>
+        <WpnOrHpIdx_7>219</WpnOrHpIdx_7>
         <WpnCount_0>60</WpnCount_0>
         <WpnCount_1>200</WpnCount_1>
         <WpnCount_2>8</WpnCount_2>
         <WpnCount_3>8</WpnCount_3>
-        <WpnCount_4>8</WpnCount_4>
+        <WpnCount_4>32</WpnCount_4>
         <WpnCount_5>32</WpnCount_5>
-        <WpnCount_6>8</WpnCount_6>
-        <WpnCount_7>32</WpnCount_7>
-        <WpnCount_8>16</WpnCount_8>
-        <WpnCount_9>8</WpnCount_9>
+        <WpnCount_6>16</WpnCount_6>
+        <WpnCount_7>8</WpnCount_7>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>5</Dam_Penetration>
         <Dam_HighExplosive>9</Dam_HighExplosive>
@@ -32946,7 +32936,7 @@
         <MaxSpeed>45</MaxSpeed>
         <RadarIdx>111</RadarIdx>
         <NumberOfCrew>150</NumberOfCrew>
-        <RackFlags>1022</RackFlags>
+        <RackFlags>254</RackFlags>
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
@@ -32984,24 +32974,20 @@
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>482</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>494</WpnOrHpIdx_1>
-        <WpnOrHpIdx_2>234</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>435</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>434</WpnOrHpIdx_4>
-        <WpnOrHpIdx_5>686</WpnOrHpIdx_5>
-        <WpnOrHpIdx_6>234</WpnOrHpIdx_6>
-        <WpnOrHpIdx_7>435</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>434</WpnOrHpIdx_8>
-        <WpnOrHpIdx_9>219</WpnOrHpIdx_9>
+        <WpnOrHpIdx_2>435</WpnOrHpIdx_2>
+        <WpnOrHpIdx_3>434</WpnOrHpIdx_3>
+        <WpnOrHpIdx_4>686</WpnOrHpIdx_4>
+        <WpnOrHpIdx_5>435</WpnOrHpIdx_5>
+        <WpnOrHpIdx_6>434</WpnOrHpIdx_6>
+        <WpnOrHpIdx_7>219</WpnOrHpIdx_7>
         <WpnCount_0>60</WpnCount_0>
         <WpnCount_1>200</WpnCount_1>
         <WpnCount_2>8</WpnCount_2>
         <WpnCount_3>8</WpnCount_3>
-        <WpnCount_4>8</WpnCount_4>
+        <WpnCount_4>32</WpnCount_4>
         <WpnCount_5>32</WpnCount_5>
-        <WpnCount_6>8</WpnCount_6>
-        <WpnCount_7>32</WpnCount_7>
-        <WpnCount_8>16</WpnCount_8>
-        <WpnCount_9>8</WpnCount_9>
+        <WpnCount_6>16</WpnCount_6>
+        <WpnCount_7>8</WpnCount_7>
         <Dam_None>0</Dam_None>
         <Dam_Penetration>5</Dam_Penetration>
         <Dam_HighExplosive>9</Dam_HighExplosive>
