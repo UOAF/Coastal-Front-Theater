@@ -156,13 +156,11 @@
         <WpnIdx_2>327</WpnIdx_2>
         <WpnIdx_3>357</WpnIdx_3>
         <WpnIdx_4>355</WpnIdx_4>
-        <WpnIdx_5>181</WpnIdx_5>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
         <WpnCount_3>1</WpnCount_3>
         <WpnCount_4>1</WpnCount_4>
-        <WpnCount_5>1</WpnCount_5>
     </WLD>
     <WLD Num="14">
         <Name>A-10 3/9</Name>
@@ -645,7 +643,7 @@
     </WLD>
     <WLD Num="35">
         <Name>F-15C/J Wing</Name>
-        <WpnIdx_0>130</WpnIdx_0>
+        <WpnIdx_0>105</WpnIdx_0>
         <WpnIdx_1>355</WpnIdx_1>
         <WpnIdx_2>362</WpnIdx_2>
         <WpnIdx_3>363</WpnIdx_3>
@@ -667,7 +665,7 @@
     </WLD>
     <WLD Num="37">
         <Name>F-15C/J Center</Name>
-        <WpnIdx_0>130</WpnIdx_0>
+        <WpnIdx_0>105</WpnIdx_0>
         <WpnIdx_1>363</WpnIdx_1>
         <WpnIdx_2>357</WpnIdx_2>
         <WpnIdx_3>362</WpnIdx_3>
@@ -966,8 +964,6 @@
     </WLD>
     <WLD Num="48">
         <Name>AV-8B 4</Name>
-        <WpnIdx_0>181</WpnIdx_0>
-        <WpnCount_0>1</WpnCount_0>
     </WLD>
     <WLD Num="49">
         <Name>MiG-21 Center</Name>
@@ -5840,8 +5836,6 @@
     </WLD>
     <WLD Num="234">
         <Name>GR1 Outer L</Name>
-        <WpnIdx_0>7</WpnIdx_0>
-        <WpnCount_0>1</WpnCount_0>
     </WLD>
     <WLD Num="235">
         <Name>GR1 Outer R</Name>
