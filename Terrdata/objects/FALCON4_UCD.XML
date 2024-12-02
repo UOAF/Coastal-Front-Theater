@@ -15661,8 +15661,6 @@
         <VehicleCtIdx_2>539</VehicleCtIdx_2>
         <VehicleCtIdx_3>586</VehicleCtIdx_3>
         <VehicleCtIdx_4>835</VehicleCtIdx_4>
-        <ElementFlags_0>1</ElementFlags_0>
-        <ElementFlags_1>1</ElementFlags_1>
         <Flags>28</Flags>
         <Name>SHORAD</Name>
         <MoveType>3</MoveType>
@@ -28661,14 +28659,11 @@
         <ElementCount_2>1</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
-        <VehicleCtIdx_0>702</VehicleCtIdx_0>
-        <VehicleCtIdx_1>557</VehicleCtIdx_1>
-        <VehicleCtIdx_2>552</VehicleCtIdx_2>
-        <VehicleCtIdx_3>702</VehicleCtIdx_3>
-        <VehicleCtIdx_4>557</VehicleCtIdx_4>
-        <ElementFlags_0>1</ElementFlags_0>
-        <ElementFlags_2>104</ElementFlags_2>
-        <ElementFlags_3>1</ElementFlags_3>
+        <VehicleCtIdx_0>709</VehicleCtIdx_0>
+        <VehicleCtIdx_1>679</VehicleCtIdx_1>
+        <VehicleCtIdx_2>707</VehicleCtIdx_2>
+        <VehicleCtIdx_3>709</VehicleCtIdx_3>
+        <VehicleCtIdx_4>679</VehicleCtIdx_4>
         <Flags>29</Flags>
         <Name>Base Defense</Name>
         <MoveType>3</MoveType>
