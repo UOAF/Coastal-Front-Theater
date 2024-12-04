@@ -513,10 +513,8 @@ auxaero {
       values: [1.5, 1.5, 1.5]
     } 
     anim_gear_comp_stored_ft {
-      values: [0, 0, 0]
     } 
     anim_gear_comp_stored_treshold {
-      values: [0, 0, 0]
     } 
   } 
   ground_handling {
@@ -551,7 +549,7 @@ auxaero {
     anim_max_wing_torque: 42000
     anim_min_bump_flex: 0.01
     anim_max_bump_flex: 0.18
-    anim_wing_flex_factor: 0
+    anim_wing_flex_factor: 1
     anim_max_wing_flex: 1
     anim_fuel_treshold_wing_flex: 0
     anim_fuel_wing_flex_factor: 0
@@ -1611,8 +1609,6 @@ auxaero {
       } 
       radius: 25
       attenuation: 0.5
-      ps_size_cx: 0
-      ps_alpha_cx: 0
     } 
     point_lights {
       type: LIGHT_POS_WINGS
@@ -1629,8 +1625,6 @@ auxaero {
       } 
       radius: 25
       attenuation: 0.5
-      ps_size_cx: 0
-      ps_alpha_cx: 0
     } 
     point_lights {
       type: LIGHT_POS_WINGS
@@ -1647,8 +1641,6 @@ auxaero {
       } 
       radius: 25
       attenuation: 0.5
-      ps_size_cx: 0
-      ps_alpha_cx: 0
     } 
     point_lights {
       type: LIGHT_TAIL_STROBE
@@ -1665,8 +1657,6 @@ auxaero {
       } 
       radius: 25
       attenuation: 0.01
-      ps_size_cx: 0
-      ps_alpha_cx: 0
     } 
     anim_strobe_on_time: 0.4
     anim_strobe_off_time: 1

@@ -967,7 +967,7 @@
     </WLD>
     <WLD Num="49">
         <Name>MiG-21 Center</Name>
-        <WpnIdx_0>329</WpnIdx_0>
+        <WpnIdx_0>697</WpnIdx_0>
         <WpnIdx_1>441</WpnIdx_1>
         <WpnIdx_2>5</WpnIdx_2>
         <WpnIdx_3>82</WpnIdx_3>
@@ -7418,7 +7418,7 @@
     </WLD>
     <WLD Num="326">
         <Name>MiG-27 Center</Name>
-        <WpnIdx_0>329</WpnIdx_0>
+        <WpnIdx_0>697</WpnIdx_0>
         <WpnIdx_1>110</WpnIdx_1>
         <WpnIdx_2>441</WpnIdx_2>
         <WpnIdx_3>199</WpnIdx_3>
@@ -7471,10 +7471,7 @@
         <WpnIdx_11>257</WpnIdx_11>
         <WpnIdx_12>259</WpnIdx_12>
         <WpnIdx_13>261</WpnIdx_13>
-        <WpnIdx_14>148</WpnIdx_14>
-        <WpnIdx_15>149</WpnIdx_15>
-        <WpnIdx_16>699</WpnIdx_16>
-        <WpnIdx_17>229</WpnIdx_17>
+        <WpnIdx_14>229</WpnIdx_14>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -7489,10 +7486,7 @@
         <WpnCount_11>1</WpnCount_11>
         <WpnCount_12>1</WpnCount_12>
         <WpnCount_13>1</WpnCount_13>
-        <WpnCount_14>1</WpnCount_14>
-        <WpnCount_15>1</WpnCount_15>
-        <WpnCount_16>1</WpnCount_16>
-        <WpnCount_17>3</WpnCount_17>
+        <WpnCount_14>3</WpnCount_14>
     </WLD>
     <WLD Num="332">
         <Name>AV-8B+ 3</Name>
@@ -7731,7 +7725,7 @@
     </WLD>
     <WLD Num="349">
         <Name>MiG-23 3</Name>
-        <WpnIdx_0>329</WpnIdx_0>
+        <WpnIdx_0>697</WpnIdx_0>
         <WpnIdx_1>110</WpnIdx_1>
         <WpnIdx_2>441</WpnIdx_2>
         <WpnCount_0>1</WpnCount_0>

@@ -1774,4 +1774,18 @@
         <OffsetZ>0.000</OffsetZ>
         <Heading>30.0</Heading>
     </FED>
+    <FED Num="245">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>3910.600</OffsetX>
+        <OffsetY>4576.647</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>120.0</Heading>
+    </FED>
+    <FED Num="246">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>-1192.896</OffsetX>
+        <OffsetY>-4180.201</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>300.0</Heading>
+    </FED>
 </FEDRecords>

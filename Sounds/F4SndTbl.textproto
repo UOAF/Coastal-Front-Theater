@@ -4708,6 +4708,7 @@ sfx_defs {
   max_vol: -950
   min_vol: -10000
   primary_flag: VMS
+  secondary_flags: LOOP
   sound_group: GROUP_INTERCOM
   cone_outside_vol: -950
   index: 434
@@ -4718,6 +4719,7 @@ sfx_defs {
   max_vol: -950
   min_vol: -10000
   primary_flag: VMS
+  secondary_flags: LOOP
   sound_group: GROUP_INTERCOM
   cone_outside_vol: -950
   index: 435
@@ -4728,7 +4730,38 @@ sfx_defs {
   max_vol: -950
   min_vol: -10000
   primary_flag: VMS
+  secondary_flags: LOOP
   sound_group: GROUP_INTERCOM
   cone_outside_vol: -950
   index: 436
+}
+sfx_defs {
+  filename: "Cockpit\\Python_Lock.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  secondary_flags: LOOP
+  secondary_flags: ADJUSTABLE_FREQUENCY
+  sound_group: GROUP_IR_TONE
+  index: 437
+}
+sfx_defs {
+  filename: "Cockpit\\Python_Search.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  secondary_flags: LOOP
+  secondary_flags: ADJUSTABLE_FREQUENCY
+  sound_group: GROUP_IR_TONE
+  index: 438
+}
+sfx_defs {
+  filename: "Cockpit\\Python_Pre_Lock.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  secondary_flags: LOOP
+  secondary_flags: ADJUSTABLE_FREQUENCY
+  sound_group: GROUP_IR_TONE
+  index: 439
 }

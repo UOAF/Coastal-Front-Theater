@@ -1,0 +1,8 @@
+Dimensions       = 6.04789114 -0.686999977 0.888000011 -0.86500001 1.38 -5.8210001 0
+TextureSets      = 8
+Switches         = 12
+Dofs             = 0
+AddLOD           = Model_0.bml 50
+AddLOD           = Model_1.bml 250
+AddLOD           = Model_2.bml 500
+AddLOD           = Model_3.bml 50000

@@ -3070,7 +3070,7 @@
         <Det_Wheeled>34.0</Det_Wheeled>
         <Det_Tracked>34.0</Det_Tracked>
         <Det_LowAir>137.0</Det_LowAir>
-        <Det_Air>206.0</Det_Air>
+        <Det_Air>350.0</Det_Air>
         <Det_Naval>137.0</Det_Naval>
         <Det_Rail>34.0</Det_Rail>
         <Dam_None>32</Dam_None>
@@ -3147,7 +3147,7 @@
         <Det_Wheeled>37.0</Det_Wheeled>
         <Det_Tracked>37.0</Det_Tracked>
         <Det_LowAir>148.0</Det_LowAir>
-        <Det_Air>222.0</Det_Air>
+        <Det_Air>380.0</Det_Air>
         <Det_Naval>148.0</Det_Naval>
         <Det_Rail>37.0</Det_Rail>
         <Dam_None>32</Dam_None>
@@ -3224,7 +3224,7 @@
         <Det_Wheeled>46.0</Det_Wheeled>
         <Det_Tracked>46.0</Det_Tracked>
         <Det_LowAir>185.0</Det_LowAir>
-        <Det_Air>250.0</Det_Air>
+        <Det_Air>430.0</Det_Air>
         <Det_Naval>185.0</Det_Naval>
         <Det_Rail>46.0</Det_Rail>
         <Dam_None>32</Dam_None>
@@ -8810,7 +8810,7 @@
         <Det_Wheeled>46.0</Det_Wheeled>
         <Det_Tracked>46.0</Det_Tracked>
         <Det_LowAir>185.0</Det_LowAir>
-        <Det_Air>250.0</Det_Air>
+        <Det_Air>430.0</Det_Air>
         <Det_Naval>185.0</Det_Naval>
         <Det_Rail>46.0</Det_Rail>
         <Dam_None>64</Dam_None>
@@ -9144,7 +9144,7 @@
         <Det_Wheeled>34.0</Det_Wheeled>
         <Det_Tracked>34.0</Det_Tracked>
         <Det_LowAir>137.0</Det_LowAir>
-        <Det_Air>206.0</Det_Air>
+        <Det_Air>350.0</Det_Air>
         <Det_Naval>137.0</Det_Naval>
         <Det_Rail>34.0</Det_Rail>
         <Dam_None>21</Dam_None>
@@ -10240,7 +10240,7 @@
         <Det_Wheeled>37.0</Det_Wheeled>
         <Det_Tracked>37.0</Det_Tracked>
         <Det_LowAir>148.0</Det_LowAir>
-        <Det_Air>222.0</Det_Air>
+        <Det_Air>380.0</Det_Air>
         <Det_Naval>148.0</Det_Naval>
         <Det_Rail>37.0</Det_Rail>
         <Dam_None>64</Dam_None>

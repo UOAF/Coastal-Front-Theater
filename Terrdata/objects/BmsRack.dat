@@ -57,7 +57,7 @@ definerack mrp-no-rack
 	rackjettmodes NONE
 	rackct 0
 	rackstations 1
-	addwid 367
+	addwid 367 329
 
 definerack ecm-camera-no-rack
 	weapjettmodes NONE
@@ -609,7 +609,7 @@ definerack b52-hsab-rack
 	addwclass rocket, bomb, gbu, agm, harm
 	addloadorder 6
 	addloadorder 6 0
-	addloadorder 6 3 0
+	addloadorder 3 4 5
 	addloadorder 2 8 1 7
 	addloadorder 2 8 1 7 3
 	addloadorder 2 8 1 7 6 0

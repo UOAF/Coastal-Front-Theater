@@ -1528,7 +1528,7 @@ auxaero {
     damage_hit_threshold: 40
     complex_nozzle: 1
     anim_exh_noz_idle: 5
-    anim_exh_noz_min: 21
+    anim_exh_noz_min: 19
     anim_exh_noz_max: 5
     anim_exh_noz_ab: 15
     anim_exh_noz_abmax: 15
@@ -1726,8 +1726,8 @@ auxaero {
     anim_max_wing_torque: 42000
     anim_min_bump_flex: 0.01
     anim_max_bump_flex: 0.18
-    anim_wing_flex_factor: 0
-    anim_max_wing_flex: 1
+    anim_wing_flex_factor: 2.5
+    anim_max_wing_flex: 2.5
     anim_fuel_treshold_wing_flex: 0
     anim_fuel_wing_flex_factor: 0
     anim_max_bomb_flex: 1
@@ -2755,7 +2755,7 @@ auxaero {
   tgp {
     tgp_type: POD_EXTERNAL
     tgp_camera_off {
-      x: 0
+      x: 1
       y: 0
       z: 0
     } 

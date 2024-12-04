@@ -1444,8 +1444,8 @@ animWingFoldRate 0.0
 animMaxWingTorque 42000
 animMinBumpFlex 0.010
 animMaxBumpFlex 0.180
-animWingFlexFactor 1.0
-animMaxWingFlex 1.00
+animWingFlexFactor 2.5
+animMaxWingFlex 2.5
 animFuelTresholdWingFlex 0.0
 animFuelWingFlexFactor 0.0
 animMaxBombFlex 1.0
@@ -1839,7 +1839,7 @@ TFR_GammaCorrMult 1.5 #10-12-2014
 #-----------------------------------------------------
 #Switch: 0 - No TGP, 1 - Internal TGP, 2 - External TGP
 TGP_Type 0 #Added Falcas 14/06/2014
-TGPCameraXOff 0.00
+TGPCameraXOff 1.00
 TGPCameraYOff 0.00
 TGPCameraZOff 0.00
 #-----------------------------------------------------

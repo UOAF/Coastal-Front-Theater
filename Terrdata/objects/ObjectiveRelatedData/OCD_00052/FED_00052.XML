@@ -255,10 +255,10 @@
     <FED Num="34">
         <FeatureCtIdx>2685</FeatureCtIdx>
         <Value>25</Value>
-        <OffsetX>4845.842</OffsetX>
-        <OffsetY>3673.739</OffsetY>
+        <OffsetX>-1990.962</OffsetX>
+        <OffsetY>930.733</OffsetY>
         <OffsetZ>0.000</OffsetZ>
-        <Heading>242.0</Heading>
+        <Heading>62.0</Heading>
     </FED>
     <FED Num="35">
         <FeatureCtIdx>2685</FeatureCtIdx>
@@ -1607,5 +1607,19 @@
         <OffsetY>4542.357</OffsetY>
         <OffsetZ>0.000</OffsetZ>
         <Heading>62.0</Heading>
+    </FED>
+    <FED Num="205">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>-3416.800</OffsetX>
+        <OffsetY>-278.753</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>332.0</Heading>
+    </FED>
+    <FED Num="206">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>5775.701</OffsetX>
+        <OffsetY>4559.434</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>152.0</Heading>
     </FED>
 </FEDRecords>

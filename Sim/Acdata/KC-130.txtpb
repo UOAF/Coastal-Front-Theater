@@ -641,7 +641,7 @@ auxaero {
     anim_max_wing_torque: 42000
     anim_min_bump_flex: 0.01
     anim_max_bump_flex: 0.18
-    anim_wing_flex_factor: 0
+    anim_wing_flex_factor: 1
     anim_max_wing_flex: 1
     anim_fuel_treshold_wing_flex: 0
     anim_fuel_wing_flex_factor: 0

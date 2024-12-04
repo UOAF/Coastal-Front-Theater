@@ -4,30 +4,6 @@ network {
   }
   teams {
     team_number: TEAM_1
-    nets {
-      channel_number: 0
-      npg_type: NPG_PPLIA
-      npg_type: NPG_PPLIB
-      npg_type: NPG_SURVINFO
-    }
-    nets {
-      channel_number: 45
-      npg_type: NPG_MISSION
-    }
-    nets {
-      channel_number: 22
-      npg_type: NPG_EW
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 90
-      npg_type: NPG_MISSION
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 114
-      npg_type: NPG_MISSION
-    }
   }
   teams {
     team_number: TEAM_2
@@ -38,21 +14,21 @@ network {
       npg_type: NPG_SURVINFO
     }
     nets {
-      channel_number: 44
+      channel_number: 54
       npg_type: NPG_MISSION
     }
     nets {
-      channel_number: 23
+      channel_number: 33
       npg_type: NPG_EW
       npg_type: NPG_F2F
     }
     nets {
-      channel_number: 91
+      channel_number: 101
       npg_type: NPG_MISSION
       npg_type: NPG_F2F
     }
     nets {
-      channel_number: 115
+      channel_number: 125
       npg_type: NPG_MISSION
     }
   }
@@ -65,21 +41,21 @@ network {
       npg_type: NPG_SURVINFO
     }
     nets {
-      channel_number: 46
+      channel_number: 54
       npg_type: NPG_MISSION
     }
     nets {
-      channel_number: 21
+      channel_number: 33
       npg_type: NPG_EW
       npg_type: NPG_F2F
     }
     nets {
-      channel_number: 92
+      channel_number: 101
       npg_type: NPG_MISSION
       npg_type: NPG_F2F
     }
     nets {
-      channel_number: 114
+      channel_number: 125
       npg_type: NPG_MISSION
     }
   }
@@ -88,61 +64,14 @@ network {
   }
   teams {
     team_number: TEAM_5
-    nets {
-      channel_number: 0
-      npg_type: NPG_PPLIA
-      npg_type: NPG_PPLIB
-      npg_type: NPG_SURVINFO
-    }
-    nets {
-      channel_number: 47
-      npg_type: NPG_MISSION
-    }
-    nets {
-      channel_number: 20
-      npg_type: NPG_EW
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 93
-      npg_type: NPG_MISSION
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 113
-      npg_type: NPG_MISSION
-    }
   }
   teams {
     team_number: TEAM_6
   }
   teams {
     team_number: TEAM_7
-    nets {
-      channel_number: 0
-      npg_type: NPG_PPLIA
-      npg_type: NPG_PPLIB
-      npg_type: NPG_SURVINFO
-    }
-    nets {
-      channel_number: 48
-      npg_type: NPG_MISSION
-    }
-    nets {
-      channel_number: 19
-      npg_type: NPG_EW
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 94
-      npg_type: NPG_MISSION
-      npg_type: NPG_F2F
-    }
-    nets {
-      channel_number: 112
-      npg_type: NPG_MISSION
-    }
   }
+
 }
 all_flights {
 }

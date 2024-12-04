@@ -1035,4 +1035,18 @@
         <OffsetZ>0.000</OffsetZ>
         <Heading>80.0</Heading>
     </FED>
+    <FED Num="142">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>8128.030</OffsetX>
+        <OffsetY>-135.980</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>169.0</Heading>
+    </FED>
+    <FED Num="143">
+        <FeatureCtIdx>4391</FeatureCtIdx>
+        <OffsetX>-1862.328</OffsetX>
+        <OffsetY>-1858.813</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>348.0</Heading>
+    </FED>
 </FEDRecords>
