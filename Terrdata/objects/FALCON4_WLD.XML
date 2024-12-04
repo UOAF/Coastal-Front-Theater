@@ -689,18 +689,12 @@
         <WpnIdx_1>357</WpnIdx_1>
         <WpnIdx_2>355</WpnIdx_2>
         <WpnIdx_3>362</WpnIdx_3>
-        <WpnIdx_4>286</WpnIdx_4>
-        <WpnIdx_5>287</WpnIdx_5>
-        <WpnIdx_6>288</WpnIdx_6>
-        <WpnIdx_7>94</WpnIdx_7>
+        <WpnIdx_4>94</WpnIdx_4>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>6</WpnCount_1>
         <WpnCount_2>6</WpnCount_2>
         <WpnCount_3>1</WpnCount_3>
         <WpnCount_4>1</WpnCount_4>
-        <WpnCount_5>1</WpnCount_5>
-        <WpnCount_6>1</WpnCount_6>
-        <WpnCount_7>1</WpnCount_7>
     </WLD>
     <WLD Num="40">
         <Name>F-18C/D 2/8</Name>
@@ -831,16 +825,13 @@
         <WpnIdx_5>355</WpnIdx_5>
         <WpnIdx_6>362</WpnIdx_6>
         <WpnIdx_7>361</WpnIdx_7>
-        <WpnIdx_8>286</WpnIdx_8>
-        <WpnIdx_9>288</WpnIdx_9>
-        <WpnIdx_10>346</WpnIdx_10>
-        <WpnIdx_11>147</WpnIdx_11>
-        <WpnIdx_12>729</WpnIdx_12>
-        <WpnIdx_13>322</WpnIdx_13>
-        <WpnIdx_14>238</WpnIdx_14>
-        <WpnIdx_15>260</WpnIdx_15>
-        <WpnIdx_16>287</WpnIdx_16>
-        <WpnIdx_17>195</WpnIdx_17>
+        <WpnIdx_8>346</WpnIdx_8>
+        <WpnIdx_9>147</WpnIdx_9>
+        <WpnIdx_10>729</WpnIdx_10>
+        <WpnIdx_11>322</WpnIdx_11>
+        <WpnIdx_12>238</WpnIdx_12>
+        <WpnIdx_13>260</WpnIdx_13>
+        <WpnIdx_14>195</WpnIdx_14>
         <WpnCount_0>2</WpnCount_0>
         <WpnCount_1>3</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -849,16 +840,13 @@
         <WpnCount_5>3</WpnCount_5>
         <WpnCount_6>1</WpnCount_6>
         <WpnCount_7>2</WpnCount_7>
-        <WpnCount_8>1</WpnCount_8>
-        <WpnCount_9>1</WpnCount_9>
-        <WpnCount_10>3</WpnCount_10>
-        <WpnCount_11>2</WpnCount_11>
+        <WpnCount_8>3</WpnCount_8>
+        <WpnCount_9>2</WpnCount_9>
+        <WpnCount_10>2</WpnCount_10>
+        <WpnCount_11>3</WpnCount_11>
         <WpnCount_12>2</WpnCount_12>
-        <WpnCount_13>3</WpnCount_13>
-        <WpnCount_14>2</WpnCount_14>
-        <WpnCount_15>2</WpnCount_15>
-        <WpnCount_16>1</WpnCount_16>
-        <WpnCount_17>1</WpnCount_17>
+        <WpnCount_13>2</WpnCount_13>
+        <WpnCount_14>1</WpnCount_14>
     </WLD>
     <WLD Num="42">
         <Name>F-4G 5</Name>
@@ -943,7 +931,7 @@
         <WpnIdx_7>257</WpnIdx_7>
         <WpnIdx_8>320</WpnIdx_8>
         <WpnIdx_9>326</WpnIdx_9>
-        <WpnIdx_10>729</WpnIdx_10>
+        <WpnIdx_10>171</WpnIdx_10>
         <WpnIdx_11>89</WpnIdx_11>
         <WpnIdx_12>236</WpnIdx_12>
         <WpnIdx_13>147</WpnIdx_13>
@@ -6132,7 +6120,6 @@
         <WpnIdx_4>239</WpnIdx_4>
         <WpnIdx_5>104</WpnIdx_5>
         <WpnIdx_6>330</WpnIdx_6>
-        <WpnIdx_7>229</WpnIdx_7>
         <WpnCount_0>3</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>3</WpnCount_2>
@@ -6140,7 +6127,6 @@
         <WpnCount_4>3</WpnCount_4>
         <WpnCount_5>1</WpnCount_5>
         <WpnCount_6>3</WpnCount_6>
-        <WpnCount_7>3</WpnCount_7>
     </WLD>
     <WLD Num="252">
         <Name>F-4EJ 1/9</Name>
@@ -7269,8 +7255,6 @@
     </WLD>
     <WLD Num="315">
         <Name>IDS GE Outer L</Name>
-        <WpnIdx_0>267</WpnIdx_0>
-        <WpnCount_0>1</WpnCount_0>
     </WLD>
     <WLD Num="316">
         <Name>EF UK 5/9</Name>
@@ -7460,16 +7444,14 @@
         <WpnIdx_2>89</WpnIdx_2>
         <WpnIdx_3>360</WpnIdx_3>
         <WpnIdx_4>320</WpnIdx_4>
-        <WpnIdx_5>288</WpnIdx_5>
-        <WpnIdx_6>361</WpnIdx_6>
-        <WpnIdx_7>350</WpnIdx_7>
-        <WpnIdx_8>290</WpnIdx_8>
-        <WpnIdx_9>326</WpnIdx_9>
-        <WpnIdx_10>346</WpnIdx_10>
-        <WpnIdx_11>257</WpnIdx_11>
-        <WpnIdx_12>259</WpnIdx_12>
-        <WpnIdx_13>261</WpnIdx_13>
-        <WpnIdx_14>229</WpnIdx_14>
+        <WpnIdx_5>361</WpnIdx_5>
+        <WpnIdx_6>350</WpnIdx_6>
+        <WpnIdx_7>326</WpnIdx_7>
+        <WpnIdx_8>346</WpnIdx_8>
+        <WpnIdx_9>257</WpnIdx_9>
+        <WpnIdx_10>259</WpnIdx_10>
+        <WpnIdx_11>261</WpnIdx_11>
+        <WpnIdx_12>229</WpnIdx_12>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -7482,9 +7464,7 @@
         <WpnCount_9>1</WpnCount_9>
         <WpnCount_10>1</WpnCount_10>
         <WpnCount_11>1</WpnCount_11>
-        <WpnCount_12>1</WpnCount_12>
-        <WpnCount_13>1</WpnCount_13>
-        <WpnCount_14>3</WpnCount_14>
+        <WpnCount_12>3</WpnCount_12>
     </WLD>
     <WLD Num="332">
         <Name>AV-8B+ 3</Name>
@@ -7554,8 +7534,12 @@
         <Name>F-104C WT R</Name>
         <WpnIdx_0>168</WpnIdx_0>
         <WpnIdx_1>742</WpnIdx_1>
+        <WpnIdx_2>175</WpnIdx_2>
+        <WpnIdx_3>729</WpnIdx_3>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+        <WpnCount_3>1</WpnCount_3>
     </WLD>
     <WLD Num="335">
         <Name>F-104C Wing Int</Name>
@@ -8866,16 +8850,12 @@
     </WLD>
     <WLD Num="396">
         <Name>JA-37 6</Name>
-        <WpnIdx_0>158</WpnIdx_0>
-        <WpnIdx_1>174</WpnIdx_1>
-        <WpnIdx_2>430</WpnIdx_2>
-        <WpnIdx_3>456</WpnIdx_3>
-        <WpnIdx_4>175</WpnIdx_4>
+        <WpnIdx_0>174</WpnIdx_0>
+        <WpnIdx_1>430</WpnIdx_1>
+        <WpnIdx_2>175</WpnIdx_2>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
-        <WpnCount_3>1</WpnCount_3>
-        <WpnCount_4>1</WpnCount_4>
     </WLD>
     <WLD Num="397">
         <Name>JA-37 4</Name>
@@ -9749,8 +9729,6 @@
     </WLD>
     <WLD Num="439">
         <Name>IDS GE Outer R</Name>
-        <WpnIdx_0>246</WpnIdx_0>
-        <WpnCount_0>1</WpnCount_0>
     </WLD>
     <WLD Num="440">
         <Name>GR4 UK Outer R</Name>
@@ -12163,24 +12141,20 @@
     </WLD>
     <WLD Num="551">
         <Name>AJ-37 6</Name>
-        <WpnIdx_0>174</WpnIdx_0>
-        <WpnIdx_1>456</WpnIdx_1>
-        <WpnIdx_2>58</WpnIdx_2>
-        <WpnIdx_3>148</WpnIdx_3>
-        <WpnIdx_4>175</WpnIdx_4>
-        <WpnIdx_5>355</WpnIdx_5>
-        <WpnIdx_6>357</WpnIdx_6>
-        <WpnIdx_7>358</WpnIdx_7>
-        <WpnIdx_8>684</WpnIdx_8>
+        <WpnIdx_0>729</WpnIdx_0>
+        <WpnIdx_1>58</WpnIdx_1>
+        <WpnIdx_2>175</WpnIdx_2>
+        <WpnIdx_3>355</WpnIdx_3>
+        <WpnIdx_4>357</WpnIdx_4>
+        <WpnIdx_5>358</WpnIdx_5>
+        <WpnIdx_6>684</WpnIdx_6>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
-        <WpnCount_3>1</WpnCount_3>
-        <WpnCount_4>1</WpnCount_4>
+        <WpnCount_3>2</WpnCount_3>
+        <WpnCount_4>2</WpnCount_4>
         <WpnCount_5>2</WpnCount_5>
-        <WpnCount_6>2</WpnCount_6>
-        <WpnCount_7>2</WpnCount_7>
-        <WpnCount_8>1</WpnCount_8>
+        <WpnCount_6>1</WpnCount_6>
     </WLD>
     <WLD Num="552">
         <Name>AJ-37 4</Name>
@@ -13023,8 +12997,12 @@
         <Name>F-104G WT R</Name>
         <WpnIdx_0>168</WpnIdx_0>
         <WpnIdx_1>741</WpnIdx_1>
+        <WpnIdx_2>175</WpnIdx_2>
+        <WpnIdx_3>729</WpnIdx_3>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+        <WpnCount_3>1</WpnCount_3>
     </WLD>
     <WLD Num="584">
         <Name>F-104G Wing Int</Name>
