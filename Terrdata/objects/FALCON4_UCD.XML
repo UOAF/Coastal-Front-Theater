@@ -717,7 +717,8 @@
         <FuelRate>1000</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_11>100</RoleScore_11>
+        <RoleScore_2>60</RoleScore_2>
+        <RoleScore_11>60</RoleScore_11>
         <MainRole>11</MainRole>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
@@ -3991,7 +3992,7 @@
         <ElementCount_14>1</ElementCount_14>
         <ElementCount_15>1</ElementCount_15>
         <VehicleCtIdx_0>1031</VehicleCtIdx_0>
-        <VehicleCtIdx_1>678</VehicleCtIdx_1>
+        <VehicleCtIdx_1>679</VehicleCtIdx_1>
         <VehicleCtIdx_2>1031</VehicleCtIdx_2>
         <VehicleCtIdx_3>1031</VehicleCtIdx_3>
         <VehicleCtIdx_4>808</VehicleCtIdx_4>
@@ -4003,7 +4004,7 @@
         <VehicleCtIdx_10>1031</VehicleCtIdx_10>
         <VehicleCtIdx_11>808</VehicleCtIdx_11>
         <VehicleCtIdx_12>1031</VehicleCtIdx_12>
-        <VehicleCtIdx_13>678</VehicleCtIdx_13>
+        <VehicleCtIdx_13>679</VehicleCtIdx_13>
         <VehicleCtIdx_14>1031</VehicleCtIdx_14>
         <VehicleCtIdx_15>1031</VehicleCtIdx_15>
         <Flags>15</Flags>
@@ -9630,7 +9631,8 @@
         <FuelRate>1000</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_11>100</RoleScore_11>
+        <RoleScore_2>60</RoleScore_2>
+        <RoleScore_11>60</RoleScore_11>
         <MainRole>11</MainRole>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
@@ -13330,7 +13332,7 @@
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>708</VehicleCtIdx_7>
         <VehicleCtIdx_8>2476</VehicleCtIdx_8>
-        <VehicleCtIdx_9>677</VehicleCtIdx_9>
+        <VehicleCtIdx_9>679</VehicleCtIdx_9>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_6>64</ElementFlags_6>
         <ElementFlags_8>8</ElementFlags_8>
@@ -14420,7 +14422,8 @@
         <FuelRate>896</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_11>90</RoleScore_11>
+        <RoleScore_2>60</RoleScore_2>
+        <RoleScore_11>60</RoleScore_11>
         <MainRole>11</MainRole>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
@@ -14503,7 +14506,8 @@
         <FuelRate>896</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_11>90</RoleScore_11>
+        <RoleScore_2>60</RoleScore_2>
+        <RoleScore_11>60</RoleScore_11>
         <MainRole>11</MainRole>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
@@ -17067,7 +17071,7 @@
         <ElementCount_13>1</ElementCount_13>
         <ElementCount_14>1</ElementCount_14>
         <VehicleCtIdx_0>568</VehicleCtIdx_0>
-        <VehicleCtIdx_1>677</VehicleCtIdx_1>
+        <VehicleCtIdx_1>679</VehicleCtIdx_1>
         <VehicleCtIdx_2>568</VehicleCtIdx_2>
         <VehicleCtIdx_3>807</VehicleCtIdx_3>
         <VehicleCtIdx_4>568</VehicleCtIdx_4>
@@ -17079,8 +17083,8 @@
         <VehicleCtIdx_10>568</VehicleCtIdx_10>
         <VehicleCtIdx_11>683</VehicleCtIdx_11>
         <VehicleCtIdx_12>568</VehicleCtIdx_12>
-        <VehicleCtIdx_13>678</VehicleCtIdx_13>
-        <VehicleCtIdx_14>678</VehicleCtIdx_14>
+        <VehicleCtIdx_13>679</VehicleCtIdx_13>
+        <VehicleCtIdx_14>679</VehicleCtIdx_14>
         <Flags>15</Flags>
         <Name>Airborne</Name>
         <MoveType>4</MoveType>
@@ -18930,7 +18934,7 @@
         <VehicleCtIdx_7>1031</VehicleCtIdx_7>
         <VehicleCtIdx_8>567</VehicleCtIdx_8>
         <VehicleCtIdx_9>1031</VehicleCtIdx_9>
-        <VehicleCtIdx_10>678</VehicleCtIdx_10>
+        <VehicleCtIdx_10>679</VehicleCtIdx_10>
         <VehicleCtIdx_11>1031</VehicleCtIdx_11>
         <VehicleCtIdx_12>807</VehicleCtIdx_12>
         <VehicleCtIdx_13>1031</VehicleCtIdx_13>
@@ -19023,7 +19027,7 @@
         <VehicleCtIdx_9>1031</VehicleCtIdx_9>
         <VehicleCtIdx_10>1031</VehicleCtIdx_10>
         <VehicleCtIdx_11>1031</VehicleCtIdx_11>
-        <VehicleCtIdx_12>678</VehicleCtIdx_12>
+        <VehicleCtIdx_12>679</VehicleCtIdx_12>
         <VehicleCtIdx_13>811</VehicleCtIdx_13>
         <VehicleCtIdx_14>567</VehicleCtIdx_14>
         <VehicleCtIdx_15>1031</VehicleCtIdx_15>
@@ -19276,7 +19280,7 @@
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>708</VehicleCtIdx_7>
         <VehicleCtIdx_8>2476</VehicleCtIdx_8>
-        <VehicleCtIdx_9>678</VehicleCtIdx_9>
+        <VehicleCtIdx_9>679</VehicleCtIdx_9>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_8>8</ElementFlags_8>
         <Flags>28</Flags>
@@ -19356,7 +19360,7 @@
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>708</VehicleCtIdx_6>
         <VehicleCtIdx_7>2477</VehicleCtIdx_7>
-        <VehicleCtIdx_8>678</VehicleCtIdx_8>
+        <VehicleCtIdx_8>679</VehicleCtIdx_8>
         <ElementFlags_2>1</ElementFlags_2>
         <ElementFlags_7>8</ElementFlags_7>
         <Flags>28</Flags>
@@ -25693,7 +25697,7 @@
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>708</VehicleCtIdx_7>
         <VehicleCtIdx_8>2476</VehicleCtIdx_8>
-        <VehicleCtIdx_9>677</VehicleCtIdx_9>
+        <VehicleCtIdx_9>679</VehicleCtIdx_9>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_8>8</ElementFlags_8>
         <Flags>28</Flags>
@@ -25771,7 +25775,7 @@
         <VehicleCtIdx_4>707</VehicleCtIdx_4>
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>2477</VehicleCtIdx_6>
-        <VehicleCtIdx_7>677</VehicleCtIdx_7>
+        <VehicleCtIdx_7>679</VehicleCtIdx_7>
         <ElementFlags_2>1</ElementFlags_2>
         <ElementFlags_6>8</ElementFlags_6>
         <Flags>28</Flags>
@@ -33628,10 +33632,9 @@
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>80</RoleScore_1>
         <RoleScore_3>70</RoleScore_3>
         <RoleScore_4>80</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
+        <RoleScore_7>50</RoleScore_7>
         <RoleScore_9>5</RoleScore_9>
         <RoleScore_10>50</RoleScore_10>
         <MainRole>0</MainRole>
@@ -33725,10 +33728,9 @@
         <FuelRate>100</FuelRate>
         <PtDataIdx>0</PtDataIdx>
         <RoleScore_0>10</RoleScore_0>
-        <RoleScore_1>80</RoleScore_1>
         <RoleScore_3>70</RoleScore_3>
         <RoleScore_4>80</RoleScore_4>
-        <RoleScore_7>5</RoleScore_7>
+        <RoleScore_7>50</RoleScore_7>
         <RoleScore_9>5</RoleScore_9>
         <RoleScore_10>50</RoleScore_10>
         <MainRole>0</MainRole>

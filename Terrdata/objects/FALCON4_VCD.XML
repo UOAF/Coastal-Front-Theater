@@ -25174,7 +25174,7 @@
         <CtIdx>2407</CtIdx>
         <HitPoints>60</HitPoints>
         <Flags>1074530304</Flags>
-        <Name>F-16C-32 EAF</Name>
+        <Name>A-16</Name>
         <NCTR>F16</NCTR>
         <RadarCs>1.000000</RadarCs>
         <MaxWeight>42300</MaxWeight>
@@ -25190,8 +25190,8 @@
         <NumberOfCrew>1</NumberOfCrew>
         <RackFlags>4094</RackFlags>
         <VisibleFlags>4094</VisibleFlags>
-        <CallsignIdx>0</CallsignIdx>
-        <CallsignSlots>22</CallsignSlots>
+        <CallsignIdx>67</CallsignIdx>
+        <CallsignSlots>44</CallsignSlots>
         <Hit_NoMove>70</Hit_NoMove>
         <Hit_Foot>50</Hit_Foot>
         <Hit_Wheeled>50</Hit_Wheeled>
@@ -25236,7 +25236,6 @@
         <WpnOrHpIdx_9>467</WpnOrHpIdx_9>
         <WpnOrHpIdx_10>290</WpnOrHpIdx_10>
         <WpnOrHpIdx_11>291</WpnOrHpIdx_11>
-        <WpnCount_0>51</WpnCount_0>
         <WpnCount_1>255</WpnCount_1>
         <WpnCount_2>255</WpnCount_2>
         <WpnCount_3>255</WpnCount_3>
