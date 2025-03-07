@@ -1786,7 +1786,7 @@ auxaero {
     avionics_diff_icp_style: false
     avionics_ag_bullseye_symbol: true
     avionics_mlu_pfl: false
-    avionics_datalink: 2
+    avionics_datalink: 1
     avionics_dl_cursor_as_waypoint: 0
     avionics_dte_idm_label: false
     avionics_ehsi: 0
@@ -1820,10 +1820,10 @@ auxaero {
     avionics_egi_upgrade: true
     avionics_digital_flcs: false
     avionics_rwr_type: 2
-    avionics_gun_eegs_mode: true
-    avionics_gun_sslc_mode: false
-    avionics_gun_lcos_mode: false
-    avionics_gun_snap_mode: false
+    avionics_gun_eegs_mode: false
+    avionics_gun_sslc_mode: true
+    avionics_gun_lcos_mode: true
+    avionics_gun_snap_mode: true
     avionics_engine_type: 1
     avionics_mfd_cata_symbol_aim120: false
     avionics_hud_old_bai_type: false
