@@ -7,6 +7,7 @@
 #L3C : overhaul (15-02-06)
 #L3C : Drag adjustment (15-09-08 and 16-03-01)
 #DeeJay : Sound ID update for IR seeker (2016-05-21)
+#Fritz : FOV limted, Impulse reduced 02-2025
 #
 #-----------------------------------------------------
 #     INPUT DATA
@@ -21,7 +22,7 @@
 # Weight of propellant (lbs)
 37.20
 # Motor Impulse (lb-sec)
-8186.40
+5186.40
 # Reference Area (ft*ft)
 0.136000
 # Nozzle Exit Area (ft*ft)
@@ -39,11 +40,11 @@
 # Velocity min (mach)
 0.500000
 # Gimbal Angle Limit (deg)
-30.0
+25.0
 # Gimbl Ang Rate Lim (deg/sec)
 12.5
 # Field of View (deg)
-2.0
+1.5
 # Guidance Delay (sec)
 1.50
 # Lofting Bias (Gs)

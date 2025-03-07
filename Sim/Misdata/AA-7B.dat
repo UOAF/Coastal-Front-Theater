@@ -5,6 +5,7 @@
 # Comments
 #-----------------------------------------------------
 #L3C : complete overhaul (28/01/2015)
+#Fritz : FOV limted, impulse reduced 02-2025
 #-----------------------------------------------------
 #     INPUT DATA
 #-----------------------------------------------------
@@ -18,7 +19,7 @@
 # Weight of propellant (lbs)
 149.70
 # Motor Impulse (lb-sec)
-32922.90
+22922.90
 # Reference Area (ft*ft)
 0.408000
 # Nozzle Exit Area (ft*ft)
@@ -36,11 +37,11 @@
 # Velocity min (mach)
 0.500000
 # Gimbal Angle Limit (deg)
-25.0
+15.0
 # Gimbl Ang Rate Lim (deg/sec)
-16.0
+12.0
 # Field of View (deg)
-3.0
+2.0
 # Guidance Delay (sec)
 1.00
 # Lofting Bias (Gs)
