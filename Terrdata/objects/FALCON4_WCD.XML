@@ -4578,7 +4578,7 @@
     </WCD>
     <WCD Num="143">
         <CtIdx>239</CtIdx>
-        <Strength>104</Strength>
+        <Strength>180</Strength>
         <DamageType>2</DamageType>
         <Range>25.0</Range>
         <Flags>0</Flags>
@@ -24070,7 +24070,7 @@
         <DamageType>0</DamageType>
         <Range>0.0</Range>
         <Flags>2</Flags>
-        <Name>Tank 300gal \IAF</Name>
+        <Name>Tank 300gal Green</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -24102,7 +24102,7 @@
         <DamageType>0</DamageType>
         <Range>0.0</Range>
         <Flags>2</Flags>
-        <Name>Tank 370gal \IAF</Name>
+        <Name>Tank 370gal Green</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -25276,6 +25276,38 @@
         <MaxAlt>0</MaxAlt>
         <MinAlt>0</MinAlt>
         <BulletTTL>5</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="790">
+        <CtIdx>4475</CtIdx>
+        <Strength>65</Strength>
+        <DamageType>5</DamageType>
+        <Range>4.0</Range>
+        <Flags>0</Flags>
+        <Name>AIM-9L Green</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>35</Hit_LowAir>
+        <Hit_Air>40</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>70</Rariety>
+        <Guidance>2</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>189</Weight>
+        <Drag>4</Drag>
+        <BlastRadius>59</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>33</SimWeaponDataIdx>
+        <MaxAlt>100</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>3</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
