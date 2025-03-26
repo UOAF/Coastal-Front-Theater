@@ -447,7 +447,7 @@
     <VCD Num="6">
         <CtIdx>163</CtIdx>
         <HitPoints>62</HitPoints>
-        <Flags>1611139072</Flags>
+        <Flags>1074268160</Flags>
         <Name>MiG-29A CCCP</Name>
         <NCTR>MG29</NCTR>
         <RadarCs>1.201124</RadarCs>
@@ -27317,8 +27317,8 @@
         <MaxSpeed>1110</MaxSpeed>
         <RadarIdx>23</RadarIdx>
         <NumberOfCrew>1</NumberOfCrew>
-        <RackFlags>254</RackFlags>
-        <VisibleFlags>254</VisibleFlags>
+        <RackFlags>238</RackFlags>
+        <VisibleFlags>238</VisibleFlags>
         <CallsignIdx>112</CallsignIdx>
         <CallsignSlots>14</CallsignSlots>
         <Hit_NoMove>10</Hit_NoMove>
@@ -33800,7 +33800,7 @@
     <VCD Num="442">
         <CtIdx>4432</CtIdx>
         <HitPoints>62</HitPoints>
-        <Flags>1611139072</Flags>
+        <Flags>1074268160</Flags>
         <Name>MiG-29A PRL</Name>
         <NCTR>MG29</NCTR>
         <RadarCs>1.201124</RadarCs>
@@ -33882,7 +33882,7 @@
     <VCD Num="443">
         <CtIdx>4435</CtIdx>
         <HitPoints>62</HitPoints>
-        <Flags>1611139072</Flags>
+        <Flags>1074268160</Flags>
         <Name>MiG-29A DDR</Name>
         <NCTR>MG29</NCTR>
         <RadarCs>1.201124</RadarCs>
