@@ -1,11 +1,13 @@
 # Title: AA-11 (R-73M1)
 # Author: BMS
 # Revision: Missile Data Manager ver:1.2.3.0 Date: 5/21/2016 7:17:16 PM
+
 #-----------------------------------------------------
 # Comments
 #-----------------------------------------------------
 #L3C : complete overhaul (2015-02-04)
 #L3C : Drag adjustment (15-09-08)
+#Fritz : Coastal front 80's version (03-2025)
 #-----------------------------------------------------
 #     INPUT DATA
 #-----------------------------------------------------
@@ -13,13 +15,13 @@
 # Final Time (sec)
 40.000000
 # Pk (0.0-1.0)
-1.000000
+0.900000
 # Weight of missile (lbs)
 160.10
 # Weight of propellant (lbs)
 71.00
 # Motor Impulse (lb-sec)
-17132.80
+12132.80
 # Reference Area (ft*ft)
 0.244320
 # Nozzle Exit Area (ft*ft)
@@ -27,19 +29,19 @@
 # Length (ft)
 9.514000
 # AOA max (deg)
-25.0
+20.0
 # AOA min (deg)
--25.0
+-20.0
 # Beta max (deg)
-25.0
+20.0
 # Beta min (deg)
--25.0
+-20.0
 # Velocity min (mach)
 0.500000
 # Gimbal Angle Limit (deg)
-60.0
+40.0
 # Gimbl Ang Rate Lim (deg/sec)
-60.0
+25.0
 # Field of View (deg)
 3.0
 # Guidance Delay (sec)
@@ -55,7 +57,7 @@
 # Seeker Type
 0
 # Seeker Version
-9
+1
 # Display
 0
 # Missile loft time
@@ -405,8 +407,8 @@ RMaxTableType 1
 #-----------------------------------------------------
 # Gs
 #-----------------------------------------------------
-maxGTerminal 45
-maxGNormal 45
+maxGTerminal 30
+maxGNormal 30
 RaeroTerminalGmax 8
 RaeroTerminalGmin 2
 #-----------------------------------------------------
