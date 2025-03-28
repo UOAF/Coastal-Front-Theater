@@ -43,8 +43,22 @@
 [ADDTEXT] TXT_SC_1_LINE_2 "After holding the largest military exercises in history, the troops did not return to their garrisons."
 [ADDTEXT] TXT_SC_1_LINE_3 "Instead, a full out invasion into the Western Europe began."
 [ADDTEXT] TXT_SC_1_LINE_4 "WWW III has just started, it's not just another war, it is a fight for survival of your civilisation"
-[ADDTEXT] TXT_SC_1_CAMP_END "20"
-[ADDTEXT] TXT_SC_1_CAMP_STALE "30"
+[ADDTEXT] TXT_SC_1_CAMP_END "6"
+[ADDTEXT] TXT_SC_1_CAMP_STALE "6"
 [ADDTEXT] TXT_SC_1_CAMP_DIFF "Hard"
 [ADDTEXT] NOT_USED "Keep this line!"
+
+
+
+// -----Scenario 2-----
+[ADDTEXT] TXT_SCENARIO_2 "REFORGER"																																			 
+[ADDTEXT] TXT_SC_2_LINE_1 "1986 - The Warsaw Pact controls large parts of West Germany."
+[ADDTEXT] TXT_SC_2_LINE_2 "Their advance having stalled North into Denmark."
+[ADDTEXT] TXT_SC_2_LINE_3 "NATO enacts Operation Reforger, The 'Return-of-Forces-to-Germany', and goes on the Counter Offensive."
+[ADDTEXT] TXT_SC_2_LINE_4 ""
+[ADDTEXT] TXT_SC_2_CAMP_END "10"
+[ADDTEXT] TXT_SC_2_CAMP_STALE "10"
+[ADDTEXT] TXT_SC_2_CAMP_DIFF "Cakewalk"
+[ADDTEXT] NOT_USED "Keep this line!"
+
 
