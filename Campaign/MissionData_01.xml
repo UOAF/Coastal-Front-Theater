@@ -4755,7 +4755,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>436215809</Flags>
+            <Flags>302006529</Flags>
         </AMIS_SWEEP>
         <AMIS_ALERT>
             <MisType>8</MisType>
@@ -4931,7 +4931,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858503</Flags>
+            <Flags>268665399</Flags>
         </AMIS_SEADSTRIKE>
         <AMIS_SEADESCORT>
             <MisType>12</MisType>
@@ -4975,7 +4975,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939663876</Flags>
+            <Flags>939655684</Flags>
         </AMIS_SEADESCORT>
         <AMIS_OCASTRIKE>
             <MisType>13</MisType>
@@ -5019,7 +5019,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858511</Flags>
+            <Flags>402850623</Flags>
         </AMIS_OCASTRIKE>
         <AMIS_INTSTRIKE>
             <MisType>14</MisType>
@@ -5063,7 +5063,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858515</Flags>
+            <Flags>268665651</Flags>
         </AMIS_INTSTRIKE>
         <AMIS_STRIKE>
             <MisType>15</MisType>
@@ -5107,7 +5107,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858519</Flags>
+            <Flags>268665655</Flags>
         </AMIS_STRIKE>
         <AMIS_DEEPSTRIKE>
             <MisType>16</MisType>
@@ -5151,7 +5151,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858519</Flags>
+            <Flags>268665655</Flags>
         </AMIS_DEEPSTRIKE>
         <AMIS_STSTRIKE>
             <MisType>17</MisType>
@@ -5195,7 +5195,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>32</SpecialCapabilities>
-            <Flags>402858496</Flags>
+            <Flags>268665600</Flags>
         </AMIS_STSTRIKE>
         <AMIS_STRATBOMB>
             <MisType>18</MisType>
@@ -5239,7 +5239,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>403382813</Flags>
+            <Flags>269173565</Flags>
         </AMIS_STRATBOMB>
         <AMIS_FAC>
             <MisType>19</MisType>
@@ -5283,7 +5283,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>437264915</Flags>
+            <Flags>303072019</Flags>
         </AMIS_FAC>
         <AMIS_ONCALLCAS>
             <MisType>20</MisType>
@@ -5591,7 +5591,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941109266</Flags>
+            <Flags>941101330</Flags>
         </AMIS_AWACS>
         <AMIS_JSTAR>
             <MisType>27</MisType>
@@ -5635,7 +5635,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941109264</Flags>
+            <Flags>941101328</Flags>
         </AMIS_JSTAR>
         <AMIS_TANKER>
             <MisType>28</MisType>
@@ -5723,7 +5723,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>536838146</Flags>
+            <Flags>536838402</Flags>
         </AMIS_RECON>
         <AMIS_BDA>
             <MisType>30</MisType>
@@ -5767,7 +5767,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>134381568</Flags>
+            <Flags>134381824</Flags>
         </AMIS_BDA>
         <AMIS_ECM>
             <MisType>31</MisType>
@@ -5811,7 +5811,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939687952</Flags>
+            <Flags>939687984</Flags>
         </AMIS_ECM>
         <AMIS_AIRCAV>
             <MisType>32</MisType>
@@ -5855,7 +5855,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>128</SpecialCapabilities>
-            <Flags>823140368</Flags>
+            <Flags>823140400</Flags>
         </AMIS_AIRCAV>
         <AMIS_AIRLIFT>
             <MisType>33</MisType>
@@ -6075,7 +6075,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>2</SpecialCapabilities>
-            <Flags>469909504</Flags>
+            <Flags>469909760</Flags>
         </AMIS_PATROL>
         <AMIS_RECONPATROL>
             <MisType>38</MisType>
@@ -6119,7 +6119,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>136</SpecialCapabilities>
-            <Flags>202653698</Flags>
+            <Flags>202653954</Flags>
         </AMIS_RECONPATROL>
         <AMIS_ABORT>
             <MisType>39</MisType>
@@ -6693,7 +6693,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>303833601</Flags>
+            <Flags>303833729</Flags>
         </AMIS_BARCAP1>
         <AMIS_BARCAP2>
             <MisType>2</MisType>
@@ -6957,7 +6957,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>436215809</Flags>
+            <Flags>302006273</Flags>
         </AMIS_SWEEP>
         <AMIS_ALERT>
             <MisType>8</MisType>
@@ -7001,7 +7001,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>639369216</Flags>
+            <Flags>102498304</Flags>
         </AMIS_ALERT>
         <AMIS_INTERCEPT>
             <MisType>9</MisType>
@@ -7045,7 +7045,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>219488256</Flags>
+            <Flags>756367360</Flags>
         </AMIS_INTERCEPT>
         <AMIS_ESCORT>
             <MisType>10</MisType>
@@ -7133,7 +7133,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858503</Flags>
+            <Flags>268673555</Flags>
         </AMIS_SEADSTRIKE>
         <AMIS_SEADESCORT>
             <MisType>12</MisType>
@@ -7177,13 +7177,13 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939663876</Flags>
+            <Flags>939663872</Flags>
         </AMIS_SEADESCORT>
         <AMIS_OCASTRIKE>
             <MisType>13</MisType>
             <TgtType>1</TgtType>
             <MisRole>3</MisRole>
-            <MisProfile>3</MisProfile>
+            <MisProfile>1</MisProfile>
             <TgtProfile>1</TgtProfile>
             <TgtDescription>3</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
@@ -7221,7 +7221,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402858511</Flags>
+            <Flags>402862811</Flags>
         </AMIS_OCASTRIKE>
         <AMIS_INTSTRIKE>
             <MisType>14</MisType>
@@ -7265,7 +7265,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268640787</Flags>
+            <Flags>268673555</Flags>
         </AMIS_INTSTRIKE>
         <AMIS_STRIKE>
             <MisType>15</MisType>
@@ -7309,7 +7309,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268648983</Flags>
+            <Flags>268640791</Flags>
         </AMIS_STRIKE>
         <AMIS_DEEPSTRIKE>
             <MisType>16</MisType>
@@ -7353,7 +7353,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402866711</Flags>
+            <Flags>268665363</Flags>
         </AMIS_DEEPSTRIKE>
         <AMIS_STSTRIKE>
             <MisType>17</MisType>
@@ -7397,7 +7397,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>32</SpecialCapabilities>
-            <Flags>402866688</Flags>
+            <Flags>268665344</Flags>
         </AMIS_STSTRIKE>
         <AMIS_STRATBOMB>
             <MisType>18</MisType>
@@ -7441,7 +7441,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>403391005</Flags>
+            <Flags>269173277</Flags>
         </AMIS_STRATBOMB>
         <AMIS_FAC>
             <MisType>19</MisType>
@@ -15765,7 +15765,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>302006529</Flags>
+            <Flags>436215809</Flags>
         </AMIS_SWEEP>
         <AMIS_ALERT>
             <MisType>8</MisType>
@@ -15853,7 +15853,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>756367360</Flags>
+            <Flags>219488256</Flags>
         </AMIS_INTERCEPT>
         <AMIS_ESCORT>
             <MisType>10</MisType>
@@ -15941,7 +15941,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665399</Flags>
+            <Flags>402858503</Flags>
         </AMIS_SEADSTRIKE>
         <AMIS_SEADESCORT>
             <MisType>12</MisType>
@@ -15985,7 +15985,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939655684</Flags>
+            <Flags>939663876</Flags>
         </AMIS_SEADESCORT>
         <AMIS_OCASTRIKE>
             <MisType>13</MisType>
@@ -16029,7 +16029,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402850623</Flags>
+            <Flags>402858511</Flags>
         </AMIS_OCASTRIKE>
         <AMIS_INTSTRIKE>
             <MisType>14</MisType>
@@ -16073,7 +16073,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665651</Flags>
+            <Flags>268640787</Flags>
         </AMIS_INTSTRIKE>
         <AMIS_STRIKE>
             <MisType>15</MisType>
@@ -16117,7 +16117,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665655</Flags>
+            <Flags>268648983</Flags>
         </AMIS_STRIKE>
         <AMIS_DEEPSTRIKE>
             <MisType>16</MisType>
@@ -16161,7 +16161,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665655</Flags>
+            <Flags>402866711</Flags>
         </AMIS_DEEPSTRIKE>
         <AMIS_STSTRIKE>
             <MisType>17</MisType>
@@ -16205,7 +16205,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>32</SpecialCapabilities>
-            <Flags>268665600</Flags>
+            <Flags>402866688</Flags>
         </AMIS_STSTRIKE>
         <AMIS_STRATBOMB>
             <MisType>18</MisType>
@@ -16249,7 +16249,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>269173565</Flags>
+            <Flags>403391005</Flags>
         </AMIS_STRATBOMB>
         <AMIS_FAC>
             <MisType>19</MisType>
@@ -16293,7 +16293,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>303072019</Flags>
+            <Flags>303071763</Flags>
         </AMIS_FAC>
         <AMIS_ONCALLCAS>
             <MisType>20</MisType>
@@ -16601,7 +16601,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941101330</Flags>
+            <Flags>941101074</Flags>
         </AMIS_AWACS>
         <AMIS_JSTAR>
             <MisType>27</MisType>
@@ -16645,7 +16645,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941101328</Flags>
+            <Flags>941101072</Flags>
         </AMIS_JSTAR>
         <AMIS_TANKER>
             <MisType>28</MisType>
@@ -16733,7 +16733,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>536838402</Flags>
+            <Flags>536838146</Flags>
         </AMIS_RECON>
         <AMIS_BDA>
             <MisType>30</MisType>
@@ -16777,7 +16777,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>134381824</Flags>
+            <Flags>134381568</Flags>
         </AMIS_BDA>
         <AMIS_ECM>
             <MisType>31</MisType>
@@ -16821,7 +16821,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939687984</Flags>
+            <Flags>939687952</Flags>
         </AMIS_ECM>
         <AMIS_AIRCAV>
             <MisType>32</MisType>
@@ -16865,7 +16865,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>128</SpecialCapabilities>
-            <Flags>823140400</Flags>
+            <Flags>823140368</Flags>
         </AMIS_AIRCAV>
         <AMIS_AIRLIFT>
             <MisType>33</MisType>
@@ -17085,7 +17085,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>2</SpecialCapabilities>
-            <Flags>469909760</Flags>
+            <Flags>469909504</Flags>
         </AMIS_PATROL>
         <AMIS_RECONPATROL>
             <MisType>38</MisType>
@@ -17129,7 +17129,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>136</SpecialCapabilities>
-            <Flags>202653954</Flags>
+            <Flags>202653698</Flags>
         </AMIS_RECONPATROL>
         <AMIS_ABORT>
             <MisType>39</MisType>
@@ -17967,7 +17967,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>302006529</Flags>
+            <Flags>436215809</Flags>
         </AMIS_SWEEP>
         <AMIS_ALERT>
             <MisType>8</MisType>
@@ -18143,7 +18143,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665399</Flags>
+            <Flags>402858503</Flags>
         </AMIS_SEADSTRIKE>
         <AMIS_SEADESCORT>
             <MisType>12</MisType>
@@ -18187,7 +18187,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939655684</Flags>
+            <Flags>939663876</Flags>
         </AMIS_SEADESCORT>
         <AMIS_OCASTRIKE>
             <MisType>13</MisType>
@@ -18231,7 +18231,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402850623</Flags>
+            <Flags>402858511</Flags>
         </AMIS_OCASTRIKE>
         <AMIS_INTSTRIKE>
             <MisType>14</MisType>
@@ -18275,7 +18275,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665651</Flags>
+            <Flags>402858515</Flags>
         </AMIS_INTSTRIKE>
         <AMIS_STRIKE>
             <MisType>15</MisType>
@@ -18319,7 +18319,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665655</Flags>
+            <Flags>402858519</Flags>
         </AMIS_STRIKE>
         <AMIS_DEEPSTRIKE>
             <MisType>16</MisType>
@@ -18363,7 +18363,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268665655</Flags>
+            <Flags>402858519</Flags>
         </AMIS_DEEPSTRIKE>
         <AMIS_STSTRIKE>
             <MisType>17</MisType>
@@ -18407,7 +18407,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>32</SpecialCapabilities>
-            <Flags>268665600</Flags>
+            <Flags>402858496</Flags>
         </AMIS_STSTRIKE>
         <AMIS_STRATBOMB>
             <MisType>18</MisType>
@@ -18451,7 +18451,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>269173565</Flags>
+            <Flags>403382813</Flags>
         </AMIS_STRATBOMB>
         <AMIS_FAC>
             <MisType>19</MisType>
@@ -18495,7 +18495,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>303072019</Flags>
+            <Flags>437264915</Flags>
         </AMIS_FAC>
         <AMIS_ONCALLCAS>
             <MisType>20</MisType>
@@ -18803,7 +18803,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941101330</Flags>
+            <Flags>941109266</Flags>
         </AMIS_AWACS>
         <AMIS_JSTAR>
             <MisType>27</MisType>
@@ -18847,7 +18847,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941101328</Flags>
+            <Flags>941109264</Flags>
         </AMIS_JSTAR>
         <AMIS_TANKER>
             <MisType>28</MisType>
@@ -18935,7 +18935,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>536838402</Flags>
+            <Flags>536838146</Flags>
         </AMIS_RECON>
         <AMIS_BDA>
             <MisType>30</MisType>
@@ -18979,7 +18979,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>134381824</Flags>
+            <Flags>134381568</Flags>
         </AMIS_BDA>
         <AMIS_ECM>
             <MisType>31</MisType>
@@ -19023,7 +19023,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>939687984</Flags>
+            <Flags>939687952</Flags>
         </AMIS_ECM>
         <AMIS_AIRCAV>
             <MisType>32</MisType>
@@ -19067,7 +19067,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>128</SpecialCapabilities>
-            <Flags>823140400</Flags>
+            <Flags>823140368</Flags>
         </AMIS_AIRCAV>
         <AMIS_AIRLIFT>
             <MisType>33</MisType>
@@ -19287,7 +19287,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>2</SpecialCapabilities>
-            <Flags>469909760</Flags>
+            <Flags>469909504</Flags>
         </AMIS_PATROL>
         <AMIS_RECONPATROL>
             <MisType>38</MisType>
@@ -19331,7 +19331,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>136</SpecialCapabilities>
-            <Flags>202653954</Flags>
+            <Flags>202653698</Flags>
         </AMIS_RECONPATROL>
         <AMIS_ABORT>
             <MisType>39</MisType>
