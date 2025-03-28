@@ -1,0 +1,725 @@
+// Coastal Front
+//
+//
+// Base event file
+//
+//Teams layout
+//1-Denmark
+//2-NATO
+//3-Norway
+//4-Sweden
+//5-DDR
+//6-CCCP
+//7-PRL
+//
+//PAK - Name - Campid 
+//
+//#SET_PAK_PRIORITY [team#] [pakID#] [priority# 0 to 100]
+//
+//PAK0 - Mamonovo - 4324 
+//#SET_PAK_PRIORITY 2 4324 50
+//PAK1 - Hannover - 4297
+//#SET_PAK_PRIORITY 2 4297 50  
+//PAK2 - Karlstad - 3996
+//#SET_PAK_PRIORITY 2 3996 50
+//PAK3 - Nomkoping - 3984
+//#SET_PAK_PRIORITY 2 3984 50
+//PAK4 - Holestebro - 235
+//#SET_PAK_PRIORITY 2 235 50
+///PAK5 - Plock - 158
+//#SET_PAK_PRIORITY 2 158 50
+//PAK6 - Torun - 157
+//#SET_PAK_PRIORITY 2 157 50
+//PAK7 - Rostock - 120
+//#SET_PAK_PRIORITY 2 120 50
+//PAK8 - Kiel - 113
+//#SET_PAK_PRIORITY 2 113 50
+//PAK9 - Pila - 98
+//#SET_PAK_PRIORITY 2 98 50
+//PAK10 - Schwerin - 93
+//#SET_PAK_PRIORITY 2 93 50
+//PAK11 - Neubrandenburg - 92
+//#SET_PAK_PRIORITY 2 92 50
+//PAK12 - Vaxjo City - 91
+//#SET_PAK_PRIORITY 2 91 50
+//PAK13 - Visby City - 90
+//#SET_PAK_PRIORITY 2 90 50
+//PAK14 - Koszalin - 84
+//#SET_PAK_PRIORITY 2 84 50
+//PAK15 - Stockholm - 79
+//#SET_PAK_PRIORITY 2 79 50
+//PAK16 - Veilje - 73
+//#SET_PAK_PRIORITY 2 73 50
+//PAK17 - Jonkoping - 72
+//#SET_PAK_PRIORITY 2 72 50
+//PAK18 - Olso - 70
+//#SET_PAK_PRIORITY 2 70 50
+//PAK19 - Goteburg - 69
+//#SET_PAK_PRIORITY 2 69 50
+//PAK20 - Malmo - 68
+//#SET_PAK_PRIORITY 2 68 50
+//PAK21 - Copenhagen - 67
+//#SET_PAK_PRIORITY 2 67 50
+//PAK22 - Odense - 66
+//#SET_PAK_PRIORITY 2 66 50
+//PAK23 - Aalborg - 65
+//#SET_PAK_PRIORITY 2 65 50
+//PAK24 - Arhus - 64
+//#SET_PAK_PRIORITY 2 64 50
+//PAK25 - Bremen - 63
+//#SET_PAK_PRIORITY 2 63 50
+//PAK26 - Flensburg - 62
+//#SET_PAK_PRIORITY 2 62 50
+//PAK27 - Hamburg - 61
+//#SET_PAK_PRIORITY 2 61 50
+//PAK27 - Berlin - 59
+//#SET_PAK_PRIORITY 2 59 50
+//PAK29 - Szczecin - 58
+//#SET_PAK_PRIORITY 2 58 50
+//PAK30 - Poznan - 57
+//#SET_PAK_PRIORITY 2 57 50
+//PAK31 - Bydgoszcz - 56
+//#SET_PAK_PRIORITY 2 56 50
+//PAK32 - Gdansk - 55
+//#SET_PAK_PRIORITY 2 55 50
+//PAK33 - Gdynia - 54
+//#SET_PAK_PRIORITY 2 54 50
+// :::::::::::::::::::::::::::::::::::::::::;
+//
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore 
+// KCK WARNING: KEEP THIS UPDATED!
+//
+#TOTAL_EVENTS 22
+//
+// :::::::::::::::::::::::::::::::::::::::::;
+// 
+// This sets the initial tempo
+#SET_TEMPO 100
+
+#ENDINIT
+//
+//
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Denmark Front (odense) + Western Front (bremen) offensive by NATO forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 1
+	#IF_CONTROLLED 6 OR 63 66
+	//Danish Front
+	//Copenhagen
+		#SET_PAK_PRIORITY 2 67 80
+		#SET_PAK_PRIORITY 6 67 80
+		#SET_PAK_PRIORITY 1 67 80
+		#SET_PAK_PRIORITY 3 67 80
+	//aalborg 
+		#SET_PAK_PRIORITY 2 65 80
+		#SET_PAK_PRIORITY 6 65 80
+		#SET_PAK_PRIORITY 1 65 80
+		#SET_PAK_PRIORITY 3 65 80
+	//Arhus - 64
+		#SET_PAK_PRIORITY 2 64 100
+		#SET_PAK_PRIORITY 6 64 100
+		#SET_PAK_PRIORITY 1 64 100
+		#SET_PAK_PRIORITY 3 64 100
+	//Holestebro - 235
+		#SET_PAK_PRIORITY 2 235 80
+		#SET_PAK_PRIORITY 6 235 80
+		#SET_PAK_PRIORITY 1 235 80
+		#SET_PAK_PRIORITY 3 235 80
+	//Odense 
+		#SET_PAK_PRIORITY 2 66 100
+		#SET_PAK_PRIORITY 6 66 100
+		#SET_PAK_PRIORITY 1 66 100
+		#SET_PAK_PRIORITY 3 66 100
+	//Veilje - 73
+		#SET_PAK_PRIORITY 2 73 60
+		#SET_PAK_PRIORITY 6 73 60
+		#SET_PAK_PRIORITY 1 73 60
+		#SET_PAK_PRIORITY 3 73 60
+//////////
+		//Danish Second line (sweden)
+	//Goteburg - 69
+		#SET_PAK_PRIORITY 2 69 50
+		#SET_PAK_PRIORITY 6 69 50
+		#SET_PAK_PRIORITY 1 69 50
+		#SET_PAK_PRIORITY 3 69 50
+	//Malmo - 68
+		#SET_PAK_PRIORITY 2 68 50
+		#SET_PAK_PRIORITY 6 68 50
+		#SET_PAK_PRIORITY 1 69 50
+		#SET_PAK_PRIORITY 3 69 50
+////	
+	//Kiel blanced
+		#SET_PAK_PRIORITY 2 113 20
+		#SET_PAK_PRIORITY 6 113 20
+	//Hamburg balanced
+		#SET_PAK_PRIORITY 2 61 20
+		#SET_PAK_PRIORITY 6 61 20
+		#SET_PAK_PRIORITY 5 61 20
+		#SET_PAK_PRIORITY 7 61 20
+	//Hannover balanced
+		#SET_PAK_PRIORITY 2 4297 20
+		#SET_PAK_PRIORITY 6 4297 20
+		#SET_PAK_PRIORITY 5 4297 20
+		#SET_PAK_PRIORITY 7 4297 20
+////
+	//Western Front
+	//Bremen high
+		#SET_PAK_PRIORITY 2 63 100
+		#SET_PAK_PRIORITY 6 63 100
+		#SET_PAK_PRIORITY 5 63 100
+		#SET_PAK_PRIORITY 7 63 100
+	//Berlin Balanced
+		#SET_PAK_PRIORITY 2 59 20
+		#SET_PAK_PRIORITY 6 59 20
+	//Szczecin Balanced
+		#SET_PAK_PRIORITY 2 58 20
+		#SET_PAK_PRIORITY 6 58 40
+	//rostock Balanced
+		#SET_PAK_PRIORITY 2 120 20
+		#SET_PAK_PRIORITY 6 120 40
+	//Schwerin Balanced
+		#SET_PAK_PRIORITY 2 93 20
+		#SET_PAK_PRIORITY 6 93 40
+		//
+	//Beachhead 
+	//Koszalin low until beach head
+		#SET_PAK_PRIORITY 2 84 10
+		#SET_PAK_PRIORITY 6 84 10
+		//
+	//Sweden/norway minimal
+		//PAK12 - Vaxjo City - 91
+		#SET_PAK_PRIORITY 2 91 10
+		#SET_PAK_PRIORITY 6 91 10
+		//PAK13 - Visby City - 90
+		#SET_PAK_PRIORITY 2 90 10
+		#SET_PAK_PRIORITY 6 90 10
+		//PAK15 - Stockholm - 79
+		#SET_PAK_PRIORITY 2 79 10
+		#SET_PAK_PRIORITY 6 79 10
+		//PAK17 - Jonkoping - 72
+		#SET_PAK_PRIORITY 2 72 10
+		#SET_PAK_PRIORITY 6 72 10
+		//PAK18 - Olso - 70
+		#SET_PAK_PRIORITY 2 70 10
+		#SET_PAK_PRIORITY 6 70 10
+		//PAK2 - Karlstad - 3996
+		#SET_PAK_PRIORITY 2 3996 10
+		#SET_PAK_PRIORITY 6 3996 10
+		//PAK3 - Nomkoping - 3984
+		#SET_PAK_PRIORITY 2 3984 10
+		#SET_PAK_PRIORITY 6 3984 10
+		//PAK18 - Olso - 70
+		#SET_PAK_PRIORITY 2 70 10
+		#SET_PAK_PRIORITY 6 70 10
+		//
+		//
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		//#SHIFT_INITIATIVE 2 6 50 
+		//#SHIFT_INITIATIVE 1 5 50 
+		//#SHIFT_INITIATIVE 3 7 50 
+		#DO_EVENT 1
+		#DO_MONOLOG NATO moving to liberate Odense & Bremen
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// West Front Bremen 63 Liberated by NATO forces (Hamburg 61 + Hannover 4297 next)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 2
+	#IF_CONTROLLED 2 OR 63
+		//Hamburg Upped
+		#SET_PAK_PRIORITY 2 61 80
+		#SET_PAK_PRIORITY 6 61 80
+		//Bremen reduced
+		#SET_PAK_PRIORITY 2 63 50
+		#SET_PAK_PRIORITY 6 63 50
+		//Hannover Upped
+		#SET_PAK_PRIORITY 2 4297 60
+		#SET_PAK_PRIORITY 6 4297 60
+		//rostock Balanced
+		#SET_PAK_PRIORITY 2 120 60
+		#SET_PAK_PRIORITY 6 120 60
+		//Schwerin balanced
+		#SET_PAK_PRIORITY 2 93 60
+		#SET_PAK_PRIORITY 6 93 60
+		///
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 2
+		#DO_MONOLOG Bremen has been liberated by NATO forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// Danish Front Odense 63 liberated (Veilje 73 Next)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CONTROLLED 2 OR 63
+		//Danish Front
+	//Copenhagen
+		#SET_PAK_PRIORITY 2 67 60
+		#SET_PAK_PRIORITY 6 67 60
+	//Odense 
+		#SET_PAK_PRIORITY 2 66 60
+		#SET_PAK_PRIORITY 6 66 60
+	//Veilje - 73
+		#SET_PAK_PRIORITY 2 73 100
+		#SET_PAK_PRIORITY 6 73 100
+		
+	//Flensburg - 62
+		#SET_PAK_PRIORITY 2 62 80
+		#SET_PAK_PRIORITY 6 62 80
+		
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 3
+		#DO_MONOLOG Odense has been Liberated by NATO Forces
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// Arhus 64 and\or Holestebro 235 liberated. NATO Forces Liberating Flensburg - 62
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 4
+	#IF_CONTROLLED 2 OR 64
+	//Arhus - 64
+		#SET_PAK_PRIORITY 2 64 40
+		#SET_PAK_PRIORITY 6 64 40
+		#SET_PAK_PRIORITY 1 64 40
+		#SET_PAK_PRIORITY 3 64 40
+	//Flensburg - 62
+		#SET_PAK_PRIORITY 2 62 80
+		#SET_PAK_PRIORITY 6 62 80
+		#SET_PAK_PRIORITY 1 62 80
+		#SET_PAK_PRIORITY 3 62 80
+	//Holestebro - 235
+		#SET_PAK_PRIORITY 2 235 80
+		#SET_PAK_PRIORITY 6 235 80
+		#SET_PAK_PRIORITY 1 235 80
+		#SET_PAK_PRIORITY 3 235 80
+//		
+			#IF_CONTROLLED 2 OR 235
+			//Arhus - 64
+				#SET_PAK_PRIORITY 2 64 40
+				#SET_PAK_PRIORITY 6 64 40
+				#SET_PAK_PRIORITY 1 64 40
+				#SET_PAK_PRIORITY 3 64 40
+			//Flensburg - 62
+				#SET_PAK_PRIORITY 2 62 100
+				#SET_PAK_PRIORITY 6 62 100
+				#SET_PAK_PRIORITY 1 62 100
+				#SET_PAK_PRIORITY 3 62 100
+			//Holestebro - 235
+				#SET_PAK_PRIORITY 2 235 40
+				#SET_PAK_PRIORITY 6 235 40
+				#SET_PAK_PRIORITY 1 235 40
+				#SET_PAK_PRIORITY 3 235 40
+			#ENDIF
+//		
+	//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 4
+		#DO_MONOLOG NATO Liberating Flensburg
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// Kozalin 84 Breakthrough (4127 Koszlin factory).
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 5
+	#IF_CONTROLLED 2 OR 84 4127
+		//Koszalin max
+		#SET_PAK_PRIORITY 2 84 100
+		#SET_PAK_PRIORITY 6 84 100
+		//Pila high
+		#SET_PAK_PRIORITY 2 98 80
+		#SET_PAK_PRIORITY 6 98 80
+		
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 5
+		#DO_MONOLOG NATO Beach Landing Koszalin.
+	#ENDIF
+#ENDIF
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// Hannover Liberated
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 6
+	#IF_CONTROLLED 2 OR 93
+		//Hannover balanced
+		#SET_PAK_PRIORITY 2 4297 40
+		#SET_PAK_PRIORITY 6 4297 40
+		#SET_PAK_PRIORITY 5 4297 40
+		#SET_PAK_PRIORITY 7 4297 40
+		
+		//Hamburg Upped
+		#SET_PAK_PRIORITY 2 61 100
+		#SET_PAK_PRIORITY 6 61 100
+		
+		//rostock Upped
+		#SET_PAK_PRIORITY 2 120 100
+		#SET_PAK_PRIORITY 6 120 100
+		//Schwerin Upped
+		#SET_PAK_PRIORITY 2 93 100
+		#SET_PAK_PRIORITY 6 93 100
+		
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 6
+		#DO_MONOLOG Hannover liberated by NATO
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7
+// blue Progress Supply 1 oldenburg 130 Western Front
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 7
+	#IF_CONTROLLED 2 OR 130
+	//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 7
+		#DO_MONOLOG NATO Control oldenburg, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// blue Progress Supply 2 Alhorn AFB 4429  Western Front
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 8
+	#IF_CONTROLLED 2 OR 4429 4428
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 8
+		#DO_MONOLOG NATO Control Alhorn or Oldenburg Airbase, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// Blue Progress Supply 3 Halskov 2088 (Denmark Front)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 9
+	#IF_CONTROLLED 2 OR 2088
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 9
+		#DO_MONOLOG NATO Control Halskov Town, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #10 
+// Blue Progress Supply 4 Nyborg 252 (Denmark Front)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 10
+	#IF_CONTROLLED 2 OR 252
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 10
+		#DO_MONOLOG NATO Control Nyborg Town, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #11 
+// blue Progress Supply 5 Biologard 163 (Poland Beachhead)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 11
+	#IF_CONTROLLED 2 OR 163
+		//Pila max
+		#SET_PAK_PRIORITY 2 98 100
+		#SET_PAK_PRIORITY 6 98 100
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 11
+		#DO_MONOLOG Blue Control Biologard Town, Resupply
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #12 
+// Blue Progress Supply 7 Odense 66 (Denmark Front)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 12
+	#IF_CONTROLLED 2 OR 66
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 12
+		#DO_MONOLOG blue Control odense, Resupply
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13
+// blue Progress Supply 10 AAlborg vilage 3398 (Denmark Front)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 13
+	#IF_CONTROLLED 2 OR 3398 2899
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 13
+		#DO_MONOLOG NATO Advancing from Aalborg, Resupply	
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #14
+// Nato Win (Bremen 63 and Scwehrin 93 under Nato Controlled at any point)
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 2 AND 63 93 		
+		  	#DO_EVENT 17
+			#END_GAME 17
+			#DO_MONOLOG NATO Wins
+#ENDIF
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #15
+// Stalemate (if by day 10 Only Bremen taken)
+//////////////////////////////////////////////////////////////////////////////
+#IF_CAMPAIGN_DAY >= 10
+	#IF_CONTROLLED 2 OR 63 	
+		  	#DO_EVENT 15
+			#END_GAME 15
+			#DO_MONOLOG Stalemate NATO Unable To Capture All Their Objectives
+	#ENDIF
+#ENDIF
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// Nato Win Poznan 57 controlled at any point (beach head)
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 2 OR 57 	
+		  	#DO_EVENT 17
+			#END_GAME 17
+			#DO_MONOLOG  NATO Wins
+#ENDIF
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #17
+// Timeout day 10 CCCP still controls both Bremen 63 and Schwerin 93
+//////////////////////////////////////////////////////////////////////////////
+//#IF_CAMPAIGN_DAY >= 10
+#IF_CAMPAIGN_DAY >= 2  
+	#IF_CONTROLLED 6 AND 63 93
+		#DO_EVENT 14
+		#END_GAME 14
+		#DO_MONOLOG NATO Unable To Capture All Their Objectives
+	#ENDIF
+#ENDIF
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #18
+// blue Progress Supply 11 Randerstown 248 (Denmark Front)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 18
+	#IF_CONTROLLED 2 OR 248
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_EVENT 18
+		#DO_MONOLOG NATO Control Randerstown, Resupply		
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #19
+// blue Progress Supply 12 Koszalin villiage 2319 (Poland Beachhead)
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 19
+	#IF_CONTROLLED 2 OR 2319 2316
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_MONOLOG NATO Advancing fron Koszalin, Resupply	
+		#DO_EVENT 19
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #20
+// Velije liberated. NATO Forces attacking Flenesburg 113
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 20
+	#IF_CONTROLLED 2 OR 73
+		//Copenhagen
+		#SET_PAK_PRIORITY 2 67 40
+		#SET_PAK_PRIORITY 6 67 40
+	//Odense 
+		#SET_PAK_PRIORITY 2 66 60
+		#SET_PAK_PRIORITY 6 66 60
+	//Veilje - 73
+		#SET_PAK_PRIORITY 2 73 60
+		#SET_PAK_PRIORITY 6 73 60
+	//Flensburg - 62
+		#SET_PAK_PRIORITY 2 62 100
+		#SET_PAK_PRIORITY 6 62 100	
+	//Kiel - 113
+		#SET_PAK_PRIORITY 2 113 100
+		#SET_PAK_PRIORITY 6 113 100
+	//
+		
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		//
+		
+		//#SHIFT_INITIATIVE 2 6 20 
+		//#SHIFT_INITIATIVE 1 5 20 
+		//#SHIFT_INITIATIVE 3 7 20 
+		#DO_EVENT 20
+		#DO_MONOLOG Flensburg has been liberated by NATO
+	#ENDIF
+#ENDIF
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #21
+// Blue Progress Supply 12 Fredeica village 
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 21
+	#IF_CONTROLLED 2 OR 3331 3329
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_MONOLOG NATO Advances from Odense, Resupply	
+		#DO_EVENT 21
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #22
+// Blue Progress Supply 13 Hobro 240
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 22
+	#IF_CONTROLLED 2 OR 240
+		//Keep Blue Supply up
+		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#DO_MONOLOG NATO Control Hobro, Resupply	
+		#DO_EVENT 22
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
+#ENDSCRIPT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
