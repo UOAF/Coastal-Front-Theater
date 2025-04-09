@@ -1,0 +1,18 @@
+# Version 1.0
+# Author Ratty/MRivers
+# Missle ptr - 25
+# Single smoke
+# edit Fritz - CF 04/2025
+0 # Data Format Version
+
+# Data
+lauSalvoSize 1
+lauWeaponId 537
+lauRounds 19
+#lauAzimuth 0
+#lauElevation 0
+lauRippleTimeMS 10
+
+# Particle Sys
+psFeatureImpact _bdu33
+psBombImpact _bdu33
