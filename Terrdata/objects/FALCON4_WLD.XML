@@ -68,6 +68,7 @@
         <WpnIdx_20>791</WpnIdx_20>
         <WpnIdx_21>794</WpnIdx_21>
         <WpnIdx_22>792</WpnIdx_22>
+        <WpnIdx_23>796</WpnIdx_23>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>3</WpnCount_2>
@@ -91,6 +92,7 @@
         <WpnCount_20>1</WpnCount_20>
         <WpnCount_21>1</WpnCount_21>
         <WpnCount_22>1</WpnCount_22>
+        <WpnCount_23>1</WpnCount_23>
     </WLD>
     <WLD Num="6">
         <Name>F-16 OCU 4/6</Name>
@@ -3496,6 +3498,7 @@
         <WpnIdx_23>791</WpnIdx_23>
         <WpnIdx_24>794</WpnIdx_24>
         <WpnIdx_25>792</WpnIdx_25>
+        <WpnIdx_26>796</WpnIdx_26>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -3522,6 +3525,7 @@
         <WpnCount_23>1</WpnCount_23>
         <WpnCount_24>1</WpnCount_24>
         <WpnCount_25>1</WpnCount_25>
+        <WpnCount_26>1</WpnCount_26>
     </WLD>
     <WLD Num="155">
         <Name>F-16 SCU 4/6</Name>
@@ -9307,6 +9311,7 @@
         <WpnIdx_21>791</WpnIdx_21>
         <WpnIdx_22>794</WpnIdx_22>
         <WpnIdx_23>792</WpnIdx_23>
+        <WpnIdx_24>796</WpnIdx_24>
         <WpnCount_0>2</WpnCount_0>
         <WpnCount_1>3</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -9331,6 +9336,7 @@
         <WpnCount_21>1</WpnCount_21>
         <WpnCount_22>1</WpnCount_22>
         <WpnCount_23>1</WpnCount_23>
+        <WpnCount_24>1</WpnCount_24>
     </WLD>
     <WLD Num="422">
         <Name>F-16 BAC 4/6</Name>
@@ -9394,6 +9400,7 @@
         <WpnIdx_8>258</WpnIdx_8>
         <WpnIdx_9>257</WpnIdx_9>
         <WpnIdx_10>260</WpnIdx_10>
+        <WpnIdx_11>346</WpnIdx_11>
         <WpnCount_0>3</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>3</WpnCount_2>
@@ -9405,6 +9412,7 @@
         <WpnCount_8>2</WpnCount_8>
         <WpnCount_9>2</WpnCount_9>
         <WpnCount_10>2</WpnCount_10>
+        <WpnCount_11>3</WpnCount_11>
     </WLD>
     <WLD Num="426">
         <Name>F-16 RNLAF 3/7</Name>
@@ -9430,6 +9438,8 @@
         <WpnIdx_19>791</WpnIdx_19>
         <WpnIdx_20>794</WpnIdx_20>
         <WpnIdx_21>792</WpnIdx_21>
+        <WpnIdx_22>796</WpnIdx_22>
+        <WpnIdx_23>346</WpnIdx_23>
         <WpnCount_0>2</WpnCount_0>
         <WpnCount_1>2</WpnCount_1>
         <WpnCount_2>3</WpnCount_2>
@@ -9452,6 +9462,8 @@
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
         <WpnCount_21>1</WpnCount_21>
+        <WpnCount_22>1</WpnCount_22>
+        <WpnCount_23>3</WpnCount_23>
     </WLD>
     <WLD Num="427">
         <Name>F-16 RNLAF 2/8</Name>
@@ -9522,6 +9534,7 @@
         <WpnIdx_18>791</WpnIdx_18>
         <WpnIdx_19>794</WpnIdx_19>
         <WpnIdx_20>792</WpnIdx_20>
+        <WpnIdx_21>796</WpnIdx_21>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>3</WpnCount_2>
@@ -9543,6 +9556,7 @@
         <WpnCount_18>1</WpnCount_18>
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
+        <WpnCount_21>1</WpnCount_21>
     </WLD>
     <WLD Num="432">
         <Name>F-16 RDAF 2/8</Name>
@@ -10560,6 +10574,7 @@
         <WpnIdx_18>791</WpnIdx_18>
         <WpnIdx_19>792</WpnIdx_19>
         <WpnIdx_20>794</WpnIdx_20>
+        <WpnIdx_21>796</WpnIdx_21>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>2</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -10581,6 +10596,7 @@
         <WpnCount_18>1</WpnCount_18>
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
+        <WpnCount_21>1</WpnCount_21>
     </WLD>
     <WLD Num="470">
         <Name>F-16-32 EAF 4/6</Name>
@@ -13083,6 +13099,7 @@
         <WpnIdx_8>256</WpnIdx_8>
         <WpnIdx_9>215</WpnIdx_9>
         <WpnIdx_10>729</WpnIdx_10>
+        <WpnIdx_11>796</WpnIdx_11>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -13094,6 +13111,7 @@
         <WpnCount_8>1</WpnCount_8>
         <WpnCount_9>1</WpnCount_9>
         <WpnCount_10>1</WpnCount_10>
+        <WpnCount_11>1</WpnCount_11>
     </WLD>
     <WLD Num="585">
         <Name>F-104G Fuselage</Name>
