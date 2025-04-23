@@ -6,12 +6,12 @@
 1 # Data Format Version
 
 # Data
- lauSalvoSize 19
- #lauWeaponId 793
- lauRounds 1
- #lauAzimuth 0
- #lauElevation 0
- lauRippleTimeMS 10
+lauSalvoSize 19
+#lauWeaponId 793
+lauRounds 1
+#lauAzimuth 0
+#lauElevation 0
+lauRippleTimeMS 10
 
 # Particle Sys
 psFeatureImpact $rocket_burst
