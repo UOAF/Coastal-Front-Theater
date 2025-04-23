@@ -7,11 +7,11 @@
 
 # Data
  lauSalvoSize 19
- #lauWeaponId 795
- lauRounds 1
- #lauAzimuth 0
- #lauElevation 0
- lauRippleTimeMS 10
+#lauWeaponId 795
+lauRounds 1
+#lauAzimuth 0
+#lauElevation 0
+lauRippleTimeMS 10
 
 # Particle Sys
 psFeatureImpact $rocket_burst
