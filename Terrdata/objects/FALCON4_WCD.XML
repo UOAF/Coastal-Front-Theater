@@ -10467,7 +10467,7 @@
     <WCD Num="327">
         <CtIdx>1644</CtIdx>
         <Strength>0</Strength>
-        <DamageType>2</DamageType>
+        <DamageType>10</DamageType>
         <Range>3.0</Range>
         <Flags>4104</Flags>
         <Name>LAU-68/131 /WP</Name>
@@ -25346,8 +25346,8 @@
     </WCD>
     <WCD Num="792">
         <CtIdx>4477</CtIdx>
-        <Strength>110</Strength>
-        <DamageType>2</DamageType>
+        <Strength>0</Strength>
+        <DamageType>10</DamageType>
         <Range>3.0</Range>
         <Flags>8</Flags>
         <Name>LAU3/A WP Single</Name>

@@ -7,12 +7,10 @@
 
 # Data
 lauSalvoSize 1
-lauWeaponId 795
 lauRounds 19
 #lauAzimuth 0
 #lauElevation 0
 lauRippleTimeMS 10
 
 # Particle Sys
-psFeatureImpact $rocket_burst
-psBombImpact $rocket_burst
+# not applicable to launchers
