@@ -42,7 +42,7 @@
 # Field of View (deg)
 0.0
 # Guidance Delay (sec)
-0.45
+60.00
 # Lofting Bias (Gs)
 0.00
 # Proportional nav gain
@@ -286,9 +286,9 @@ sndAim9EnviroGround 187
 #-----------------------------------------------------
 # Particle sys files
 #-----------------------------------------------------
-psGroundImpact $rocket_burst
+psGroundImpact _bdu33
 psMissileKill 
-psFeatureImpact $rocket_burst
+psFeatureImpact _bdu33
 psBombImpact 
 psArmingDelay 
 psExceedFOV 

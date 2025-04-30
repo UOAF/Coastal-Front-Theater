@@ -1846,7 +1846,7 @@
         <WpnClass>1</WpnClass>
         <Domain>2</Domain>
         <WpnType>9</WpnType>
-        <WpnDatIdx>220</WpnDatIdx>
+        <WpnDatIdx>7</WpnDatIdx>
     </SWD>
     <SWD Num="132">
         <Flags>2</Flags>
@@ -5445,5 +5445,33 @@
         <Domain>2</Domain>
         <WpnType>6</WpnType>
         <WpnDatIdx>16</WpnDatIdx>
+    </SWD>
+    <SWD Num="389">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L61MPSM</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>220</WpnDatIdx>
+    </SWD>
+    <SWD Num="390">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L61WP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>221</WpnDatIdx>
     </SWD>
 </SWDRecords>
