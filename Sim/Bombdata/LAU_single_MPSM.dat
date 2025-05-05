@@ -8,8 +8,8 @@
 # Data
 lauSalvoSize 1
 lauRounds 19
-#lauAzimuth 0
-#lauElevation 0
+lauAzimuth 0
+lauElevation 0
 lauRippleTimeMS 10
 
 # Particle Sys
