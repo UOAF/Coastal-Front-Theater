@@ -5474,4 +5474,18 @@
         <WpnType>9</WpnType>
         <WpnDatIdx>221</WpnDatIdx>
     </SWD>
+    <SWD Num="391">
+        <Flags>0</Flags>
+        <Drag>1.000</Drag>
+        <Weight>1975.000</Weight>
+        <Area>4.000</Area>
+        <EjectX>0.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>RN-28</WpnName>
+        <WpnClass>2</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>6</WpnType>
+        <WpnDatIdx>16</WpnDatIdx>
+    </SWD>
 </SWDRecords>
