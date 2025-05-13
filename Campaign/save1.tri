@@ -184,10 +184,23 @@
 		#SET_PAK_PRIORITY 2 93 20
 		#SET_PAK_PRIORITY 6 93 40
 		//
-	//Beachhead 
-	//Koszalin low until beach head
+	//Beachhead (to try prevent Red capturing landing obj ahead of activation)
+	//Koszalin nil for red until beach head
 		#SET_PAK_PRIORITY 2 84 10
-		#SET_PAK_PRIORITY 6 84 10
+		#SET_PAK_PRIORITY 6 84 0
+	//Szczecin nil for red until beach head
+		#SET_PAK_PRIORITY 2 58 10
+		#SET_PAK_PRIORITY 6 58 0
+	//Gdansk nil for red until beach head
+		#SET_PAK_PRIORITY 2 55 10
+		#SET_PAK_PRIORITY 6 55 0
+	//Gdynia nil for red until beach head
+		#SET_PAK_PRIORITY 2 54 10
+		#SET_PAK_PRIORITY 6 54 0
+	//Pila nil for red until beach head
+		#SET_PAK_PRIORITY 2 98 10
+		#SET_PAK_PRIORITY 6 98 0
+		//
 		//
 	//Sweden/norway minimal
 		//PAK12 - Vaxjo City - 91
@@ -361,16 +374,27 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #5
-// Kozalin 84 Breakthrough (4127 Koszlin factory).
+// Kozalin 84 Beachhead (2338/3284 Koszlin villiages ).
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 5
-	#IF_CONTROLLED 2 OR 84 4127
+	#IF_CONTROLLED 2 OR 2338 3284
 		//Koszalin max
 		#SET_PAK_PRIORITY 2 84 100
 		#SET_PAK_PRIORITY 6 84 100
 		//Pila high
 		#SET_PAK_PRIORITY 2 98 80
 		#SET_PAK_PRIORITY 6 98 80
+		
+		//Beachhead surrounding reset
+	//Szczecin
+		#SET_PAK_PRIORITY 2 58 60
+		#SET_PAK_PRIORITY 6 58 60
+	//Gdansk
+		#SET_PAK_PRIORITY 2 55 60
+		#SET_PAK_PRIORITY 6 55 60
+	//Gdynia
+		#SET_PAK_PRIORITY 2 54 60
+		#SET_PAK_PRIORITY 6 54 60
 		
 		//Keep Blue Supply up
 		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
@@ -603,17 +627,21 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #18
-// blue Progress Supply 11 Randerstown 248 (Denmark Front)
+// blue resupply cycle
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 18
-	#IF_CONTROLLED 2 OR 248
-		//Keep Blue Supply up
+	//Keep Red Supply up
+	#IF_SUPPLY 2 <= 1000
+		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
 		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
 		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
 		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5		
 		#DO_EVENT 18
-		#DO_MONOLOG NATO Control Randerstown, Resupply		
+		#RESET_EVENT 18
+		#DO_MONOLOG resupply cycle
 	#ENDIF
 #ENDIF
 
