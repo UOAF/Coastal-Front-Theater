@@ -51,11 +51,11 @@
 
 
 // -----Scenario 2-----
-[ADDTEXT] TXT_SCENARIO_2 "REFORGER"																																			 
-[ADDTEXT] TXT_SC_2_LINE_1 "1986 - The Warsaw Pact controls large parts of West Germany."
-[ADDTEXT] TXT_SC_2_LINE_2 "Their advance having stalled North into Denmark."
+[ADDTEXT] TXT_SCENARIO_2 "REFORGER '87"																																			 
+[ADDTEXT] TXT_SC_2_LINE_1 "The Warsaw Pact occupies large parts of West Germany and Denmark."
+[ADDTEXT] TXT_SC_2_LINE_2 "Their advance having stalled in the North and West."
 [ADDTEXT] TXT_SC_2_LINE_3 "NATO enacts Operation Reforger, The 'Return-of-Forces-to-Germany', and goes on the Counter Offensive."
-[ADDTEXT] TXT_SC_2_LINE_4 ""
+[ADDTEXT] TXT_SC_2_LINE_4 "The liberation of Denmark and West Germany begins!"
 [ADDTEXT] TXT_SC_2_CAMP_END "10"
 [ADDTEXT] TXT_SC_2_CAMP_STALE "10"
 [ADDTEXT] TXT_SC_2_CAMP_DIFF "Cakewalk"
