@@ -6576,9 +6576,9 @@
         <Hit_Foot>10</Hit_Foot>
         <Hit_Wheeled>10</Hit_Wheeled>
         <Hit_Tracked>5</Hit_Tracked>
-        <Hit_LowAir>25</Hit_LowAir>
-        <Hit_Air>25</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
+        <Hit_LowAir>5</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>10</Hit_Naval>
         <Hit_Rail>5</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -6592,15 +6592,15 @@
         <Rng_Foot>3</Rng_Foot>
         <Rng_Wheeled>3</Rng_Wheeled>
         <Rng_Tracked>3</Rng_Tracked>
-        <Rng_LowAir>26</Rng_LowAir>
+        <Rng_LowAir>3</Rng_LowAir>
         <Rng_Air>31</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
+        <Rng_Naval>3</Rng_Naval>
         <Rng_Rail>3</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>148.0</Det_LowAir>
+        <Det_LowAir>153.0</Det_LowAir>
         <Det_Air>185.0</Det_Air>
         <Det_Naval>185.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
@@ -19756,14 +19756,14 @@
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
-        <Hit_NoMove>60</Hit_NoMove>
-        <Hit_Foot>60</Hit_Foot>
-        <Hit_Wheeled>5</Hit_Wheeled>
-        <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>20</Hit_LowAir>
         <Hit_Air>15</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
-        <Hit_Rail>60</Hit_Rail>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
         <Str_Wheeled>35</Str_Wheeled>
@@ -19772,20 +19772,20 @@
         <Str_Air>46</Str_Air>
         <Str_Naval>205</Str_Naval>
         <Str_Rail>77</Str_Rail>
-        <Rng_NoMove>255</Rng_NoMove>
-        <Rng_Foot>255</Rng_Foot>
+        <Rng_NoMove>14</Rng_NoMove>
+        <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
         <Rng_LowAir>13</Rng_LowAir>
         <Rng_Air>15</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
-        <Rng_Rail>255</Rng_Rail>
+        <Rng_Naval>30</Rng_Naval>
+        <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>72.0</Det_LowAir>
-        <Det_Air>91.0</Det_Air>
+        <Det_LowAir>75.0</Det_LowAir>
+        <Det_Air>90.0</Det_Air>
         <Det_Naval>91.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>482</WpnOrHpIdx_0>
@@ -21830,9 +21830,9 @@
         <Hit_Foot>5</Hit_Foot>
         <Hit_Wheeled>5</Hit_Wheeled>
         <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>30</Hit_LowAir>
-        <Hit_Air>30</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>10</Hit_Naval>
         <Hit_Rail>10</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -21846,15 +21846,15 @@
         <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>83</Rng_LowAir>
-        <Rng_Air>99</Rng_Air>
-        <Rng_Naval>185</Rng_Naval>
+        <Rng_LowAir>2</Rng_LowAir>
+        <Rng_Air>31</Rng_Air>
+        <Rng_Naval>14</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>148.0</Det_LowAir>
+        <Det_LowAir>153.0</Det_LowAir>
         <Det_Air>185.0</Det_Air>
         <Det_Naval>185.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
@@ -21902,14 +21902,14 @@
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
-        <Hit_NoMove>20</Hit_NoMove>
-        <Hit_Foot>5</Hit_Foot>
-        <Hit_Wheeled>5</Hit_Wheeled>
-        <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>25</Hit_LowAir>
-        <Hit_Air>25</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
-        <Hit_Rail>10</Hit_Rail>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>30</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
         <Str_Wheeled>35</Str_Wheeled>
@@ -21922,15 +21922,15 @@
         <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>26</Rng_LowAir>
+        <Rng_LowAir>2</Rng_LowAir>
         <Rng_Air>31</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
+        <Rng_Naval>30</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>49.0</Det_LowAir>
+        <Det_LowAir>50.0</Det_LowAir>
         <Det_Air>61.0</Det_Air>
         <Det_Naval>61.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
@@ -21988,9 +21988,9 @@
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
         <Hit_Tracked>0</Hit_Tracked>
-        <Hit_LowAir>30</Hit_LowAir>
-        <Hit_Air>30</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -22004,15 +22004,15 @@
         <Rng_Foot>0</Rng_Foot>
         <Rng_Wheeled>0</Rng_Wheeled>
         <Rng_Tracked>0</Rng_Tracked>
-        <Rng_LowAir>83</Rng_LowAir>
-        <Rng_Air>99</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
+        <Rng_LowAir>2</Rng_LowAir>
+        <Rng_Air>31</Rng_Air>
+        <Rng_Naval>30</Rng_Naval>
         <Rng_Rail>0</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>148.0</Det_LowAir>
+        <Det_LowAir>153.0</Det_LowAir>
         <Det_Air>185.0</Det_Air>
         <Det_Naval>185.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
@@ -22310,14 +22310,14 @@
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
-        <Hit_NoMove>60</Hit_NoMove>
-        <Hit_Foot>60</Hit_Foot>
-        <Hit_Wheeled>5</Hit_Wheeled>
-        <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>30</Hit_LowAir>
-        <Hit_Air>30</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
-        <Hit_Rail>60</Hit_Rail>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
         <Str_Wheeled>35</Str_Wheeled>
@@ -22326,21 +22326,21 @@
         <Str_Air>46</Str_Air>
         <Str_Naval>205</Str_Naval>
         <Str_Rail>77</Str_Rail>
-        <Rng_NoMove>255</Rng_NoMove>
-        <Rng_Foot>255</Rng_Foot>
+        <Rng_NoMove>14</Rng_NoMove>
+        <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>54</Rng_LowAir>
-        <Rng_Air>65</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
-        <Rng_Rail>255</Rng_Rail>
-        <Det_NoMove>37.0</Det_NoMove>
+        <Rng_LowAir>2</Rng_LowAir>
+        <Rng_Air>31</Rng_Air>
+        <Rng_Naval>14</Rng_Naval>
+        <Rng_Rail>14</Rng_Rail>
+        <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>148.0</Det_LowAir>
+        <Det_LowAir>153.0</Det_LowAir>
         <Det_Air>185.0</Det_Air>
-        <Det_Naval>185.0</Det_Naval>
+        <Det_Naval>61.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>433</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>433</WpnOrHpIdx_1>
@@ -22790,14 +22790,14 @@
         <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
-        <Hit_NoMove>20</Hit_NoMove>
-        <Hit_Foot>5</Hit_Foot>
-        <Hit_Wheeled>5</Hit_Wheeled>
-        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
         <Hit_LowAir>25</Hit_LowAir>
-        <Hit_Air>25</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
-        <Hit_Rail>10</Hit_Rail>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
         <Str_NoMove>28</Str_NoMove>
         <Str_Foot>35</Str_Foot>
         <Str_Wheeled>35</Str_Wheeled>
@@ -22810,16 +22810,16 @@
         <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>54</Rng_LowAir>
-        <Rng_Air>65</Rng_Air>
-        <Rng_Naval>68</Rng_Naval>
+        <Rng_LowAir>2</Rng_LowAir>
+        <Rng_Air>31</Rng_Air>
+        <Rng_Naval>30</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>22.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
         <Det_Tracked>2.0</Det_Tracked>
-        <Det_LowAir>74.0</Det_LowAir>
-        <Det_Air>93.0</Det_Air>
+        <Det_LowAir>76.0</Det_LowAir>
+        <Det_Air>92.0</Det_Air>
         <Det_Naval>93.0</Det_Naval>
         <Det_Rail>4.0</Det_Rail>
         <WpnOrHpIdx_0>482</WpnOrHpIdx_0>

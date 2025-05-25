@@ -47929,8 +47929,8 @@
         <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>83</Rng_LowAir>
-        <Rng_Air>99</Rng_Air>
+        <Rng_LowAir>65</Rng_LowAir>
+        <Rng_Air>65</Rng_Air>
         <Rng_Naval>185</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
@@ -47997,8 +47997,8 @@
         <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>83</Rng_LowAir>
-        <Rng_Air>99</Rng_Air>
+        <Rng_LowAir>31</Rng_LowAir>
+        <Rng_Air>31</Rng_Air>
         <Rng_Naval>185</Rng_Naval>
         <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
@@ -48061,14 +48061,14 @@
         <Str_Air>46</Str_Air>
         <Str_Naval>205</Str_Naval>
         <Str_Rail>77</Str_Rail>
-        <Rng_NoMove>255</Rng_NoMove>
-        <Rng_Foot>255</Rng_Foot>
+        <Rng_NoMove>14</Rng_NoMove>
+        <Rng_Foot>14</Rng_Foot>
         <Rng_Wheeled>14</Rng_Wheeled>
         <Rng_Tracked>14</Rng_Tracked>
-        <Rng_LowAir>83</Rng_LowAir>
-        <Rng_Air>99</Rng_Air>
+        <Rng_LowAir>65</Rng_LowAir>
+        <Rng_Air>65</Rng_Air>
         <Rng_Naval>185</Rng_Naval>
-        <Rng_Rail>255</Rng_Rail>
+        <Rng_Rail>14</Rng_Rail>
         <Det_NoMove>37.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
         <Det_Wheeled>4.0</Det_Wheeled>
