@@ -1,0 +1,2410 @@
+{
+    "Materials": [
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main2",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo2.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha2",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo2.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main3",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo3.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha3",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo3.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main4",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo4.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha4",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo4.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main5",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo5.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha5",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo5.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Main6",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Albedo6.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_Glass",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-Glass"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-AfterBurner"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM3",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 2.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }					
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM2",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 1.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "NONE",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15C_EMM4",
+            "PixelShader": {
+                "GenMask": 1
+            },
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [
+                {
+                    "Constants": {
+                        "emissionIntensity": 0.5
+                    },
+                    "Layout": "PBR1",
+                    "Slot": 3,
+                    "Unit": [
+                        "PS"
+                    ]
+                }
+            ],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_EMMAlb.DDS",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_EMM.DDS",
+                    "Slot": 3
+                },
+                {
+                    "File": "F-15C_EMM_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_EMM_NORMAL.dds",
+                    "Slot": 2
+                }						
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 0,
+                "SlopeScaledDepthBias": 0
+            },		
+            "Name": "F-15C_Alpha6",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 0,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR-DefaultAlpha"
+            },
+            "Textures": [
+                {
+                    "File": "F-15C_Glass_Albedo6.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15C_Glass_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15C_Glass_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "F-15 Pylon_Albedo",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "F-15 Pylon_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "F-15 Pylon_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "F-15 Pylon_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        },
+        {
+            "Flags": {
+                "Cull": "BACK",
+                "DepthBias": 0,
+                "ShadowCaster": 1,
+                "SlopeScaledDepthBias": 0
+            },
+            "Name": "LAU-106",
+            "Samplers": [
+                {
+                    "Address": "WRAP",
+                    "Filter": "ANISOTROPIC",
+                    "MaxAnisotropy": 16,
+                    "Slot": 0,
+                    "Unit": "PS"
+                }
+            ],
+            "ShaderParams": [],
+            "Template": {
+                "File": "PBR",
+                "Material": "PBR"
+            },
+            "Textures": [
+                {
+                    "File": "LAU-106_Albedo.dds",
+                    "Slot": 0
+                },
+                {
+                    "File": "LAU-106_ARMW.dds",
+                    "Slot": 1
+                },
+                {
+                    "File": "LAU-106_Normal.dds",
+                    "Slot": 2
+                }
+            ]
+        }		
+    ]
+}
