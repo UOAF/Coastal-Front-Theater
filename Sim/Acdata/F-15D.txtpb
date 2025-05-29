@@ -2395,7 +2395,7 @@ auxaero {
     avionics_egi_upgrade: true
     avionics_digital_flcs: true
     avionics_rwr_type: 0
-    avionics_gun_eegs_mode: true
+   avionics_gun_eegs_mode: false
     avionics_gun_sslc_mode: true
     avionics_gun_lcos_mode: true
     avionics_gun_snap_mode: true
@@ -2411,7 +2411,7 @@ auxaero {
     avionics_display_colors {
       values: [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
     } 
-    avionics_has_link16: true
+    avionics_has_link16: false
     avionics_is_link16_c2: false
     avionics_is_ufc_power_gps: false
     avionics_is_link16_mmc: false
@@ -2630,13 +2630,13 @@ auxaero {
     hardpoint_grp: "0"
     hardpoint_grp: "generic-aim"
     hardpoint_grp: "generic-aim"
-    hardpoint_grp: "generic-aim"
-    hardpoint_grp: "generic-aim"
+    hardpoint_grp: "f4NP-outer-wing-left"
     hardpoint_grp: "nopylon-left"
-    hardpoint_grp: "f15c-center"
+    hardpoint_grp: "nopylon-left"
+    hardpoint_grp: "f4-center"
     hardpoint_grp: "nopylon-right"
-    hardpoint_grp: "generic-aim"
-    hardpoint_grp: "generic-aim"
+    hardpoint_grp: "nopylon-right"
+    hardpoint_grp: "f4NP-outer-wing-right"
     hardpoint_grp: "generic-aim"
     hardpoint_grp: "generic-aim"
     hardpoint_grp: "0"
