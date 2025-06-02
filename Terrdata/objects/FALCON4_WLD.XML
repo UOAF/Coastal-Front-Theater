@@ -3531,6 +3531,7 @@
         <WpnIdx_24>794</WpnIdx_24>
         <WpnIdx_25>792</WpnIdx_25>
         <WpnIdx_26>796</WpnIdx_26>
+        <WpnIdx_27>262</WpnIdx_27>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -3558,6 +3559,7 @@
         <WpnCount_24>1</WpnCount_24>
         <WpnCount_25>1</WpnCount_25>
         <WpnCount_26>1</WpnCount_26>
+        <WpnCount_27>2</WpnCount_27>
     </WLD>
     <WLD Num="155">
         <Name>F-16 SCU 4/6</Name>
@@ -3572,6 +3574,7 @@
         <WpnIdx_8>358</WpnIdx_8>
         <WpnIdx_9>363</WpnIdx_9>
         <WpnIdx_10>93</WpnIdx_10>
+        <WpnIdx_11>262</WpnIdx_11>
         <WpnCount_0>3</WpnCount_0>
         <WpnCount_1>3</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -3583,6 +3586,7 @@
         <WpnCount_8>3</WpnCount_8>
         <WpnCount_9>1</WpnCount_9>
         <WpnCount_10>1</WpnCount_10>
+        <WpnCount_11>2</WpnCount_11>
     </WLD>
     <WLD Num="156">
         <Name>F-16 SCU 5</Name>
@@ -5502,6 +5506,7 @@
         <WpnIdx_15>258</WpnIdx_15>
         <WpnIdx_16>260</WpnIdx_16>
         <WpnIdx_17>261</WpnIdx_17>
+        <WpnIdx_18>262</WpnIdx_18>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>6</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -5520,6 +5525,7 @@
         <WpnCount_15>4</WpnCount_15>
         <WpnCount_16>4</WpnCount_16>
         <WpnCount_17>4</WpnCount_17>
+        <WpnCount_18>4</WpnCount_18>
     </WLD>
     <WLD Num="207">
         <Name>F-15CI Body</Name>
@@ -5537,6 +5543,7 @@
         <WpnIdx_11>258</WpnIdx_11>
         <WpnIdx_12>260</WpnIdx_12>
         <WpnIdx_13>261</WpnIdx_13>
+        <WpnIdx_14>262</WpnIdx_14>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -5551,6 +5558,7 @@
         <WpnCount_11>2</WpnCount_11>
         <WpnCount_12>2</WpnCount_12>
         <WpnCount_13>2</WpnCount_13>
+        <WpnCount_14>2</WpnCount_14>
     </WLD>
     <WLD Num="208">
         <Name>EA-6B 1/2/4/5</Name>
@@ -8210,6 +8218,7 @@
         <WpnIdx_10>258</WpnIdx_10>
         <WpnIdx_11>260</WpnIdx_11>
         <WpnIdx_12>261</WpnIdx_12>
+        <WpnIdx_13>262</WpnIdx_13>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>6</WpnCount_2>
@@ -8223,6 +8232,7 @@
         <WpnCount_10>4</WpnCount_10>
         <WpnCount_11>4</WpnCount_11>
         <WpnCount_12>4</WpnCount_12>
+        <WpnCount_13>4</WpnCount_13>
     </WLD>
     <WLD Num="364">
         <Name>Su-34 6</Name>
@@ -10541,6 +10551,7 @@
         <WpnIdx_12>791</WpnIdx_12>
         <WpnIdx_13>792</WpnIdx_13>
         <WpnIdx_14>794</WpnIdx_14>
+        <WpnIdx_15>262</WpnIdx_15>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -10556,6 +10567,7 @@
         <WpnCount_12>1</WpnCount_12>
         <WpnCount_13>1</WpnCount_13>
         <WpnCount_14>1</WpnCount_14>
+        <WpnCount_15>1</WpnCount_15>
     </WLD>
     <WLD Num="469">
         <Name>F-16-32 EAF 3/7</Name>
@@ -10581,6 +10593,7 @@
         <WpnIdx_19>792</WpnIdx_19>
         <WpnIdx_20>794</WpnIdx_20>
         <WpnIdx_21>796</WpnIdx_21>
+        <WpnIdx_22>262</WpnIdx_22>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>2</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -10603,6 +10616,7 @@
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
         <WpnCount_21>1</WpnCount_21>
+        <WpnCount_22>2</WpnCount_22>
     </WLD>
     <WLD Num="470">
         <Name>F-16-32 EAF 4/6</Name>
@@ -10623,6 +10637,7 @@
         <WpnIdx_14>791</WpnIdx_14>
         <WpnIdx_15>792</WpnIdx_15>
         <WpnIdx_16>794</WpnIdx_16>
+        <WpnIdx_17>262</WpnIdx_17>
         <WpnCount_0>2</WpnCount_0>
         <WpnCount_1>2</WpnCount_1>
         <WpnCount_2>2</WpnCount_2>
@@ -10640,6 +10655,7 @@
         <WpnCount_14>1</WpnCount_14>
         <WpnCount_15>1</WpnCount_15>
         <WpnCount_16>1</WpnCount_16>
+        <WpnCount_17>2</WpnCount_17>
     </WLD>
     <WLD Num="471">
         <Name>F-16-32 EAF 5</Name>
