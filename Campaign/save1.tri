@@ -573,7 +573,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #14
-// Nato Win (Bremen 63 and Scwehrin 93 under Nato Controlled at any point)
+// Nato Win (Bremen 63 and Schwerin 93 under Nato Controlled at any point)
 //////////////////////////////////////////////////////////////////////////////
 #IF_CONTROLLED 2 AND 63 93 		
 		  	#DO_EVENT 17
@@ -585,10 +585,10 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #15
-// Stalemate (if by day 10 Only Bremen taken)
+// Stalemate (if by day 10 Only Bremen or Schwerin taken)
 //////////////////////////////////////////////////////////////////////////////
 #IF_CAMPAIGN_DAY >= 10
-	#IF_CONTROLLED 2 OR 63 	
+	#IF_CONTROLLED 2 OR 63 93 	
 		  	#DO_EVENT 15
 			#END_GAME 15
 			#DO_MONOLOG Stalemate NATO Unable To Capture All Their Objectives
@@ -614,12 +614,11 @@
 // Event #17
 // Timeout day 10 CCCP still controls both Bremen 63 and Schwerin 93
 //////////////////////////////////////////////////////////////////////////////
-//#IF_CAMPAIGN_DAY >= 10
-#IF_CAMPAIGN_DAY >= 2  
+#IF_CAMPAIGN_DAY >= 10 
 	#IF_CONTROLLED 6 AND 63 93
 		#DO_EVENT 14
 		#END_GAME 14
-		#DO_MONOLOG NATO Unable To Capture All Their Objectives
+		#DO_MONOLOG NATO loses, Warsaw Pact defends its borders
 	#ENDIF
 #ENDIF
 
@@ -638,7 +637,7 @@
 		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
 		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
 		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 4 1000 1000 5		
+		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
 		#DO_EVENT 18
 		#RESET_EVENT 18
 		#DO_MONOLOG resupply cycle
@@ -648,17 +647,16 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #19
-// blue Progress Supply 12 Koszalin villiage 2319 (Poland Beachhead)
+// keep NATO initiative up
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 19
-	#IF_CONTROLLED 2 OR 2319 2316
-		//Keep Blue Supply up
-		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
-		#DO_MONOLOG NATO Advancing fron Koszalin, Resupply	
+	#IF_INITIATIVE 2 <= 65
+		#SHIFT_INITIATIVE 6 2 10 
+		#SHIFT_INITIATIVE 5 1 10 
+		#SHIFT_INITIATIVE 7 3 10 				
 		#DO_EVENT 19
+		#RESET_EVENT 19
+		#DO_MONOLOG initiative boost
 	#ENDIF
 #ENDIF
 

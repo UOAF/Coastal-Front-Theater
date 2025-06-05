@@ -524,16 +524,17 @@
 #ENDIF
 //////////////////////////////////////////////////////////////////////////////
 // Event #19
-// red Progress Supply 9 Hannover
+// keep Warsaw Pact initiative up
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 19
-		#IF_CONTROLLED 6 OR 2497
-		//Keep Red Supply up
-		#SET_MINIMUM_SUPPLIES 5 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 6 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 7 1000 1000 5
+	#IF_INITIATIVE 6 <= 65
+		#SHIFT_INITIATIVE 2 6 10 
+		#SHIFT_INITIATIVE 1 5 10 
+		#SHIFT_INITIATIVE 3 7 10 
+									 
 		#DO_EVENT 19
-		#DO_MONOLOG Red Control Hannover, Resupply
+		#RESET_EVENT 19
+		#DO_MONOLOG initiative boost	
 	#ENDIF
 #ENDIF
 
