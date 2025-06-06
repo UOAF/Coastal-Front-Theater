@@ -3367,6 +3367,7 @@
         <Range>0.0</Range>
         <Flags>2</Flags>
         <Name>Tank F-15 600gal</Name>
+        <Name>Tank F-15 600gal</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -4578,6 +4579,7 @@
     </WCD>
     <WCD Num="143">
         <CtIdx>239</CtIdx>
+        <Strength>180</Strength>
         <Strength>180</Strength>
         <DamageType>2</DamageType>
         <Range>25.0</Range>
@@ -24071,6 +24073,7 @@
         <Range>0.0</Range>
         <Flags>2</Flags>
         <Name>Tank 300gal Green</Name>
+        <Name>Tank 300gal Green</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -24102,6 +24105,7 @@
         <DamageType>0</DamageType>
         <Range>0.0</Range>
         <Flags>2</Flags>
+        <Name>Tank 370gal Green</Name>
         <Name>Tank 370gal Green</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
