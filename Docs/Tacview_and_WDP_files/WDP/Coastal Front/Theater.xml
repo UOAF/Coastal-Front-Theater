@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Theater>
+    <Id>18</Id>
+    <Base>18</Base>
+    <Name>Coastal Front</Name>
+    <NameIdx>Coastal Front</NameIdx>
+	<Map>CoastalFront</Map>
+    <Directory>\Add-On Coastal Front\Campaign\</Directory>
+    <DefLat>52</DefLat>
+    <DefLong>4.5</DefLong>
+    <ThrSizeKm>1024</ThrSizeKm>
+    <North>61</North>
+    <South>52</South>
+    <East>21</East>
+    <West>4.5</West>
+</Theater>

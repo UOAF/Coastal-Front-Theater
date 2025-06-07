@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Countries>
+    <Country Num="0">
+        <Id>1</Id>
+        <Name>Netherlands</Name>
+    </Country>
+    <Country Num="1">
+        <Id>2</Id>
+        <Name>Belgium</Name>
+    </Country>
+    <Country Num="2">
+        <Id>3</Id>
+        <Name>France CET</Name>
+    </Country>
+    <Country Num="3">
+        <Id>4</Id>
+        <Name>Denmark</Name>
+    </Country>
+    <Country Num="4">
+        <Id>5</Id>
+        <Name>Sweden</Name>
+    </Country>
+    <Country Num="5">
+        <Id>6</Id>
+        <Name>East Germany</Name>
+    </Country>
+    <Country Num="6">
+        <Id>7</Id>
+        <Name>Poland</Name>
+    </Country>
+    <Country Num="7">
+        <Id>8</Id>
+        <Name>Czech Republik</Name>
+    </Country>
+    <Country Num="8">
+        <Id>9</Id>
+        <Name>West Germany</Name>
+    </Country>
+</Countries>

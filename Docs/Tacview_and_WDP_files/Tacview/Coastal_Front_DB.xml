@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DefaultPropertiesCollection LoadingOrder="1.0">
+
+	<!--  MIG-21  -->
+	
+	<DefaultProperties Id="FixedWing.MiG-21-MF-CCCP" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21MF CCCP</Name>
+			<Name>MiG-21MF Fishbed CCCP </Name>
+			<Name>Mikoyan-Gurevich MiG-21 MF Fishbed CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21MF CCCP</ShortName>
+			<LongName>MiG-21MF Fishbed MF CCCP</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 MF Fishbed CCCP</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.MiG-21-MF-DDR" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21MF DDR</Name>
+			<Name>MiG-21MF Fishbed DDR </Name>
+			<Name>Mikoyan-Gurevich MiG-21 Fishbed DDR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21MF DDR</ShortName>
+			<LongName>MiG-21MF Fishbed DDR</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 MF Fishbed DDR</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	
+	<DefaultProperties Id="FixedWing.MiG-21-MF-PRL" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21MF PRL</Name>
+			<Name>MiG-21MF Fishbed PRL </Name>
+			<Name>Mikoyan-Gurevich MiG-21 MF Fishbed PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21MF PRL</ShortName>
+			<LongName>MiG-21MF Fishbed PRL</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 MF Fishbed PRL</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.MiG-21-BIS-CCCP" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21BIS CCCP</Name>
+			<Name>MiG-21BIS Fishbed CCCP </Name>
+			<Name>Mikoyan-Gurevich MiG-21 BIS Fishbed CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21BIS CCCP</ShortName>
+			<LongName>MiG-21BIS Fishbed BIS CCCP</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 BIS Fishbed CCCP</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.MiG-21-BIS-DDR" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21BIS DDR</Name>
+			<Name>MiG-21BIS Fishbed DDR </Name>
+			<Name>Mikoyan-Gurevich MiG-21 Fishbed DDR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21BIS DDR</ShortName>
+			<LongName>MiG-21BIS Fishbed DDR</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 BIS Fishbed DDR</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	
+	<DefaultProperties Id="FixedWing.MiG-21-BIS-PRL" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-21BIS PRL</Name>
+			<Name>MiG-21BIS Fishbed PRL </Name>
+			<Name>Mikoyan-Gurevich MiG-21 BIS Fishbed PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-21BIS PRL</ShortName>
+			<LongName>MiG-21BIS Fishbed PRL</LongName>
+			<FullName>Mikoyan-Gurevich MiG-21 BIS Fishbed PRL</FullName>
+			<Shape>FixedWing.MiG-21bis.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<!--  MIG-23  -->
+		
+	<DefaultProperties Id="FixedWing.MiG-23-CCCP" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-23 CCCP</Name>
+			<Name>MiG-23 Flogger CCCP</Name>
+			<Name>Mikoyan-Gurevich MiG-23 Flogger CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-23 CCCP</ShortName>
+			<LongName>MiG-23 Flogger CCCP</LongName>
+			<FullName>Mikoyan-Gurevich MiG-23 Flogger CCCP</FullName>
+			<Shape>FixedWing.MiG-23.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.MiG-23-DDR" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-23 DDR</Name>
+			<Name>MiG-23 Flogger DDR</Name>
+			<Name>Mikoyan-Gurevich MiG-23 Flogger DDR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-23 DDR</ShortName>
+			<LongName>MiG-23 Flogger DDR</LongName>
+			<FullName>Mikoyan-Gurevich MiG-23 Flogger DDR</FullName>
+			<Shape>FixedWing.MiG-23.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	
+	<DefaultProperties Id="FixedWing.MiG-23-PRL" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-23 PRL</Name>
+			<Name>MiG-23 Flogger PRL</Name>
+			<Name>Mikoyan-Gurevich MiG-23 Flogger PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-23 PRL</ShortName>
+			<LongName>MiG-23 Flogger PRL</LongName>
+			<FullName>Mikoyan-Gurevich MiG-23 Flogger PRL</FullName>
+			<Shape>FixedWing.MiG-23.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+		<!--  MIG-29  -->
+		
+	<DefaultProperties Id="FixedWing.MiG-29-CCCP" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-29 CCCP</Name>
+			<Name>MiG-29 Fulcrum CCCP</Name>
+			<Name>Mikoyan-Gurevich MiG-29 Fulcrum CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-29 CCCP</ShortName>
+			<LongName>MiG-29 Fulcrum CCCP</LongName>
+			<FullName>Mikoyan-Gurevich MiG-29 Fulcrum CCCP</FullName>
+			<Shape>FixedWing.MiG-29.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.MiG-29-DDR" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-29 DDR</Name>
+			<Name>MiG-29 Fulcrum DDR</Name>
+			<Name>Mikoyan-Gurevich MiG-29 Fulcrum DDR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-29 DDR</ShortName>
+			<LongName>MiG-29 Fulcrum DDR</LongName>
+			<FullName>Mikoyan-Gurevich MiG-29 Fulcrum DDR</FullName>
+			<Shape>FixedWing.MiG-29.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	
+	<DefaultProperties Id="FixedWing.MiG-29-PRL" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>MiG-29 PRL</Name>
+			<Name>MiG-29 Fulcrum PRL</Name>
+			<Name>Mikoyan-Gurevich MiG-29 Fulcrum PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>MiG-29 PRL</ShortName>
+			<LongName>MiG-29 Fulcrum PRL</LongName>
+			<FullName>Mikoyan-Gurevich MiG-29 Fulcrum PRL</FullName>
+			<Shape>FixedWing.MiG-29.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  Su-22  -->
+		
+	<DefaultProperties Id="FixedWing.Su-22-CCCP" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Su-22 CCCP</Name>
+			<Name>Su-22 Fitter CCCP</Name>
+			<Name>Sukhoi Su-22 Fitter CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-22 CCCP</ShortName>
+			<LongName>Su-22 Fitter CCCP</LongName>
+			<FullName>Sukhoi Su-22 Fitter CCCP</FullName>
+			<Shape>FixedWing.Su-17M.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="FixedWing.Su-22-DDR" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Su-22 DDR</Name>
+			<Name>Su-22 Fitter DDR</Name>
+			<Name>Sukhoi Su-22 Fitter DDR</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-22 DDR</ShortName>
+			<LongName>Su-22 Fitter DDR</LongName>
+			<FullName>Sukhoi Su-22 Fitter DDR</FullName>
+			<Shape>FixedWing.Su-17M.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	
+	<DefaultProperties Id="FixedWing.Su-22-PRL" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>Su-22 PRL</Name>
+			<Name>Su-22 Fitter PRL</Name>
+			<Name>Sukhoi Su-22 Fitter PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Su-22 PRL</ShortName>
+			<LongName>Su-22 Fitter PRL</LongName>
+			<FullName>Sukhoi Su-22 Fitter PRL</FullName>
+			<Shape>FixedWing.Su-17M.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!--  AN-24  -->
+		
+	<DefaultProperties Id="FixedWing.An-24" Base="FixedWing.Military.Transport">
+		<Criteria>
+			<Name>An-24</Name>
+			<Name>An-24 Coke</Name>
+			<Name>Antonov An-24</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>An-24</ShortName>
+			<LongName>An-24 Coke</LongName>
+			<FullName>Antonov An-24 Coke</FullName>
+			<Shape>FixedWing.An-26.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  Lim-6  -->
+		
+	<DefaultProperties Id="FixedWing.LIM-6" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>LIM-6</Name>
+			<Name>Lim-6 Fresco</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Lim-6</ShortName>
+			<LongName>PZL Lim-6</LongName>
+			<FullName>PZL Lim-6 Fresco</FullName>
+			<Shape>FixedWing.MiG-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+		<!--  F-16 EPAF  -->
+		
+	<DefaultProperties Id="FixedWing.F-16A-RDAF" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>F-16A-15 RDAF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-16A-15 RDAF</ShortName>
+			<LongName>F-16 Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16 Fighting Falcon</FullName>
+			<Shape>FixedWing.F-16.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="FixedWing.F-16A-RNLAF" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>F-16A-15 RNLAF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-16A-15 RNLAF</ShortName>
+			<LongName>F-16 Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16 Fighting Falcon</FullName>
+			<Shape>FixedWing.F-16.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="FixedWing.F-16A-RNLAF" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>F-16A-15 RNLAF</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>F-16A-15 RNLAF</ShortName>
+			<LongName>F-16 Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16 Fighting Falcon</FullName>
+			<Shape>FixedWing.F-16.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<!--  A-16  -->	
+	
+	<DefaultProperties Id="FixedWing.A-16" Base="FixedWing.Fighter.Jet">
+		<Criteria>
+			<Name>A-16</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>A-16</ShortName>
+			<LongName>F-16 Fighting Falcon</LongName>
+			<FullName>General Dynamics F-16 Fighting Falcon</FullName>
+			<Shape>FixedWing.F-16.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  Mi-8  -->
+
+	<DefaultProperties Id="Rotorcraft.Mi-8-CCCP" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Mi-8 CCCP</Name>
+			<Name>Mil Mi-8 CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-8 CCCP</ShortName>
+			<LongName>Mi-8 Hip CCCP</LongName>
+			<FullName>Mil Mi-8 Hip CCCP</FullName>
+			<Shape>Rotorcraft.Mi-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-8-PRL" Base="Rotorcraft.Transport">
+		<Criteria>
+			<Name>Mi-8 PRL</Name>
+			<Name>Mil Mi-8 PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-8 PRL</ShortName>
+			<LongName>Mi-8 Hip PRL</LongName>
+			<FullName>Mil Mi-8 Hip PRL</FullName>
+			<Shape>Rotorcraft.Mi-8.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<!--  Mi-24  -->
+
+	<DefaultProperties Id="Rotorcraft.Mi-24-CCCP" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Mi-24 CCCP</Name>
+			<Name>Mil Mi-24 CCCP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24 CCCP</ShortName>
+			<LongName>Mi-24 Hind CCCP</LongName>
+			<FullName>Mil Mi-24 Hind CCCP</FullName>
+			<Shape>Rotorcraft.Mi-24.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Rotorcraft.Mi-24-PRL" Base="Rotorcraft.Attack">
+		<Criteria>
+			<Name>Mi-24 PRL</Name>
+			<Name>Mil Mi-24 PRL</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Mi-24 PRL</ShortName>
+			<LongName>Mi-24 Hind PRL</LongName>
+			<FullName>Mil Mi-24 Hind PRL</FullName>
+			<Shape>Rotorcraft.Mi-24.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  SA-2  -->
+ 		
+	<DefaultProperties Id="SA-2" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-2 (S-75)</Name>
+			<Name>SA-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-2</ShortName>
+			<LongName>SA-2 Launcher</LongName>
+			<FullName>SA-2 Guideline (S-75 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-2.LN.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="Fan Song" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Fan Song</Name>
+			<Name>Fan Song E</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Fan Song</ShortName>
+			<LongName>Fan Song</LongName>
+			<FullName>Fan Song</FullName>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Spoon Rest" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Spoon Rest</Name>
+			<Name>Spoon Rest</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Spoon Rest</ShortName>
+			<LongName>Spoon Rest</LongName>
+			<FullName>Spoon Rest</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+		<!--  SA-3  -->
+		
+	<DefaultProperties Id="SA-3" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-3 (S-125)</Name>
+			<Name>SA-3</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-3</ShortName>
+			<LongName>SA-3 Goa</LongName>
+			<FullName>SA-3 Goa (S-125 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-3.5P73.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Low Blow" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Low Blow</Name>
+			<Name>Low Blow</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Low Blow</ShortName>
+			<LongName>Low Blow</LongName>
+			<FullName>Low Blow</FullName>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Flat Face" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Flat Face</Name>
+			<Name>Flat Face</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flat Face</ShortName>
+			<LongName>Flat Face</LongName>
+			<FullName>Flat Face</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+		<!--  SA-4  -->
+	
+	<DefaultProperties Id="SA-4" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-4 (2K11)</Name>
+			<Name>SA-4</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-4</ShortName>
+			<LongName>SA-4 Ganef</LongName>
+			<FullName>SA-4 Ganef (2K11 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-6.2P25.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Pat Hand" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Pat Hand</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Pat Hand</ShortName>
+			<LongName>Pat Hand</LongName>
+			<FullName>Pat Hand</FullName>
+			<Shape>AntiAircraft.SAM.SA-6.1S91.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="Long Track" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Long Track</Name>
+			<Name>Long Track</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Long Track</ShortName>
+			<LongName>Long Track</LongName>
+			<FullName>Long Track</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<!--  SA-5  -->
+		
+	<DefaultProperties Id="SA-5" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-5 (S-200)</Name>				
+			<Name>SA-5 LN</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-5</ShortName>
+			<LongName>SA-5 Gammon (LN)</LongName>
+			<FullName>SA-5 Gammon (Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-2.LN.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+ 	
+	<DefaultProperties Id="Square Pair" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Square Pair</Name>
+			<Name>Square Pair</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Square Pair</ShortName>
+			<LongName>Square Pair</LongName>
+			<FullName>Square Pair</FullName>
+			<Shape>AntiAircraft.SAM.SA-3.SNR-125.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	<DefaultProperties Id="Odd Group" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Odd Group</Name>
+			<Name>Odd Group</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Odd Group</ShortName>
+			<LongName>Odd Group</LongName>
+			<FullName>Odd Group</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="Bar Lock" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Bar Lock B</Name>
+			<Name>Bar Lock</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Bar Lock</ShortName>
+			<LongName>Bar Lock</LongName>
+			<FullName>Bar Lock</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  SA-6  -->
+		
+	<DefaultProperties Id="SA-6" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-6 (2K12)</Name>
+			<Name>SA-6</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-6</ShortName>
+			<LongName>SA-6 Gainful</LongName>
+			<FullName>SA-6 Gainful (2K12 Launcher)</FullName>
+			<Shape>AntiAircraft.SAM.SA-6.2P25.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Straight Flush" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Straight Flush</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Straight Flush</ShortName>
+			<LongName>Straight Flush</LongName>
+			<FullName>Straight Flush</FullName>
+			<Shape>AntiAircraft.SAM.SA-6.1S91.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="Flat Face" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Flat Face</Name>
+			<Name>Flat Face</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Flat Face</ShortName>
+			<LongName>Flat Face</LongName>
+			<FullName>Flat Face</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+		<!--  SA-7  -->
+		
+	<DefaultProperties Id="SA-7 (9K32)" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-7</Name>
+			<Name>SA-7 (9K32)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-7</ShortName>
+			<LongName>SA-7 Grail (9K32)</LongName>
+			<FullName>SA-7 Grail (9K32)</FullName>
+			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<!--  SA-8  -->
+		
+	<DefaultProperties Id="SA-8" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-8</Name>
+			<Name>SA-8 (9K33)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-8</ShortName>
+			<LongName>SA-8 Gecko (9K33)</LongName>
+			<FullName>SA-8 Gecko (9K33)</FullName>
+			<Shape>AntiAircraft.SAM.SA-13.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  SA-9  -->
+		
+	<DefaultProperties Id="SA-9" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-9</Name>
+			<Name>SA-9 (9K31)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-9</ShortName>
+			<LongName>SA-9 Gaskin (9K31)</LongName>
+			<FullName>SA-9 Gaskin (9K31)</FullName>
+			<Shape>AntiAircraft.SAM.SA-13.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="Dog Ear" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Dog Ear</Name>
+			<Name>Dog Ear</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Dog Ear</ShortName>
+			<LongName>Dog Ear</LongName>
+			<FullName>Dog Ear</FullName>
+			<Shape>AntiAircraft.SAM.P-15.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+		<!--  SA-14  -->
+		
+	<DefaultProperties Id="SA-14 (9K34)" Base="Vehicle.Military">
+		<Criteria>
+			<Name>SA-14</Name>
+			<Name>SA-14 (9K34)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-14</ShortName>
+			<LongName>SA-14 Gremlin (9K34)</LongName>
+			<FullName>SA-14 Gremlin (9K34)</FullName>
+			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="SA-14 Missile" Base="Missile.SAM">
+		<Criteria>
+			<Name>SA-14 Missile</Name>
+			<Name>SA-14 Missile</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-14 Missile</ShortName>
+			<LongName>SA-14 Missile</LongName>
+			<FullName>SA-14 Missile</FullName>
+			<Shape>Missile.9K38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+		<!--  SA-13  -->
+
+	<DefaultProperties Id="SA-13 Missile" Base="Missile.SAM">
+		<Criteria>
+			<Name>SA-13 Missile</Name>
+			<Name>SA-13 Missile</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>SA-13 Missile</ShortName>
+			<LongName>SA-13 Missile</LongName>
+			<FullName>SA-13 Missile</FullName>
+			<Shape>Missile.9K38.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	
+	
+		<!--  Stinger  -->
+		
+	<DefaultProperties Id="Stinger Squad" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Stinger Squad</Name>
+			<Name>Stinger Squad</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Stinger Squad</ShortName>
+			<LongName>Stinger Squad</LongName>
+			<FullName>Stinger Squad</FullName>
+			<Shape>AntiAircraft.SAM.Manpad.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	
+	<!--  Shilka  -->
+		
+	<DefaultProperties Id="ZSU-23-4" Base="Vehicle.Military">
+		<Criteria>
+			<Name>ZSU-23-4</Name>
+			<Name>ZSU-23-4 Shilka</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZSU-23-4</ShortName>
+			<LongName>ZSU-23-4 Shilka</LongName>
+			<FullName>ZSU-23-4 Shilka</FullName>
+			<Shape>AntiAircraft.AAA.ZSU-23-4.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+		<!--  ZPU-2  -->
+		
+	<DefaultProperties Id="ZPU-2" Base="Vehicle.Military">
+		<Criteria>
+			<Name>ZPU-2</Name>
+			<Name>ZPU-2</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZPU-2</ShortName>
+			<LongName>ZPU-2</LongName>
+			<FullName>ZPU-2</FullName>
+			<Shape>AntiAircraft.AAA.ZSU-23-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+		<!--  ZU-23  -->
+
+	<DefaultProperties Id="ZU-23" Base="Vehicle.Military">
+		<Criteria>
+			<Name>ZU-23</Name>
+			<Name>ZU-23</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>ZU-23</ShortName>
+			<LongName>ZU-23</LongName>
+			<FullName>ZU-23</FullName>
+			<Shape>AntiAircraft.AAA.ZSU-23-2.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+		<!--  Rockets  -->
+
+	<DefaultProperties Id="M261 2.75in MPSM" Base="Missile.AG">
+		<Criteria>
+			<Name>M261 2.75in MPSM</Name>
+			<Name>M261 2.75in MPSM</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M261 2.75in MPSM</ShortName>
+			<LongName>M261 2.75in MPSM</LongName>
+			<FullName>M261 2.75in MPSM</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+
+	<DefaultProperties Id="M151 2.75in HE" Base="Missile.AG">
+		<Criteria>
+			<Name>M151 2.75in HE</Name>
+			<Name>M151 2.75in HE</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M151 2.75in HE</ShortName>
+			<LongName>M151 2.75in HE</LongName>
+			<FullName>M151 2.75in HE</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+	<DefaultProperties Id="M264 2.75in WP" Base="Missile.AG">
+		<Criteria>
+			<Name>M264 2.75in WP</Name>
+			<Name>M264 2.75in WP</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M264 2.75in WP</ShortName>
+			<LongName>M264 2.75in WP</LongName>
+			<FullName>M264 2.75in WP</FullName>
+			<Shape>Rocket.Hydra 70.obj</Shape>
+		</Properties>
+	</DefaultProperties>	
+	
+		<!--  Infantry  -->
+		
+	<DefaultProperties Id="AK-47 Squad" Base="Vehicle.Military">
+		<Criteria>
+			<Name>AK-47 Squad</Name>
+			<Name>AK-47 Squad</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AK-47 Squad</ShortName>
+			<LongName>AK-47 Squad</LongName>
+			<FullName>AK-47 Squad</FullName>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="AK-74 Squad" Base="Vehicle.Military">
+		<Criteria>
+			<Name>AK-74 Squad</Name>
+			<Name>AK-74 Squad)</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>AK-74 Squad</ShortName>
+			<LongName>AK-74 Squad</LongName>
+			<FullName>AK-74 Squad</FullName>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="M16 Squad" Base="Vehicle.Military">
+		<Criteria>
+			<Name>M16 Squad</Name>
+			<Name>M16 Squad</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>M16 Squad</ShortName>
+			<LongName>M16 Squad</LongName>
+			<FullName>M16 Squad</FullName>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+
+	<DefaultProperties Id="Recon Squad" Base="Vehicle.Military">
+		<Criteria>
+			<Name>Recon Squad</Name>
+			<Name>Recon Squad</Name>
+		</Criteria>
+		<Properties>
+			<ShortName>Recon Squad</ShortName>
+			<LongName>Recon Squad</LongName>
+			<FullName>Recon Squad</FullName>
+			<Shape>Core.Infantry.obj</Shape>
+		</Properties>
+	</DefaultProperties>
+	
+	
+</DefaultPropertiesCollection>
+
+
