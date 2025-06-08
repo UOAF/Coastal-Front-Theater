@@ -7235,7 +7235,7 @@
     <WCD Num="226">
         <CtIdx>2315</CtIdx>
         <Strength>3596</Strength>
-        <DamageType>9</DamageType>
+        <DamageType>2</DamageType>
         <Range>0.0</Range>
         <Flags>8</Flags>
         <Name>B53</Name>
@@ -7267,7 +7267,7 @@
     <WCD Num="227">
         <CtIdx>2276</CtIdx>
         <Strength>1606</Strength>
-        <DamageType>9</DamageType>
+        <DamageType>2</DamageType>
         <Range>0.0</Range>
         <Flags>8</Flags>
         <Name>B61</Name>
@@ -7299,7 +7299,7 @@
     <WCD Num="228">
         <CtIdx>2316</CtIdx>
         <Strength>2606</Strength>
-        <DamageType>9</DamageType>
+        <DamageType>2</DamageType>
         <Range>10.0</Range>
         <Flags>8</Flags>
         <Name>B83</Name>
