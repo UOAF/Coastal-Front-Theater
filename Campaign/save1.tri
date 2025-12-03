@@ -626,7 +626,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #18
-// blue resupply cycle
+// resupply cycle
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 18
 	//Keep Red Supply up
@@ -652,12 +652,18 @@
 #IF_NOT_EVENT_PLAYED 19
 	#IF_INITIATIVE 2 <= 65
 		#SHIFT_INITIATIVE 6 2 10 
-		#SHIFT_INITIATIVE 5 1 10 
-		#SHIFT_INITIATIVE 7 3 10 				
+		#DO_MONOLOG NATO initiative boost
+	#ENDIF		
+	#IF_INITIATIVE 1 <= 65
+		#SHIFT_INITIATIVE 5 1 10
+		#DO_MONOLOG DENMARK initiative boost		
+	#ENDIF	
+	#IF_INITIATIVE 3 <= 65
+		#SHIFT_INITIATIVE 7 3 10 
+		#DO_MONOLOG NORWAY initiative boost		
+	#ENDIF					
 		#DO_EVENT 19
 		#RESET_EVENT 19
-		#DO_MONOLOG initiative boost
-	#ENDIF
 #ENDIF
 
 //////////////////////////////////////////////////////////////////////////////
@@ -717,18 +723,25 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #22
-// Blue Progress Supply 13 Hobro 240
+// If NATO initiative is too high, boost WP initiative
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 22
-	#IF_CONTROLLED 2 OR 240
-		//Keep Blue Supply up
-		#SET_MINIMUM_SUPPLIES 1 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 2 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 3 1000 1000 5
-		#SET_MINIMUM_SUPPLIES 4 1000 1000 5
-		#DO_MONOLOG NATO Control Hobro, Resupply	
-		#DO_EVENT 22
+	#IF_INITIATIVE 2 >= 90
+        #SHIFT_INITIATIVE 2 6 20 
+		#DO_MONOLOG CCCP initiative boost		
 	#ENDIF
+	#IF_INITIATIVE 1 >= 90
+        #SHIFT_INITIATIVE 1 5 10
+        #SHIFT_INITIATIVE 1 6 10
+		#DO_MONOLOG DDR initiative boost		
+	#ENDIF
+	#IF_INITIATIVE 3 >= 90
+        #SHIFT_INITIATIVE 3 7 10
+        #SHIFT_INITIATIVE 3 6 10
+		#DO_MONOLOG PRL initiative boost		
+	#ENDIF
+		#DO_EVENT 22
+		#RESET_EVENT 22
 #ENDIF
 
 //////////////////////////////////////////////////////////////////////////////
