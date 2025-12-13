@@ -219,7 +219,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>839385601</Flags>
+            <Flags>838861313</Flags>
         </AMIS_TARCAP>
         <AMIS_RESCORT>
             <MisType>5</MisType>
@@ -6693,7 +6693,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>303833729</Flags>
+            <Flags>303309441</Flags>
         </AMIS_BARCAP1>
         <AMIS_BARCAP2>
             <MisType>2</MisType>
@@ -6737,7 +6737,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>303833601</Flags>
+            <Flags>303309313</Flags>
         </AMIS_BARCAP2>
         <AMIS_HAVCAP>
             <MisType>3</MisType>
@@ -6825,7 +6825,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>839385601</Flags>
+            <Flags>838861313</Flags>
         </AMIS_TARCAP>
         <AMIS_RESCORT>
             <MisType>5</MisType>
@@ -7705,7 +7705,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>286884371</Flags>
+            <Flags>286360083</Flags>
         </AMIS_INT>
         <AMIS_BAI>
             <MisType>25</MisType>
@@ -13565,7 +13565,7 @@
             <SpecialCapabilities>0</SpecialCapabilities>
             <Flags>302006529</Flags>
         </AMIS_SWEEP>
-<AMIS_ALERT>
+        <AMIS_ALERT>
             <MisType>0</MisType>
             <TgtType>0</TgtType>
             <MisRole>0</MisRole>
