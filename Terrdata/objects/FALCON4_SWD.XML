@@ -5488,4 +5488,18 @@
         <WpnType>6</WpnType>
         <WpnDatIdx>16</WpnDatIdx>
     </SWD>
+    <SWD Num="392">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>225.000</Weight>
+        <Area>0.400</Area>
+        <EjectX>0.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>SA5SN</WpnName>
+        <WpnClass>8</WpnClass>
+        <Domain>1</Domain>
+        <WpnType>8</WpnType>
+        <WpnDatIdx>222</WpnDatIdx>
+    </SWD>
 </SWDRecords>
