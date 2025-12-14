@@ -25536,4 +25536,36 @@
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
     </WCD>
+    <WCD Num="798">
+        <CtIdx>4483</CtIdx>
+        <Strength>800</Strength>
+        <DamageType>2</DamageType>
+        <Range>99.0</Range>
+        <Flags>0</Flags>
+        <Name>SA-5SN Missile</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>13</Hit_LowAir>
+        <Hit_Air>13</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>70</Rariety>
+        <Guidance>68</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>13671</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>8000</BlastRadius>
+        <RadarIdx>60</RadarIdx>
+        <SimWeaponDataIdx>46</SimWeaponDataIdx>
+        <MaxAlt>85</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>7</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
 </WCDRecords>
