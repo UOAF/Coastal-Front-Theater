@@ -372,10 +372,10 @@ sndAim9EnviroGround 187
 #-----------------------------------------------------
 # Particle sys files
 #-----------------------------------------------------
-psGroundImpact _sam-nuke
+psGroundImpact _blu-60
 psMissileKill _sam-nuke
-psFeatureImpact _sam-nuke
-psBombImpact _sam-nuke
+psFeatureImpact _blu-60
+psBombImpact _blu-60
 psArmingDelay 
 psExceedFOV 
 psRocketBurst 
